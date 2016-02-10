@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Addons" script="data/npc/scripts/addons.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="139" head="85" body="114" legs="79" feet="38" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. ! Vendo {First Addon} (500k) e {Second Addon} (1KK)" />
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you? Get out of here!"/>
+	</parameters>
+</npc>

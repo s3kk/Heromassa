@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Messager" script="data/npc/scripts/test.lua" access="3" lookdir="1" autowalk="25">
+    <health now="1" max="1"/>
+    <look type="160" head="38" body="79" legs="107" feet="114"/>
+</npc>

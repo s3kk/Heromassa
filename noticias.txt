@@ -1,0 +1,35 @@
+Buy Skills:
+
+!sword (5kk and promotion "Hero knight")
+
+!axe (5kk and promotion "Hero knight")
+
+!club (5kk and promotion "Hero knight")
+
+!sorcerer (5kk and promotion "Hero sorcerer")
+
+!druid (5kk and promotion "Hero druid")
+
+!knightshield (5kk and promotion "Hero knight")
+
+!paladinshield (5kk and promotion "Hero paladin")
+
+!paladinmagic (5kk and promotion "Hero paladin")
+
+!knightmagic (5kk and promotion "Hero knight")
+
+-----------------------------
+COMANDOS
+
+!rank hp
+!rank mana
+!promotion
+!glist ou !glist NOME DA GUILD.
+!createguild NOME DA SUA GUILD
+/reportbug
+!offer
+
+RED : 10 Frags RedSkull
+BLACK : 15 Frags BlackSkull
+
+Nova moeda 1kk: Gold Ingot

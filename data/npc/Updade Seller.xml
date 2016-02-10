@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Special Seller" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="335" head="0" body="0" legs="114" feet="114" addons="3"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="special wand,7424,2000000;special axe,8925,2000000;special club,8929,2000000;special sword,8932,2000000;special bow,8853,1000000;special arrow,2352,2000000;special armor,6095,2000000;special legs,5918,2000000;special boots,5462,2000000;special hat,6096,2000000;special shield,2527,2000000;"/>
+	</parameters>
+1</npc>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sair do trainer" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="185" max="185"/>
+	<look type="151" addons="3" head="41" body="67" legs="9" feet="50" corpse="2317"/>
+	<parameters>
+		<parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Ola, eu posso te leva pro templo ateh o adm arruma o teletransporte diga {sair}"/>
+		<parameter key="message_farewall" value="Bye..."/>
+		<parameter key="message_walkaway" value="How rude!"/>
+		<parameter key="travel_destinations" value="sai,932,972,7,0;"/>
+	</parameters>
+</npc>

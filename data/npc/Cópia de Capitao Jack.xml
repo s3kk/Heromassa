@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Capitao Jack" script="data/npc/scripts/barco.lua" walkinterval="2000" floorchange="0">
+	<health now="185" max="185"/>
+	<look type="151" addons="3" head="41" body="67" legs="9" feet="50" corpse="2317"/>
+	<parameters>
+		<parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Bem vindo! eu posso te leva a GanGrel arena quest diga [quest]"/>
+		<parameter key="message_farewall" value="Bye..."/>
+		<parameter key="message_walkaway" value="How rude!"/>
+		<parameter key="travel_destinations" value="quest,1257,1078,7,30000;"/>
+	</parameters>
+</npc>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Maria" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="185" max="185"/>
+	<look type="137" addons="2" head="41" body="67" legs="9" feet="50" corpse="2317"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Bem vindo a minha fazenda, tenho madeira para vender quer alguma?? diga {trade}"/>
+		<parameter key="message_farewall" value="Tchau.."/>
+		<parameter key="message_walkaway" value="How rude!"/>
+		<parameter key="shop_sellable" value="Madeira,5901,400;"/>
+		<parameter key="shop_buyable" value="Madeira,5901,700;"/>
+	</parameters>
+</npc>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Varktal" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="130" head="57" body="59" legs="40" feet="76" addons="3"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="wand of vortex,2190,250;wand of dragonbreath,2191,500;wand of decay,2188,2500;wand of draconia,8921,3500;wand of cosmic energy,2189,5000;wand of inferno,2187,7500;wand of starstorm,8920,9000;wand of voodoo,8922,11000;snakebite rod,2182,250;moonlight rod,2186,500;necrotic rod,2185,2500;northwind rod,8911,3500;terra rod,2181,5000;hailstorm rod,2183,7500;springsprout rod,8912,9000;underworld rod,8910,11000"/>
+		<parameter key="shop_buyable" value="wand of vortex,2190,500;wand of dragonbreath,2191,1000;wand of decay,2188,5000;wand of draconia,8921,7500;wand of cosmic energy,2189,10000;wand of inferno,2187,15000;wand of starstorm,8920,18000;wand of voodoo,8922,22000;snakebite rod,2182,500;moonlight rod,2186,1000;necrotic rod,2185,5000;northwind rod,8911,7500;terra rod,2181,10000;hailstorm rod,2183,15000;springsprout rod,8912,18000;underworld rod,8910,22000"/>
+	</parameters>
+</npc>

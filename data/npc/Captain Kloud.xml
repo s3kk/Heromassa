@@ -1,0 +1,9 @@
+<npc name="Captain Kloud" script="data/npc/scripts/barcovipvolta.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="152" head="39" body="53" legs="93" feet="5" addons="2" corpse="2212"/>
+	<parameters>
+        <parameter key="module_travel" value="1"/>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|. You want to go back to the Mix City? If yes, tell {Mix City}." />
+        <parameter key="travel_destinations" value="Mix City,201,74,6,200"/>
+	</parameters>
+</npc>

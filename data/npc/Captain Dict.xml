@@ -1,0 +1,8 @@
+<npc name="Captain Dict" script="data/npc/scripts/boatnew.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="129" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. ! I can take you to {Yalahar} (100 gps), {Thais} (100gps), {Carlin} (100gps), {Svargrond} (100gps), {Ab} (100gps), {Edron} (100gps), {Ankrahmun} (100gps), {Venore} ( 100gps), {Port Hope} (100gps) or {Ilha dos Eventos} (100gps). Where do you want to go?" />
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you? Get out of here!"/>
+	</parameters>
+</npc>

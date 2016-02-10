@@ -1,0 +1,8 @@
+<npc name="Assistente Do Server" script="data/npc/scripts/cartoon.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="75" head="78" body="71" legs="82" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. ! Deseja ir {Treinar}, {Dp} ou {Barco}?" />
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you? Get out of here!"/>
+	</parameters>
+</npc>

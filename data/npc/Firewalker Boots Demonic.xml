@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Firewalker Boots Demonic" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+        <look type="128" head="20" body="100" legs="50" feet="99" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu vendo Firewalker boots. Diga {trade}."/>
+		<parameter key="shop_buyable" value="Firewalker boots,9934,1000000"/>
+	</parameters>
+</npc>

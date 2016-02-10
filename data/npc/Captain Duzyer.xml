@@ -1,0 +1,10 @@
+<npc name="Captain Duzyer" script="data/npc/scripts/default.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="151" head="96" body="58" legs="3" feet="114" addons="3" corpse="2212"/>
+	<parameters>
+        <parameter key="module_travel" value="1"/>
+	<parameter key="message_greet" value="Congratulations |PLAYERNAME|. I send you to {Tiquanda City} or {Thunder City}." />
+        <parameter key="travel_destinations" value="Tiquanda City,161,191,6,200"/>
+        <parameter key="travel_destinations" value="Thunder City,306,135,6,200"/>
+	</parameters>
+</npc>

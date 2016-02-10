@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tony" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="185" max="185"/>
+	<look type="151" addons="1" head="41" body="67" legs="9" feet="50" corpse="2317"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Bem bindo!! eu posso lhe vender spools of yarn.[trade]"/>
+		<parameter key="message_farewall" value="Bye..."/>
+		<parameter key="message_walkaway" value="How rude!"/>
+		<parameter key="shop_buyable" value="spools of yarn,5886,300000;"/>
+	</parameters>
+</npc>

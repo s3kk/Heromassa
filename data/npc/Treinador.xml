@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Trainer" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="185" max="185"/>
+	<look type="132" addons="0" head="114" body="120" legs="114" feet="114" corpse="2317"/>
+	<parameters>
+		<parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello! I can take you to {trainers}."/>
+		<parameter key="message_farewall" value="Bye..."/>
+		<parameter key="message_walkaway" value="How rude!"/>
+		<parameter key="travel_destinations" value="trainer,9955,11028,7,0;"/>
+	</parameters>
+</npc>

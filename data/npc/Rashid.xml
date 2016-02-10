@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rashid" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="146" head="12" body="101" legs="122" feet="115" addons="2"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="Dragon scale mail,2492,40000;Dwarven armor,2503,30000;Golden armor,2466,20000;Leopard armor,3968,1000;Mammoth fur cape,7463,6000;Pirate shirt,6095,500;Pirate knee breeches,5918,200;Bone shield,2541,80;Castle shield,2535,5000;Dark shield,2521,400;Demon shield,2520,30000;Medusa shield,2536,9000;Scarab shield,2540,2000;Tortoise shield,6131,150;Beholder helmet,3972,7500;Devil helmet,2462,1000;Krimhorn helmet,7461,200;Pirate hat,6096,1000;Ragnir helmet,7462,400;Skull helmet,5741,40000;Crocodile boots,3982,1000;Fur boots,7457,2000;Pirate boots,5462,3000;Steel boots,2645,30000;Amber staff,7426,8000;Beastslayer axe,3962,1500;Brutetamer's staff,7379,1500;Crystal sword,7449,600;Daramanian mace,2439,110;Daramanian waraxe,2440,1000;Diamond sceptre,7387,3000;Dragon slayer,7402,15000;Dragonbone staff,7430,3000;Furry club,7432,1000;Heavy machete,2442,90;Lunar staff,7424,5000;Mammoth whopper,7381,300;Sapphire hammer,7437,7000;Silver dagger,2402,500;Taurus mace,7425,500;War axe,2454,9000;Wyvern fang,7408,1500;Ancient amulet,2142,200;Scarab amulet,2135,200;Light Shovel,5710,300;Patched Boots,2641,2000"/>
+		<parameter key="shop_buyable" value=""/>
+	</parameters>
+</npc>

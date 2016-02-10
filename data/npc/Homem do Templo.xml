@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<npc name="Homem do Templo" script="data/npc/scripts/Homem do Templo.lua" access="3" lookdir="2" walkinterval="25">
+<mana now="800" max="800"/>
+<health now="200" max="200"/>
+<look type="134" head="114" body="114" legs="114" feet="0" addons="3"/>
+</npc>

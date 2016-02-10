@@ -1,0 +1,10 @@
+<npc name="Mensageiro" script="data/npc/scripts/msn.lua" access="5" lookdir="1">
+<health now="1000" max="1000"/>
+<look type="266" head="94" body="106" legs="106" feet="106" addons="2"/>
+<parameters>
+<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu mando mensagens por 15000 gold. diga {msg}."/>
+<parameter key="message_decline" value="Volte sempre."/>
+<parameter key="message_farewell" value="Volte sempre, |PLAYERNAME|!"/>
+</parameters>
+
+</npc>

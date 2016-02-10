@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent name="save" interval="1800000" event="script" value="save.lua"/>
+	<globalevent name="clean" interval="1800000" event="script" value="clean.lua"/>
+	<globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
+    <globalevent name="auto" interval="600000" script="auto.lua"/>
+    <globalevent name="autoBroadcast" interval="600000" script="broadcast.lua"/>
+    <globalevent name="lottery" interval="7200000" event="script" value="lottery.lua"/> 
+	<globalevent name="animated" interval="3000" script="animated.lua" />
+	<globalevent name="serverstart" type="start" event="script" value="start.lua"/>
+	<!-- Zombie Event -->
+	<globalevent name="ZombieGlobalThink" interval="5000" event="script" value="zombie/onthink.lua"/>
+	<globalevent name="ZombieGlobalStartup" type="start" event="script" value="zombie/onstartup.lua"/>
+	
+	<!-- Team Battle -->
+	<globalevent name="GlobalBattle" interval="60000" event="script" value="BattleGlobalEvents.lua"/>
+	<globalevent name="GlobalStart" type="start" event="script" value="BattleGlobalStart.lua"/>
+</globalevents>
+
+
+
+
+
+

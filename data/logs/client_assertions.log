@@ -1,0 +1,125 @@
+----- 29/11/2015 18:42:56 - Kina Foda (189.76.78.147) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Ultimate Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E7500
+Video Card: ATI Radeon HD 4600 SERI
+Last Packet Types: 107 107 107 107 107 107 107 131 107 107
+Last Packet: 107 171 039 068 039 007 001 099 000 093 023 000 016 000 107 171
+Player Position: [10161,10054,7]
+Player Name: Kina Foda (HeroMassa)
+Player Action: 049 056 054 046 050 050 051 046 051 051 046 057 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 1AF7F00 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at FFFFFFE9)
+Sun Nov 29 18:42:47 2015
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 29/11/2015 20:05:53 - Hell Rush (187.120.131.215) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Ultimate Edition 32 Bit in BRA
+Processor: Intel Pentium 4 3.00GHZ
+Video Card: SIS 661FX
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 1A47F08 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 18872AD3)
+Sun Nov 29 20:05:13 2015
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 29/11/2015 20:29:39 - Kina Foda (189.76.78.147) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Ultimate Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E7500
+Video Card: ATI Radeon HD 4600 SERI
+Last Packet Types: 107 107 107 107 107 180 131 180 107 107
+Last Packet: 107 246 041 145 040 007 002 099 000 001 025 000 016 003 107 246
+Player Position: [10742,10385,7]
+Player Name: Kina Foda (HeroMassa)
+Player Action: 049 056 054 046 050 050 051 046 051 051 046 057 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 107) (MainWindow = 3571456), reason:
+Communication.cpp 1846: exception occurred (rx = 7) (ry = 6), reason:
+Communication.cpp 1830: Object is not where it should be, reason:
+ hx: 7 hy: 6 hz: 0 Pos: 1
+ Cylinder (1):  (410,0)
+ Cylinder (2):  (410,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Sun Nov 29 20:29:14 2015
+Debug Assertion 8.60 Communication.cpp 1830
+
+----- 30/11/2015 22:53:24 - Kina Foda (189.76.78.147) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Ultimate Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E7500
+Video Card: ATI Radeon HD 4600 SERI
+Last Packet Types: 131 140 109 109 109 109 109 109 109 106
+Last Packet: 140 010 021 000 064 100 131 173 039 067 039 010 013 000 000 000
+Player Position: [10154,10057,8]
+Player Name: Kina Foda (HeroMassa)
+Player Action: 049 056 054 046 050 050 051 046 051 051 046 057 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 1CB7F00 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at FFFFFFE9)
+Mon Nov 30 22:53:16 2015
+Debug Assertion 8.60 NWin32Exception.cpp 50
+
+----- 01/12/2015 00:15:24 - Tinker Bell (177.93.117.47) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Core 2 DUO E7500
+Video Card: NVIDIA GeForce 9500 GT
+Last Packet Types: 107 107 107 107 131 107 107 133 132 131
+Last Packet: 107 178 039 074 039 007 001 099 000 249 033 000 016 001 107 178
+Player Position: [10164,10057,7]
+Player Name: Tinker Bell (HeroMassa)
+Player Action: 049 056 054 046 050 050 051 046 051 051 046 057 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 107) (MainWindow = 42368064), reason:
+Communication.cpp 1846: exception occurred (rx = 6) (ry = 7), reason:
+Communication.cpp 1830: Object is not where it should be, reason:
+ hx: 6 hy: 7 hz: 0 Pos: 1
+ Cylinder (1):  (9575,0)
+ Cylinder (2):  (9575,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Tue Dec 01 00:14:49 2015
+Debug Assertion 8.60 Communication.cpp 1830
+
+----- 01/12/2015 18:51:34 - Cocaine (177.94.144.187) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Celeron 847 @ 1.1
+Video Card: Intel (R) HD GR
+Last Packet Types: 020 031 100 020 031 020 031 020 031 020
+Last Packet: 020 054 000 071 097 109 101 119 111 114 108 100 032 105 115 032
+Player Position: [10786,10408,7]
+Player Name: Account Manager (HeroMassa)
+Player Action: 049 056 054 046 050 050 051 046 051 051 046 057 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 20) (MainWindow = 9248568), reason:
+Communication.cpp 1434: exception occurred, reason:
+Network.cpp 784: exception occurred ((force?1:0) = 0), reason:
+NWin32Exception.cpp 93: win32 exception occurred, reason:
+invalid handle
+Tue Dec 01 18:45:18 2015
+Debug Assertion 8.60 NWin32Exception.cpp 93
+

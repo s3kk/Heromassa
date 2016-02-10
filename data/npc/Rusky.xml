@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rusky" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="62" head="57" body="32" legs="32" feet="25" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell bows, spears and amunations, says {trade}."/>
+		<parameter key="shop_sellable" value="crossbow,2455,250;bow,2456,200" />
+		<parameter key="shop_buyable" value="crossbow,2455,360;bow,2456,200;spear,2389,5;royal spear,7378,10;power bolt,2547,200;burst arrow,2546,56;poison arrow,2545,18;bolt,2543,3;arrow,2544,2;assassin star,7368,80" />
+	</parameters>
+</npc>

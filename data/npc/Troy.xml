@@ -1,0 +1,4 @@
+<npc name="Troy" script="data/npc/scripts/runes.lua" access="5" lookdir="1">
+    <health now="1000" max="1000"/>
+<look type="154" head="30" body="10" legs="10" feet="10" addons="1"/>
+</npc>  

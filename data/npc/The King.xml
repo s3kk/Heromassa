@@ -1,0 +1,7 @@
+<npc name="The King" script="data/npc/scripts/promotion.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="131" head="114" body="114" legs="127" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. ! Vendo {Promote} 20k." />
+	</parameters>
+</npc>

@@ -1,0 +1,9 @@
+<npc name="Captain Hook" script="data/npc/scripts/boatfree.lua" floorchange="0" access="5" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look type="97" head="114" body="15" legs="80" feet="115" addons="2" corpse="2212"/>
+<parameters>
+<parameter key="module_travel" value="1"/>
+<parameter key="message_greet" value="Welcome on board! Where do you want to go? Cidades vips, {Vip City},{Ice Island} e Cidades free, {Arumha}." />
+<parameter key="travel_destinations" value="ice island,10497,12343,6,500;vip city,10445,11371,6,500;sphere,10201,10076,6,500;arumha,9989,11399,7,500"/>
+</parameters>
+</npc>

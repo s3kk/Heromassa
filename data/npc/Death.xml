@@ -1,0 +1,7 @@
+<npc name="Death" script="data/npc/scripts/dead.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="9" head="78" body="71" legs="82" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. ! Deseja ir, {Demodras}, {Nightmare}, {Wander Island}, {Morgaroth}, {Hydras}, {POI}, {Dragon Edron}, {Hydra Camp}, {Dwarf}, {Medusa}, {Ferumbras}, {Mysterious Island}, {Demon Oak}, {DL Island} ou {Wyrm}?" />
+	</parameters>
+</npc>

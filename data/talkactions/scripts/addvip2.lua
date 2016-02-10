@@ -1,0 +1,1 @@
+function onSay(cid, words, param)local outfit = { lookType = 154 , lookHead = 79, lookBody = 22, lookLegs = 22, lookFeet = 77, lookAddons = 1}doSetCreatureOutfit(cid, outfit, -1)doSendMagicEffect(getCreaturePosition(cid), 13)doPlayerSendCancel(cid, "Você virou Super Sayajin !, by SirAvatar")end
