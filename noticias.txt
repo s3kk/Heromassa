@@ -28,6 +28,7 @@ COMANDOS
 !createguild NOME DA SUA GUILD
 /reportbug
 !offer
+!bank
 
 RED : 10 Frags RedSkull
 BLACK : 15 Frags BlackSkull
