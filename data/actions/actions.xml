@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<action itemid="7440" script="aloot.lua"/>
 	<action actionid="6001" script="buyitems.lua"/>
 	<!-- Critical -->
 	<action itemid="1294" script="criticalrock.lua"/>
