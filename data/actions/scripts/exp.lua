@@ -7,7 +7,7 @@ local exp = 2 -- O quanto que você quer que dobre sua experiencia, por exemplo 2
 expfinal = 1 --Não mude, isso é para a experiencia voltar ao normal.
 local stor = 12132
 
-if item.itemid == 7440 then
+if item.itemid == 7443 then
 doRemoveItem(item.uid, 1)
 doPlayerSetExperienceRate(cid, exp)
 doSendMagicEffect(frompos, 13)
