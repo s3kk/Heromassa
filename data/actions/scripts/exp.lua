@@ -1,6 +1,6 @@
 function onUse(cid, item, frompos, item2, topos)
 
-local time = 3600000 -- Tempo que durará em segundos
+local time = 3600 -- Tempo que durará em segundos
 local texto = 'Voce ganhou 1 hora de Double Xp.' -- Texto que irá receber ao usar a potion.
 textofinal = 'Double Exp finalizada.' -- Texto que irá receber quando o efeito da potion acabar.
 local exp = 2 -- O quanto que você quer que dobre sua experiencia, por exemplo 2 é 2x as rates do seu server.
