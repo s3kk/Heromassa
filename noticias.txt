@@ -1,21 +1,14 @@
 Buy Skills:
 
 !sword (5kk and promotion "Hero knight")
-
 !axe (5kk and promotion "Hero knight")
-
 !club (5kk and promotion "Hero knight")
-
+!distance (5kk and promotion  "Hero Paladin")
 !sorcerer (5kk and promotion "Hero sorcerer")
-
 !druid (5kk and promotion "Hero druid")
-
 !knightshield (5kk and promotion "Hero knight")
-
 !paladinshield (5kk and promotion "Hero paladin")
-
 !paladinmagic (5kk and promotion "Hero paladin")
-
 !knightmagic (5kk and promotion "Hero knight")
 
 -----------------------------
