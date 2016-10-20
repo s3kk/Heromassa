@@ -12355,9 +12355,9 @@
 	<item id="7442" article="an" name="ice cube">
 		<attribute key="weight" value="9000" />
 	</item>
-	<item id="7443" article="a" name="exp potion">
+	<item id="7443" article="a" name="Exp Potion">
 		<attribute key="weight" value="200" />
-		<attribute key="description" value="muahha 2x exp!." />
+		<attribute key="description" value="Use and get double experience for 2 hours." />
 	</item>
 	<item id="7444" article="an" name="ice cube">
 		<attribute key="weight" value="8000" />
@@ -16331,7 +16331,7 @@
 		<attribute key="weight" value="10" />
 	</item>
 	<item id="9971" article="a" name="gold ingot" plural="gold ingots">
-		<attribute key="weight" value="1800" />
+		<attribute key="weight" value="1" />
 		<attribute key="worth" value="1000000" />
 	</item>
 	<item id="9976" article="a" name="crystal pedestal">

@@ -1,4 +1,4 @@
-accountManager = "no"
+accountManager = "yes"
 namelockManager = "no"
 newPlayerChooseVoc = "yes"
 newPlayerSpawnPosX = 10160
@@ -8,7 +8,7 @@ newPlayerTownId = 1
 newPlayerLevel = 8
 newPlayerMagicLevel = 4
 generateAccountNumber = "no"
-enableCast = true
+enableCast = false
 healthHealingColor = COLOR_GREEN -- [podendo alterar a cor].
 manaHealingColor = COLOR_DARKPURPLE -- [podendo alterar a cor].
 
