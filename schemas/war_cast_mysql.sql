@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: Out 12, 2016 as 03:38 
+-- Tempo de Geração: Out 20, 2016 as 09:49 
 -- Versão do Servidor: 5.1.41
 -- Versão do PHP: 5.3.1
 
@@ -37,7 +37,6 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `blocked` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'internal usage',
   `warnings` int(11) NOT NULL DEFAULT '0',
   `group_id` int(11) NOT NULL DEFAULT '1',
-  `vip_time` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
@@ -46,9 +45,9 @@ CREATE TABLE IF NOT EXISTS `accounts` (
 -- Extraindo dados da tabela `accounts`
 --
 
-INSERT INTO `accounts` (`id`, `name`, `password`, `salt`, `premdays`, `lastday`, `email`, `key`, `blocked`, `warnings`, `group_id`, `vip_time`) VALUES
-(1, '1', '1', '', 0, 1451340395, '', '0', 0, 0, 1, 0),
-(2, 'heroice', 'exice', '', 99999, 1451340395, '', '0', 0, 0, 1, 9999);
+INSERT INTO `accounts` (`id`, `name`, `password`, `salt`, `premdays`, `lastday`, `email`, `key`, `blocked`, `warnings`, `group_id`) VALUES
+(1, '1', '1', '', 9999, 1451340395, '', '0', 0, 0, 1),
+(2, 'server', 'servename', '', 9999, 1451340395, '', '0', 0, 0, 1);
 
 --
 -- Gatilhos `accounts`
@@ -168,34 +167,6 @@ CREATE TABLE IF NOT EXISTS `global_storage` (
 -- Extraindo dados da tabela `global_storage`
 --
 
-INSERT INTO `global_storage` (`key`, `world_id`, `value`) VALUES
-(34370, 0, '0'),
-(34371, 0, '5'),
-(34372, 0, '0'),
-(34373, 0, '0'),
-(42300, 0, '0'),
-(42301, 0, '0'),
-(42302, 0, '0'),
-(42303, 0, '0'),
-(42304, 0, '0'),
-(42305, 0, '0'),
-(42306, 0, '0'),
-(42307, 0, '0'),
-(42308, 0, '0'),
-(42309, 0, '0'),
-(42400, 0, '0'),
-(42401, 0, '0'),
-(42402, 0, '0'),
-(42403, 0, '0'),
-(42404, 0, '0'),
-(42405, 0, '0'),
-(42406, 0, '0'),
-(42407, 0, '0'),
-(42408, 0, '0'),
-(42409, 0, '0'),
-(140120, 0, '0'),
-(140121, 0, '0'),
-(180400, 0, '0');
 
 -- --------------------------------------------------------
 
