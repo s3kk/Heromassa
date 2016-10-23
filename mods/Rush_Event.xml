@@ -15,17 +15,17 @@ f_1 = 5448,
 f_2 = 5449,
 d_1 = {x = 10463, y = 10124, z = 7}, -- red temple
 d_2 = {x = 10520, y = 10092, z = 7}, -- blue temple
-x = "Event won't start bacause too few people were willing to participate", -- mensagem que vai ser exibida quando o evento nao comecar
+x = "Event won't start bacause there're no enough players.", -- mensagem que vai ser exibida quando o evento nao comecar
 w = {x = 10493, y = 10170, z = 7}, -- posicao da sala de espera, onde os players vao ficar antes de comecar
 lvl = 8, -- lvl minimo
-v = 2, -- a quantidade de frags que sera necessaria para o time ganhar
-mn = 1, -- quantidade minima de players para comecar o evento
-m = 3, -- maximo de players dentro do evento
+v = 30, -- a quantidade de frags que sera necessaria para o time ganhar
+mn = 12, -- quantidade minima de players para comecar o evento
+m = 20, -- maximo de players dentro do evento
 o = "Event was completed, RED TEAM has won Rush Event!", -- mensagem exibida quando o time vermelho ganhar
 y = "Event was completed, BLUE TEAM has won Rush Event!", -- mensagem exibida quando o time azul ganhar
-i_1 = 2160, -- id do premio (agora e crystal coin = 2160)
-i_2 = 10, -- quantidade do premio (agora esta 10 crystal coins)
-t = 1, -- tempo para comecar o evento (agora esta em 1 minuto)
+i_1 = 7440, -- id do premio
+i_2 = 1, -- quantidade do premio
+t = 3, -- tempo para comecar o evento (agora esta em 1 minuto)
 r = 1 -- tempo em que os resultados da batalha serao mostrados aos players (agora esta 3 minutos)
 }
 ]]></config>

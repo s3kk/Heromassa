@@ -8,6 +8,10 @@ COMANDOS
 /reportbug
 !offer
 !bank
+!buypremium
+!promotion  -- somento após !buypremium
+
+---------------------------------------
 
 RED : 10 Frags RedSkull
 BLACK : 15 Frags BlackSkull
