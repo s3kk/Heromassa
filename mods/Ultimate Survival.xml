@@ -5,7 +5,7 @@
                       Informacoes: http://www.xtibia.com/forum/topic/221415-ultimate-survival/
 -->
  
-<mod name="Ultimate Survival" version="1.0" author="Omega" enabled="yes">
+<mod name="Ultimate Survival" version="1.0" author="Omega" enabled="no">
 <config name="ultimatelib"><![CDATA[
 USurvival = {
 	posi = {x=10408, y=10030, z=7}, -- parte esquerda superior da arena

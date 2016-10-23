@@ -44,11 +44,6 @@ function onLogin(cid)
 	registerCreatureEvent(cid, "RushAttack")
 	registerCreatureEvent(cid, "RushDead")
 	registerCreatureEvent(cid, "RushOutfit")
-	--- CRITICAL SYSTEM ----
-	registerCreatureEvent(cid, "critical")
-	if getPlayerStorageValue(cid, 48913) == -1 then
-    setPlayerStorageValue(cid, 48913, 0) 
-	end 
 
 registerCreatureEvent(cid, "killer")
 registerCreatureEvent(cid, "ZombieAttack")

@@ -103,6 +103,16 @@
 	<talkaction words="!bless" script="blessings.lua"/>
 	<talkaction words="!aol" script="aol.lua"/>
 	<talkaction words="!promotion" script="promotion.lua"/>
+	<talkaction words="!sword" script="swordfull.lua"/>
+	<talkaction words="!axe" script="axefull.lua"/>
+	<talkaction words="!club" script="clubfull.lua"/>
+	<talkaction words="!sorcerer" script="magicfull.lua"/>
+	<talkaction words="!druid" script="magicfull2.lua"/>
+	<talkaction words="!knightshield" script="shieldfull.lua"/>
+	<talkaction words="!paladinshield" script="shieldfull2.lua"/>
+	<talkaction words="!paladinmagic" script="magicfull3.lua"/>
+	<talkaction words="!distance" script="distancefull.lua"/>
+	<talkaction words="!knightmagic" script="magicfull4.lua"/>
 
 	<talkaction words="!notice" script="notice.lua"/>
 	<talkaction words="!events" script="events.lua"/>
