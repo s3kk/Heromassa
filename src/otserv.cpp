@@ -122,11 +122,10 @@ bool argumentsHandler(StringVec args)
 			"\t--closed\t\t\tStarts the server as closed.\n";
 			return false;
 		}
-
-		/* EDITANDO CRÉDITOS */
+			/*EDITANDO CREDITOS*/
 		if((*it) == "--version")
 		{
-			std::clog << SOFTWARE_NAME << ", version " << SOFTWARE_VERSION << "\n"
+			std::clog << SOFTWARE_NAME << " " << SOFTWARE_VERSION << "\n"
 		"Compiled with " << BOOST_COMPILER << ".\n"
 		"A server developed by Fir3element and Sekk.\n\n";
 			return false;
@@ -332,9 +331,9 @@ void otserv(StringVec, ServiceManager* services)
 #endif
 
 	/* EDITANDO CRÉDITOS */
-	std::clog << SOFTWARE_NAME << ", version " << SOFTWARE_VERSION << "\n"
+	std::clog << SOFTWARE_NAME << " " << SOFTWARE_VERSION << "\n"
 		"Compiled with " << BOOST_COMPILER << ".\n"
-		"A server developed by Fir3element and Sekk.\n\n";
+		"A server developed by Fir3element and Sekk.\n\n";	
 	
 	std::stringstream ss;
 #ifdef __DEBUG__
