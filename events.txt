@@ -4,8 +4,8 @@ Zombie Event (Com GOD online)
 
 -----------------------------
 Sistemas:
-Bank by Talkaction
-Trade Offline(just with website)
-autoloot(event)
+Bank Talkaction -- !bank...
+Trade Offline(just with website) -- !offer...
+autoloot(event) -- !autoloot...
 
 Atualizações em breve.
