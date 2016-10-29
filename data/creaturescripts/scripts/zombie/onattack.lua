@@ -5,7 +5,7 @@ function loseOnZombieArena(cid)
 	if(#players <= 1) then
 		local winner = players[1]
 		if(winner) then
-			doPlayerAddItem(winner, 1294, 5, true)
+			doPlayerAddItem(winner, 7440, 1, true)
 			doPlayerAddItem(winner, 9971, 50, true)
 			local goblet = doPlayerAddItem(winner, 5805, true)
 			doItemSetAttribute(goblet, "description", "Awarded to " .. getPlayerName(cid) .. " for winning the Zombie event.")

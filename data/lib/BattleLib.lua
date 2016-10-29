@@ -1,6 +1,6 @@
 _Lib_Battle_Info = {
 Reward = {
-exp = {true, 150000}, items = {true, 7440, 1}, premium_days = {false, 2}
+exp = {true, 150000}, items = {true, 7440, 2}, premium_days = {false, 2}
 },
 TeamOne = {name = "Black Assassins", storage = 140120, pos = {x=10287,y=9948,z=7}},
 TeamTwo = {name = "Red Barbarians",storage = 140121,pos = {x=10319,y=9948,z=7}},

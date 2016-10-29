@@ -1,6 +1,6 @@
 local premio = {
-[1] = {item = 9971, count = 10},
-[2] = {item = 2157, count = 10}
+[1] = {item = 9971, count = 2},
+[2] = {item = 7443, count = 1}
 }
 
 local configs = {
