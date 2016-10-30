@@ -49,7 +49,6 @@
 	<loot>
 		<item id="2148" chance="100000" countmax="100"/><!-- gold coin -->
 		<item id="2152" chance="10000" countmax="3"/><!-- platinum coin -->
-		<item id="8306" chance="4000"/><!-- pure energy -->
 		<item id="8879" chance="1900"/><!-- voltage armor -->
 	</loot>
 </monster>

@@ -1,6 +1,6 @@
 _Lib_Battle_Info = {
 Reward = {
-exp = {true, 150000}, items = {true, 7440, 2}, premium_days = {false, 2}
+exp = {true, 150000}, items = {true, 7440, 2}, items2 = {true, 8306, 2}, premium_days = {false, 2}
 },
 TeamOne = {name = "Black Assassins", storage = 140120, pos = {x=10287,y=9948,z=7}},
 TeamTwo = {name = "Red Barbarians",storage = 140121,pos = {x=10319,y=9948,z=7}},
@@ -44,6 +44,7 @@ for _, cid in pairs(getPlayersOnline()) do
 if getPlayerStorageValue(cid, storage) == 1 then
 if _Lib_Battle_Info.Reward.exp[1] == true then doPlayerAddExperience(cid, _Lib_Battle_Info.Reward.exp[2]) end
 if _Lib_Battle_Info.Reward.items[1] == true then doPlayerAddItem(cid, _Lib_Battle_Info.Reward.items[2], _Lib_Battle_Info.Reward.items[3]) end
+if _Lib_Battle_Info.Reward.items2[1] == true then doPlayerAddItem(cid, _Lib_Battle_Info.Reward.items2[2], _Lib_Battle_Info.Reward.items2[3]) end
 if _Lib_Battle_Info.Reward.premium_days[1] == true then doPlayerAddPremiumDays(cid, _Lib_Battle_Info.Reward.premium_days[2]) end
 doRemoveCondition(cid, CONDITION_OUTFIT)
 doTeleportThing(cid, getTownTemplePosition(getPlayerTown(cid)))
