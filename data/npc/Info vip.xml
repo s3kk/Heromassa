@@ -11,7 +11,7 @@
         <parameter key="keyword_reply2" value="Seja Bem Vindo ao HeroMassa. Estavamos esperando por voce Hayley Williams. No Blogger HeroMassa.blogspot.com.br"/>
 
         <parameter key="module_shop" value="1"/>
-        <parameter key="shop_buyable" value="special wand,7424,3000000;special axe,8925,3000000;special club,8929,3000000;special sword,8932,3000000;special bow,8853,2000000;special arrow,2352,3000000;special armor,6095,3000000;special legs,5918,3000000;special boots,5462,3000000;special hat,6096,3000000;special shield,2527,3000000;special shield,6527,1000000;special backpack,10518,5000000;Exp Potion,7443,4000000;Mana Healer,7620,1000000;Rune Trap,2269,1000000;"/> 
+        <parameter key="shop_buyable" value="autoloot,7440,900000000000;special wand,7424,3000000;special axe,8925,3000000;special club,8929,3000000;special sword,8932,3000000;special bow,8853,2000000;special arrow,2352,3000000;special armor,6095,3000000;special legs,5918,3000000;special boots,5462,3000000;special hat,6096,3000000;special shield,2527,3000000;special shield,6527,1000000;special backpack,10518,5000000;Exp Potion,7443,4000000;Mana Healer,7620,1000000;Rune Trap,2269,1000000;"/> 
         <parameter key="shop_sellable" value="aol,2173,5000"/> 
     </parameters>
 </npc>

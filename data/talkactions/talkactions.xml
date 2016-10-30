@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talkactions>
 	<!-- Gods -->
+	<talkaction log="yes" access="5" words="/giveitem" event="script" value="giveitem.lua"/>
 	<talkaction log="yes" words="/zombiestart" access="4" event="script" value="zombie/onsay.lua"/>
 	<talkaction log="yes" words="/reset" access="5" event="script" value="reset.lua"/>
 	<talkaction log="yes" words="/addskill" access="5" event="function" value="addSkill"/>

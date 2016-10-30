@@ -15,6 +15,7 @@ doPlayerSendTextMessage(cid, 22, texto)
 addEvent(potion, time * 1000, cid)
 setPlayerStorageValue(cid, stor, os.time() + time)
 end
+return true
 end
 
 

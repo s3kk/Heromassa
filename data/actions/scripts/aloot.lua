@@ -8,5 +8,6 @@ end
 
 setPlayerStorageValue(cid, stor, os.time()+days*86400)
 doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,'Você recebeu '..days..' dias de AutoLoot, irá durar até '..os.date("%d %B %Y %X", getPlayerStorageValue(cid,stor))..'.')
+doSendMagicEffect(getPlayerPosition(cid), CONST_ME_MAGIC_BLUE)
 doRemoveItem(item.uid) return true
 end
