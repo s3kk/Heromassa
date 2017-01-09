@@ -98,7 +98,6 @@
 	<talkaction words="/balance" channel="0" event="script" value="balance.lua" desc="(Guild channel command) Balance management."/>
 	
 	<!-- Custom systems -->
-	<talkaction words="!sendcoin;/sendcoin" event="script" value="sendcoin.lua"/>
 	<talkaction words="/reportbug" event="script" value="reportbugs.lua"/>
 	<talkaction words="/cast;!cast" event="script" value="cast.lua"/>
 	<talkaction words="!rank" script="ranks.lua"/>	
