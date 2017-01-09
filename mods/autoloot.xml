@@ -9,11 +9,11 @@ info = {
 
 OnlyPremium = true,
 
-AutomaticDeposit = true,
+AutomaticDeposit = false,
 
 BlockMonsters = {},
 
-BlockItemsList = {2123,2515}
+BlockItemsList = {}
 
 }
 
