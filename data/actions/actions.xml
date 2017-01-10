@@ -3,6 +3,7 @@
 	<action itemid="7440" script="aloot.lua"/>
 	<action actionid="6001" script="buyitems.lua"/>
 	<action itemid="8306" event="script" value="upgrade.lua"/>
+	<action actionid="8763" event="script" value="gb.lua"/>
 
 	<!-- Castle 24Hrs -->
         <action actionid="9999" event="script" value="castlewar1.lua"/>
