@@ -1,54 +1,54 @@
 local firstItems = {}
 firstItems[0] =
 {
-2173,
-2525,
-3965,
-2124,
-2457,
-2647,
-2643
+2173, -- aol
+2525, -- d shield
+3965, -- hunting spear
+2124, -- ring
+2457, -- steel helmet
+2647, -- plate legs
+2643 -- leather boots
 }
 firstItems[1] =
 {
-2173,
-2525,
-7424,
-2124,
-2457,
-2647,
-2643
+2173, -- aol
+2525, -- d shield
+7429, -- super wand
+2124, -- ring
+2457, -- steel helmet
+2647, -- plate legs
+2643 -- leather boots
 }
 firstItems[2] =
 {
-2173,
-2525,
-7424,
-2124,
-2457,
-2647,
-2643
+2173, -- aol
+2525, -- d shield
+7429, -- super wand
+2124, -- ring
+2457, -- steel helmet
+2647, -- plate legs
+2643 -- leather boots
 }
 firstItems[3] =
 {
-2173,
-2525,
-8853,
-2352,
-2124,
-2457,
-2647,
-2643
+2173, -- aol
+2525, -- d shield
+8857, -- super bow
+7850, -- super arrow
+2124, -- ring
+2457, -- steel helmet
+2647, -- plate legs
+2643 -- leather boots
 }
 firstItems[4] =
 {
-2173,
-2525,
-8932,
-2124,
-2457,
-2647,
-2643
+2173, -- aol
+2525, -- d shield
+8931, -- super sword
+2124, -- ring
+2457, -- steel helmet
+2647, -- plate legs
+2643 -- leather boots
 }
 
 function onLogin(cid)
