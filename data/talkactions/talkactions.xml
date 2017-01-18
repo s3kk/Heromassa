@@ -104,11 +104,10 @@
 	<talkaction words="!bless" script="blessings.lua"/>
 	<talkaction words="!aol" script="aol.lua"/>
 	<talkaction words="!promotion" script="promotion.lua"/>
+	<talkaction words="!status" script="status.lua"/>
 
 	<talkaction words="!notice" script="notice.lua"/>
 	<talkaction words="!events" script="events.lua"/>
-	<talkaction words="!mymp" access="0" event="script" value="vida.lua"/>
-	<talkaction words="!myhp" access="0" event="script" value="mana.lua"/>
 	<talkaction words="!uptime" access="0" event="script" value="uptime.lua"/>
 	<talkaction words="/guild" script="guildcast.lua"/>
 	<talkaction words="!afk" event="script" value="afk.lua"/>

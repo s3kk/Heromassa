@@ -4,7 +4,7 @@
 	<globalevent name="clean" interval="1800000" event="script" value="clean.lua"/>
 	<globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
     <globalevent name="auto" interval="600000" script="auto.lua"/>
-    <globalevent name="autoBroadcast" interval="600000" script="broadcast.lua"/>
+    <globalevent name="autoBroadcast" interval="300000" script="broadcast.lua"/>
     <globalevent name="lottery" interval="7200000" event="script" value="lottery.lua"/> 
 	<globalevent name="animated" interval="3000" script="animated.lua" />
 	<globalevent name="serverstart" type="start" event="script" value="start.lua"/>
