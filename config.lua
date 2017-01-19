@@ -1,7 +1,7 @@
 accountManager = "yes"
 namelockManager = "no"
 newPlayerChooseVoc = "yes"
-newPlayerSpawnPosX = 10160
+newPlayerSpawnPosX = 10154
 newPlayerSpawnPosY = 10054
 newPlayerSpawnPosZ = 7
 newPlayerTownId = 1
@@ -94,13 +94,13 @@ sqlType = "mysql"
 sqlHost = "127.0.0.1"
 sqlPort = 3306
 sqlUser = "root"
-sqlPass = ""
+sqlPass = "kazukeca"
 sqlDatabase = "massa"
 sqlFile = "massa.s3db"
 sqlKeepAlive = 0
 mysqlReadTimeout = 10
 mysqlWriteTimeout = 10
-encryptionType = "plain"
+encryptionType = "sha1"
 
 deathListEnabled = true
 deathListRequiredTime = 1 * 60 * 1000

@@ -451,9 +451,6 @@
     <monster name="Dragon" x="4" y="4" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="10111" centery="9923" centerz="6" radius="5"/>
-  <spawn centerx="10160" centery="10048" centerz="6" radius="1">
-    <npc name="Treinador" x="0" y="0" z="6" spawntime="60"/>
-  </spawn>
   <spawn centerx="10128" centery="10050" centerz="6" radius="1">
     <npc name="Dark Rodo" x="1" y="0" z="6" spawntime="60"/>
   </spawn>
@@ -1982,6 +1979,9 @@
     <monster name="Elf Scout" x="0" y="3" z="7" spawntime="9984"/>
     <monster name="Elf Scout" x="3" y="3" z="7" spawntime="9984"/>
   </spawn>
+  <spawn centerx="10141" centery="10042" centerz="7" radius="1">
+    <npc name="Addon Seller" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="10353" centery="10042" centerz="7" radius="5">
     <monster name="Infernatil" x="-2" y="-3" z="7" spawntime="60"/>
     <monster name="Gold Demon" x="0" y="-2" z="7" spawntime="60"/>
@@ -2009,24 +2009,12 @@
   </spawn>
   <spawn centerx="10269" centery="10045" centerz="7" radius="5"/>
   <spawn centerx="10105" centery="10046" centerz="7" radius="5"/>
-  <spawn centerx="10140" centery="10046" centerz="7" radius="5">
-    <monster name="Winter Wolf" x="-1" y="-4" z="7" spawntime="60"/>
-    <monster name="Winter Wolf" x="-2" y="-1" z="7" spawntime="60"/>
-    <npc name="Riona" x="5" y="2" z="7" spawntime="60"/>
-    <monster name="Winter Wolf" x="-3" y="4" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="10148" centery="10046" centerz="7" radius="5">
-    <monster name="Winter Wolf" x="0" y="2" z="7" spawntime="60"/>
-  </spawn>
   <spawn centerx="10243" centery="10046" centerz="7" radius="5">
     <monster name="Demon" x="-1" y="1" z="7" spawntime="10"/>
   </spawn>
-  <spawn centerx="10160" centery="10047" centerz="7" radius="2">
-    <npc name="Addon Seller" x="0" y="0" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="10149" centery="10048" centerz="7" radius="5"/>
   <spawn centerx="10173" centery="10048" centerz="7" radius="5">
     <npc name="Lola" x="0" y="-2" z="7" spawntime="10"/>
+    <npc name="Info Vip" x="-4" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10340" centery="10048" centerz="7" radius="5">
     <monster name="Infernatil" x="-1" y="1" z="7" spawntime="60"/>
@@ -2039,10 +2027,7 @@
   <spawn centerx="10126" centery="10049" centerz="7" radius="1">
     <npc name="Lector" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="10145" centery="10049" centerz="7" radius="2"/>
-  <spawn centerx="10167" centery="10050" centerz="7" radius="1">
-    <npc name="Info Vip" x="0" y="0" z="7" spawntime="5"/>
-  </spawn>
+  <spawn centerx="10169" centery="10050" centerz="7" radius="1"/>
   <spawn centerx="10117" centery="10051" centerz="7" radius="5"/>
   <spawn centerx="10182" centery="10051" centerz="7" radius="5">
     <monster name="Winter Wolf" x="-1" y="-3" z="7" spawntime="60"/>
@@ -2063,9 +2048,6 @@
   <spawn centerx="10127" centery="10054" centerz="7" radius="1"/>
   <spawn centerx="10126" centery="10055" centerz="7" radius="1"/>
   <spawn centerx="10127" centery="10055" centerz="7" radius="1"/>
-  <spawn centerx="10142" centery="10055" centerz="7" radius="5">
-    <monster name="Winter Wolf" x="-2" y="0" z="7" spawntime="60"/>
-  </spawn>
   <spawn centerx="10867" centery="10055" centerz="7" radius="30">
     <monster name="Elf Scout" x="18" y="-19" z="7" spawntime="9984"/>
     <monster name="Mummy" x="-15" y="-15" z="7" spawntime="60"/>
@@ -2187,9 +2169,7 @@
   <spawn centerx="10105" centery="10057" centerz="7" radius="5"/>
   <spawn centerx="10126" centery="10057" centerz="7" radius="1"/>
   <spawn centerx="10127" centery="10057" centerz="7" radius="1"/>
-  <spawn centerx="10151" centery="10057" centerz="7" radius="5">
-    <monster name="Winter Wolf" x="-1" y="-3" z="7" spawntime="60"/>
-  </spawn>
+  <spawn centerx="10151" centery="10057" centerz="7" radius="5"/>
   <spawn centerx="10153" centery="10057" centerz="7" radius="5">
     <monster name="Winter Wolf" x="5" y="0" z="7" spawntime="60"/>
   </spawn>

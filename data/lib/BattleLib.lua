@@ -5,7 +5,7 @@ exp = {true, 150000}, items = {true, 7440, 2}, items2 = {true, 8306, 2}, premium
 TeamOne = {name = "Black Assassins", storage = 140120, pos = {x=10287,y=9948,z=7}},
 TeamTwo = {name = "Red Barbarians",storage = 140121,pos = {x=10319,y=9948,z=7}},
 storage_count = 180400,
-tpPos = {x=10152, y=10048, z=7},
+tpPos = {x=10147, y=10042, z=7},
 limit_Time = 2 -- em minutos
 }
 function resetBattle()
