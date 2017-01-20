@@ -3,13 +3,10 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: Jan 05, 2016 as 03:26 
+-- Tempo de Geração: Jan 20, 2017 as 02:50 
 -- Versão do Servidor: 5.1.41
 -- Versão do PHP: 5.3.1
 
---
--- by Sekk
---
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 
@@ -19,7 +16,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Banco de Dados: `new`
+-- Banco de Dados: `test`
 --
 
 -- --------------------------------------------------------
@@ -663,6 +660,7 @@ CREATE TABLE IF NOT EXISTS `players` (
   `castViewers` int(11) NOT NULL DEFAULT '0',
   `castDescription` varchar(255) NOT NULL,
   `auction_balance` int(11) NOT NULL DEFAULT '0',
+  `resets` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`,`deleted`),
   KEY `account_id` (`account_id`),

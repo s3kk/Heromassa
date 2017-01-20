@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: Out 20, 2016 as 09:49 
+-- Tempo de Geração: Jan 20, 2017 as 02:50 
 -- Versão do Servidor: 5.1.41
 -- Versão do PHP: 5.3.1
 
@@ -16,7 +16,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Banco de Dados: `ice`
+-- Banco de Dados: `test`
 --
 
 -- --------------------------------------------------------
@@ -603,6 +603,7 @@ CREATE TABLE IF NOT EXISTS `players` (
   `castViewers` int(11) NOT NULL DEFAULT '0',
   `castDescription` varchar(255) NOT NULL,
   `auction_balance` int(11) NOT NULL DEFAULT '0',
+  `resets` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`,`deleted`),
   KEY `account_id` (`account_id`),
@@ -615,13 +616,13 @@ CREATE TABLE IF NOT EXISTS `players` (
 -- Extraindo dados da tabela `players`
 --
 
-INSERT INTO `players` (`id`, `name`, `world_id`, `group_id`, `account_id`, `level`, `vocation`, `health`, `healthmax`, `experience`, `lookbody`, `lookfeet`, `lookhead`, `looklegs`, `looktype`, `lookaddons`, `maglevel`, `mana`, `manamax`, `manaspent`, `soul`, `town_id`, `posx`, `posy`, `posz`, `conditions`, `cap`, `sex`, `lastlogin`, `lastip`, `save`, `skull`, `skulltime`, `rank_id`, `guildnick`, `lastlogout`, `blessings`, `balance`, `stamina`, `direction`, `loss_experience`, `loss_mana`, `loss_skills`, `loss_containers`, `loss_items`, `premend`, `online`, `marriage`, `promotion`, `deleted`, `description`, `cast`, `castViewers`, `castDescription`, `auction_balance`) VALUES
-(1, 'Account Manager', 0, 1, 1, 8, 0, 150, 150, 4200, 0, 0, 0, 0, 302, 3, 4, 150, 150, 0, 100, 1, 10154, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0),
-(4, 'Rook Sample', 0, 1, 2, 8, 0, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10154, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0),
-(5, 'Sorcerer Sample', 0, 1, 2, 8, 1, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10154, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0),
-(6, 'Druid Sample', 0, 1, 2, 8, 2, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10154, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0),
-(7, 'Paladin Sample', 0, 1, 2, 8, 3, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10154, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0),
-(8, 'Knight Sample', 0, 1, 2, 8, 4, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10154, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0);
+INSERT INTO `players` (`id`, `name`, `world_id`, `group_id`, `account_id`, `level`, `vocation`, `health`, `healthmax`, `experience`, `lookbody`, `lookfeet`, `lookhead`, `looklegs`, `looktype`, `lookaddons`, `maglevel`, `mana`, `manamax`, `manaspent`, `soul`, `town_id`, `posx`, `posy`, `posz`, `conditions`, `cap`, `sex`, `lastlogin`, `lastip`, `save`, `skull`, `skulltime`, `rank_id`, `guildnick`, `lastlogout`, `blessings`, `balance`, `stamina`, `direction`, `loss_experience`, `loss_mana`, `loss_skills`, `loss_containers`, `loss_items`, `premend`, `online`, `marriage`, `promotion`, `deleted`, `description`, `cast`, `castViewers`, `castDescription`, `auction_balance`, `resets`) VALUES
+(1, 'Account Manager', 0, 1, 1, 8, 0, 150, 150, 4200, 0, 0, 0, 0, 302, 3, 4, 150, 150, 0, 100, 1, 10160, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0, 0),
+(4, 'Rook Sample', 0, 1, 2, 8, 0, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10160, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0, 0),
+(5, 'Sorcerer Sample', 0, 1, 2, 8, 1, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10160, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0, 0),
+(6, 'Druid Sample', 0, 1, 2, 8, 2, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10160, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0, 0),
+(7, 'Paladin Sample', 0, 1, 2, 8, 3, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10160, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0, 0),
+(8, 'Knight Sample', 0, 1, 2, 8, 4, 150, 150, 4200, 0, 0, 0, 0, 110, 0, 4, 150, 150, 0, 100, 1, 10160, 10054, 7, '', 400, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 201660000, 0, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, '', 0, 0, '', 0, 0);
 
 --
 -- Gatilhos `players`
