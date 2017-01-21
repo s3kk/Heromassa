@@ -1951,7 +1951,9 @@
   <spawn centerx="10157" centery="10039" centerz="7" radius="5">
     <monster name="War Wolf" x="-1" y="-4" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="10159" centery="10039" centerz="7" radius="5"/>
+  <spawn centerx="10159" centery="10039" centerz="7" radius="5">
+    <npc name="Addon Seller" x="4" y="3" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="10038" centery="10040" centerz="7" radius="5">
     <monster name="Demon Skeleton" x="0" y="4" z="7" spawntime="60"/>
   </spawn>
@@ -1979,9 +1981,7 @@
     <monster name="Elf Scout" x="0" y="3" z="7" spawntime="9984"/>
     <monster name="Elf Scout" x="3" y="3" z="7" spawntime="9984"/>
   </spawn>
-  <spawn centerx="10141" centery="10042" centerz="7" radius="1">
-    <npc name="Addon Seller" x="0" y="0" z="7" spawntime="60"/>
-  </spawn>
+  <spawn centerx="10163" centery="10042" centerz="7" radius="1"/>
   <spawn centerx="10353" centery="10042" centerz="7" radius="5">
     <monster name="Infernatil" x="-2" y="-3" z="7" spawntime="60"/>
     <monster name="Gold Demon" x="0" y="-2" z="7" spawntime="60"/>
@@ -2162,7 +2162,6 @@
   </spawn>
   <spawn centerx="10126" centery="10056" centerz="7" radius="1"/>
   <spawn centerx="10127" centery="10056" centerz="7" radius="1"/>
-  <spawn centerx="10138" centery="10056" centerz="7" radius="5"/>
   <spawn centerx="10178" centery="10056" centerz="7" radius="5">
     <monster name="Winter Wolf" x="-5" y="4" z="7" spawntime="60"/>
   </spawn>
@@ -4801,7 +4800,6 @@
     <monster name="Bug" x="3" y="0" z="8" spawntime="5"/>
     <monster name="Poison spider" x="-2" y="1" z="8" spawntime="60"/>
     <monster name="Bug" x="1" y="1" z="8" spawntime="5"/>
-    <monster name="Bug" x="1" y="4" z="8" spawntime="5"/>
   </spawn>
   <spawn centerx="10139" centery="10041" centerz="8" radius="5">
     <monster name="Bug" x="4" y="0" z="8" spawntime="5"/>
@@ -4825,10 +4823,6 @@
     <monster name="gosminha vip" x="-4" y="-5" z="8" spawntime="60"/>
     <monster name="gosminha vip" x="-1" y="2" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="10138" centery="10046" centerz="8" radius="5">
-    <monster name="Bug" x="1" y="1" z="8" spawntime="5"/>
-  </spawn>
-  <spawn centerx="10138" centery="10047" centerz="8" radius="5"/>
   <spawn centerx="10050" centery="10050" centerz="8" radius="30">
     <monster name="Morgaroth" x="-4" y="-7" z="8" spawntime="60"/>
     <monster name="Morgaroth" x="-5" y="-6" z="8" spawntime="60"/>

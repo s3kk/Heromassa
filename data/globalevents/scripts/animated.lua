@@ -1,12 +1,12 @@
 local positions = {
-    ["Heromassa"] = {x = 10153, y = 10048, z = 7},
-    ["Teleports"] = {x = 10146, y = 10042, z = 7},
+    ["Heromassa"] = {x = 10158, y = 10049, z = 7},
+    ["Teleports"] = {x = 10166, y = 10044, z = 7},
     ["Deposit"] = {x = 10169, y = 10055, z = 7},
-	["BattleEvt"] = {x = 10147, y = 10042, z = 7},
-	["Castle24H"] = {x = 10144, y = 10042, z = 7},
-	["Supreme"] = {x = 10145, y = 10042, z = 7},
-	["Trainers"] = {x = 10148, y = 10042, z = 7},
-	["Lord Vampire"] = {x = 10149, y = 10042, z = 7}
+	["BattleEvt"] = {x = 10167, y = 10044, z = 7},
+	["Castle24H"] = {x = 10164, y = 10044, z = 7},
+	["Supreme"] = {x = 10165, y = 10044, z = 7},
+	["Trainers"] = {x = 10168, y = 10044, z = 7},
+	["Lord Vampire"] = {x = 10169, y = 10044, z = 7}
 }
 
 function onThink(cid, interval, lastExecution)

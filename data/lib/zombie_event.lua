@@ -4,7 +4,7 @@ ZE_ACCESS_TO_IGNORE_ARENA = 3
 -- POSITIONS
 ZE_blockEnterItemPosition = {x= 10156, y=10052, z=5}
 ZE_enterPosition = {x = 9930, y = 10105, z = 7}
-ZE_kickPosition = {x=10160, y=10054, z=7}
+ZE_kickPosition = {x=10158, y=10049, z=7}
 ZE_spawnFromPosition = {x = 9896, y = 10074, z = 7}
 ZE_spawnToPosition = {x = 9970, y = 10142, z = 7}
 -- ITEM IDS
