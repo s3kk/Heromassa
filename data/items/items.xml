@@ -15603,8 +15603,8 @@
 		<attribute key="weight" value="1200" />
 	</item>
 	<item id="8981" />
-	<item id="8982" article="a" name="norseman doll">
-		<attribute key="description" value="It is given to the winners of Tibia Nordic competitions." />
+	<item id="8982" article="a" name="Addon Doll">
+		<attribute key="description" value="Talk !addon 'outfit' to receive full addon." />
 		<attribute key="weight" value="1000" />
 	</item>
 	<item id="8983" article="a" name="heavily bound book">

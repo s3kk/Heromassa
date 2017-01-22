@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Super Seller" script="data/npc/scripts/default.lua" walkinterval="5000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="143" head="79" body="19" legs="114" feet="114" addons="2"/>
+    <parameters>
+		<parameter key="message_greet" value="Bem vindo! Estava esperando por voce |PLAYERNAME|!" />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="hi;ajuda;" />
+        <parameter key="keyword_reply1" value="Bem vindo! Estava esperando por voce |PLAYERNAME|!"/>
+
+        <parameter key="keyword_reply2" value="Bem vindo! Estava esperando por voce |PLAYERNAME|!"/>
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="super shield,2542,1000000;super sword,8931,1000000;super wand,7429,1000000;super club,7450,1000000;super axe,7456,1000000;super arrow,7850,1000000;super boots,7892,1000000;super legs,7896,1000000;super armor,7897,1000000;super hat,7902,1000000;super bow,8857,1000000;Mana Healer,7620,1000000;Rune Trap,2269,1000000;"/> 
+        <parameter key="shop_sellable" value=""/> 
+    </parameters>
+</npc>
