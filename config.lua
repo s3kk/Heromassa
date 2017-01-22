@@ -1,8 +1,8 @@
 accountManager = "yes"
 namelockManager = "no"
 newPlayerChooseVoc = "yes"
-newPlayerSpawnPosX = 10158
-newPlayerSpawnPosY = 10049
+newPlayerSpawnPosX = 10157
+newPlayerSpawnPosY = 10053
 newPlayerSpawnPosZ = 7
 newPlayerTownId = 1
 newPlayerLevel = 8

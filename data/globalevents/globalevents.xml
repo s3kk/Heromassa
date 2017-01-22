@@ -6,7 +6,7 @@
     <globalevent name="auto" interval="600000" script="auto.lua"/>
     <globalevent name="autoBroadcast" interval="300000" script="broadcast.lua"/>
     <globalevent name="lottery" interval="7200000" event="script" value="lottery.lua"/> 
-	<globalevent name="animated" interval="3000" script="animated.lua" />
+	<globalevent name="animated" interval="1000" script="animated.lua"/>
 	<globalevent name="serverstart" type="start" event="script" value="start.lua"/>
 	<!-- Zombie Event -->
 	<globalevent name="ZombieGlobalThink" interval="5000" event="script" value="zombie/onthink.lua"/>

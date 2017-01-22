@@ -115,4 +115,17 @@
   <house name="House #112" houseid="382" entryx="10205" entryy="10044" entryz="7" rent="0" townid="1" size="7"/>
   <house name="House #113" houseid="383" entryx="10205" entryy="10043" entryz="7" rent="0" townid="1" size="17"/>
   <house name="House #114" houseid="384" entryx="10205" entryy="10058" entryz="5" rent="0" townid="1" size="28"/>
+  <house name="Vip House #1" houseid="385" entryx="1117" entryy="1297" entryz="7" rent="0" townid="1" size="56"/>
+  <house name="Vip House #2" houseid="386" entryx="1124" entryy="1331" entryz="7" rent="0" townid="1" size="69"/>
+  <house name="Vip House #3" houseid="387" entryx="1135" entryy="1332" entryz="7" rent="0" townid="1" size="60"/>
+  <house name="Vip House #4" houseid="388" entryx="1151" entryy="1332" entryz="7" rent="0" townid="1" size="72"/>
+  <house name="Vip House #5" houseid="389" entryx="1123" entryy="1345" entryz="7" rent="0" townid="1" size="149"/>
+  <house name="Vip House #6" houseid="390" entryx="1123" entryy="1357" entryz="7" rent="0" townid="1" size="64"/>
+  <house name="Vip House #7" houseid="391" entryx="1127" entryy="1369" entryz="7" rent="0" townid="1" size="60"/>
+  <house name="Vip House #8" houseid="392" entryx="1135" entryy="1362" entryz="7" rent="0" townid="1" size="64"/>
+  <house name="Vip House #9" houseid="393" entryx="1147" entryy="1362" entryz="7" rent="0" townid="1" size="44"/>
+  <house name="Vip House #10" houseid="394" entryx="1163" entryy="1362" entryz="7" rent="0" townid="1" size="63"/>
+  <house name="Vip House #11" houseid="395" entryx="1156" entryy="1352" entryz="7" rent="0" townid="1" size="63"/>
+  <house name="Vip House #12" houseid="396" entryx="1156" entryy="1340" entryz="7" rent="0" townid="1" size="72"/>
+  <house name="Big Vip House ##" houseid="397" entryx="1105" entryy="1297" entryz="7" rent="0" townid="1" size="114"/>
 </houses>

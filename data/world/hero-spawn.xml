@@ -410,6 +410,10 @@
   <spawn centerx="14259" centery="14222" centerz="5" radius="10"/>
   <spawn centerx="14152" centery="14244" centerz="5" radius="5"/>
   <spawn centerx="14275" centery="14255" centerz="5" radius="10"/>
+  <spawn centerx="1101" centery="1306" centerz="6" radius="1"/>
+  <spawn centerx="1109" centery="1306" centerz="6" radius="1"/>
+  <spawn centerx="1144" centery="1316" centerz="6" radius="1"/>
+  <spawn centerx="1100" centery="1319" centerz="6" radius="1"/>
   <spawn centerx="10123" centery="9901" centerz="6" radius="5"/>
   <spawn centerx="10127" centery="9903" centerz="6" radius="5">
     <monster name="Dragon" x="2" y="0" z="6" spawntime="60"/>
@@ -1451,6 +1455,53 @@
   <spawn centerx="14230" centery="14282" centerz="6" radius="5"/>
   <spawn centerx="14241" centery="14284" centerz="6" radius="5"/>
   <spawn centerx="14230" centery="14295" centerz="6" radius="5"/>
+  <spawn centerx="1111" centery="1305" centerz="7" radius="1"/>
+  <spawn centerx="1126" centery="1315" centerz="7" radius="1"/>
+  <spawn centerx="1142" centery="1315" centerz="7" radius="1"/>
+  <spawn centerx="1122" centery="1316" centerz="7" radius="1"/>
+  <spawn centerx="1131" centery="1339" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1135" centery="1339" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1139" centery="1339" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1143" centery="1339" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1147" centery="1339" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1130" centery="1351" centerz="7" radius="1">
+    <npc name="Info Vip" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1131" centery="1357" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1135" centery="1357" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1139" centery="1357" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1143" centery="1357" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1147" centery="1357" centerz="7" radius="1">
+    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="10362" centery="9384" centerz="7" radius="30">
     <monster name="Ice Demon" x="-2" y="-23" z="7" spawntime="10"/>
     <monster name="Ice Demon" x="15" y="-23" z="7" spawntime="10"/>
@@ -1951,9 +2002,7 @@
   <spawn centerx="10157" centery="10039" centerz="7" radius="5">
     <monster name="War Wolf" x="-1" y="-4" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="10159" centery="10039" centerz="7" radius="5">
-    <npc name="Addon Seller" x="4" y="3" z="7" spawntime="60"/>
-  </spawn>
+  <spawn centerx="10159" centery="10039" centerz="7" radius="5"/>
   <spawn centerx="10038" centery="10040" centerz="7" radius="5">
     <monster name="Demon Skeleton" x="0" y="4" z="7" spawntime="60"/>
   </spawn>
@@ -1981,7 +2030,6 @@
     <monster name="Elf Scout" x="0" y="3" z="7" spawntime="9984"/>
     <monster name="Elf Scout" x="3" y="3" z="7" spawntime="9984"/>
   </spawn>
-  <spawn centerx="10163" centery="10042" centerz="7" radius="1"/>
   <spawn centerx="10353" centery="10042" centerz="7" radius="5">
     <monster name="Infernatil" x="-2" y="-3" z="7" spawntime="60"/>
     <monster name="Gold Demon" x="0" y="-2" z="7" spawntime="60"/>
@@ -2014,7 +2062,6 @@
   </spawn>
   <spawn centerx="10173" centery="10048" centerz="7" radius="5">
     <npc name="Lola" x="0" y="-2" z="7" spawntime="10"/>
-    <npc name="Info Vip" x="-4" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10340" centery="10048" centerz="7" radius="5">
     <monster name="Infernatil" x="-1" y="1" z="7" spawntime="60"/>
