@@ -1,6 +1,7 @@
 local positions = {
     ["Heromassa"] = {x = 10157, y = 10053, z = 7},
     ["Teleports"] = {x = 10166, y = 10044, z = 7},
+	["Vip City"] = {x = 10157, y = 10049, z = 7},
     ["Deposit"] = {x = 10169, y = 10055, z = 7},
 	["BattleEvt"] = {x = 10167, y = 10044, z = 7},
 	["Castle24H"] = {x = 10164, y = 10044, z = 7},
