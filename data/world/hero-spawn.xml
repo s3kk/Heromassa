@@ -11,15 +11,6 @@
     <monster name="Hydra" x="2" y="2" z="2" spawntime="60"/>
   </spawn>
   <spawn centerx="14152" centery="14243" centerz="2" radius="5"/>
-  <spawn centerx="1161" centery="1360" centerz="3" radius="1">
-    <npc name="Blesser Man" x="0" y="-1" z="3" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1202" centery="1390" centerz="3" radius="1">
-    <npc name="Perac" x="0" y="1" z="3" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1304" centery="1468" centerz="3" radius="1">
-    <monster name="Dragon Lord" x="0" y="0" z="3" spawntime="60"/>
-  </spawn>
   <spawn centerx="10130" centery="10053" centerz="3" radius="1">
     <npc name="vip seller" x="0" y="1" z="3" spawntime="60"/>
   </spawn>
@@ -51,47 +42,6 @@
   </spawn>
   <spawn centerx="14302" centery="14092" centerz="3" radius="2"/>
   <spawn centerx="14153" centery="14244" centerz="3" radius="5"/>
-  <spawn centerx="1160" centery="1380" centerz="4" radius="1">
-    <npc name="Especialista of Sotf" x="0" y="1" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1168" centery="1380" centerz="4" radius="1">
-    <npc name="eremo" x="0" y="1" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1190" centery="1380" centerz="4" radius="1">
-    <npc name="Johnny" x="0" y="0" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1294" centery="1385" centerz="4" radius="5">
-    <monster name="Wyrm" x="-1" y="0" z="4" spawntime="60"/>
-    <monster name="Wyrm" x="4" y="3" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1305" centery="1385" centerz="4" radius="5">
-    <monster name="Wyrm" x="0" y="-2" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1203" centery="1390" centerz="4" radius="1">
-    <npc name="Dark Rodo" x="0" y="0" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1159" centery="1393" centerz="4" radius="1">
-    <npc name="Raphael" x="1" y="1" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1294" centery="1396" centerz="4" radius="5">
-    <monster name="Wyrm" x="-2" y="-1" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1305" centery="1396" centerz="4" radius="5">
-    <monster name="Wyrm" x="1" y="-2" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1300" centery="1459" centerz="4" radius="1">
-    <monster name="Dragon" x="0" y="0" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1310" centery="1460" centerz="4" radius="1"/>
-  <spawn centerx="1298" centery="1469" centerz="4" radius="1">
-    <monster name="Dragon" x="0" y="0" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1314" centery="1469" centerz="4" radius="1">
-    <monster name="Dragon" x="1" y="0" z="4" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1306" centery="1477" centerz="4" radius="1">
-    <monster name="Dragon" x="1" y="0" z="4" spawntime="60"/>
-  </spawn>
   <spawn centerx="10142" centery="9939" centerz="4" radius="5">
     <monster name="Treptin" x="1" y="0" z="4" spawntime="10"/>
   </spawn>
@@ -460,6 +410,10 @@
   <spawn centerx="14259" centery="14222" centerz="5" radius="10"/>
   <spawn centerx="14152" centery="14244" centerz="5" radius="5"/>
   <spawn centerx="14275" centery="14255" centerz="5" radius="10"/>
+  <spawn centerx="1101" centery="1306" centerz="6" radius="1"/>
+  <spawn centerx="1109" centery="1306" centerz="6" radius="1"/>
+  <spawn centerx="1144" centery="1316" centerz="6" radius="1"/>
+  <spawn centerx="1100" centery="1319" centerz="6" radius="1"/>
   <spawn centerx="10123" centery="9901" centerz="6" radius="5"/>
   <spawn centerx="10127" centery="9903" centerz="6" radius="5">
     <monster name="Dragon" x="2" y="0" z="6" spawntime="60"/>
@@ -1501,6 +1455,10 @@
   <spawn centerx="14230" centery="14282" centerz="6" radius="5"/>
   <spawn centerx="14241" centery="14284" centerz="6" radius="5"/>
   <spawn centerx="14230" centery="14295" centerz="6" radius="5"/>
+  <spawn centerx="1111" centery="1305" centerz="7" radius="1"/>
+  <spawn centerx="1126" centery="1315" centerz="7" radius="1"/>
+  <spawn centerx="1142" centery="1315" centerz="7" radius="1"/>
+  <spawn centerx="1122" centery="1316" centerz="7" radius="1"/>
   <spawn centerx="1131" centery="1339" centerz="7" radius="1">
     <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
     <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>

@@ -15603,7 +15603,7 @@
 		<attribute key="weight" value="1200" />
 	</item>
 	<item id="8981" />
-	<item id="8982" article="a" name="Addon Doll">
+	<item id="8982" article="a" name="norseman doll">
 		<attribute key="description" value="Talk !addon 'outfit' to receive full addon." />
 		<attribute key="weight" value="1000" />
 	</item>
@@ -15876,7 +15876,7 @@
 	<item id="9690" article="a" name="gear wheel">
 		<attribute key="weight" value="5" />
 	</item>
-	<item id="9693" article="a" name="jester doll">
+	<item id="9693" article="a" name="Addon Doll">
 		<attribute key="weight" value="1200" />
 	</item>
 	<item id="9694" article="the" name="head of a jester doll">
