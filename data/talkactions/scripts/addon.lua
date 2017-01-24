@@ -4,9 +4,9 @@ local maleOutfits = { ["citizen"]={128}, ["hunter"]={129}, ["mage"]={130}, ["kni
 local msg = {"Command requires GOOD param!", "You dont have Addon Doll!", "Bad param!", "Full Addon Set sucesfully added!"} 
 local param = string.lower(param) 
 
-if(getPlayerItemCount(cid, 9693) > 0) then 
+if(getPlayerItemCount(cid, 8982) > 0) then 
 if(param ~= "" and maleOutfits[param] and femaleOutfits[param]) then 
-doPlayerRemoveItem(cid, 9693, 1) 
+doPlayerRemoveItem(cid, 8982, 1) 
 doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, msg[4]) 
 doSendMagicEffect(getCreaturePosition(cid), CONST_ME_GIFT_WRAPS) 
 if(getPlayerSex(cid) == 0)then 
