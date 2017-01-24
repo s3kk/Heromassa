@@ -1482,6 +1482,13 @@
   <spawn centerx="1130" centery="1351" centerz="7" radius="1">
     <npc name="Info Vip" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="1263" centery="1352" centerz="7" radius="1">
+    <monster name="Lord Jetta" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1262" centery="1354" centerz="7" radius="1">
+    <monster name="Lord Passat" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1265" centery="1356" centerz="7" radius="1"/>
   <spawn centerx="1131" centery="1357" centerz="7" radius="1">
     <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
     <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>

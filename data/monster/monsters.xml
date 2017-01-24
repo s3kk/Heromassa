@@ -9,6 +9,8 @@
 	<monster name="Zombie Event" file="zombie_event.xml"/>
 
 	<!--8.4-->
+	<monster name="Lord Jetta" file="jetta.xml"/>
+	<monster name="Lord Passat" file="passat.xml"/>
 <monster name="Acid Blob" file="8.4/acid blob.xml"/>
 	<monster name="Crazed Beggar" file="8.4/Crazed Beggar.xml"/>
 	<monster name="Medusa" file="Medusa.xml"/>
