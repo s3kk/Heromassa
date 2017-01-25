@@ -184,7 +184,7 @@
 	<monster name="tentox" file="Demon Bosses/tentox.xml"/>
 	<monster name="Morgaroth" file="Demon bosses/morgaroth.xml"/>
 	<monster name="Orshabaal" file="Demon bosses/orshabaal.xml"/>
-	<monster name="Madareth" file="Demon Bosses/Madareth.xml"/>
+	<monster name="Master Boss" file="Demon Bosses/Master Boss.xml"/>
 	<monster name="Black Boss" file="Demon Bosses/Black Boss.xml"/>
 	<monster name="Ice Demon" file="Demon Bosses/Ice Demon.xml"/>
 	

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lord Jetta" nameDescription="a Lord Jetta" race="blood" experience="80000000" speed="2000" manacost="0">
-	<health now="5000000" max="5000000"/>
+<monster name="Lord Jetta" nameDescription="a Lord Jetta" race="blood" experience="450000" speed="2000" manacost="0">
+	<health now="500000" max="500000"/>
 	<look type="134" head="0" body="76" legs="88" feet="0" addons="3" corpse="6080"/>
-	<targetchange interval="1000" chance="0"/>
+	<targetchange interval="5000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="500" min="-15000" max="-60000"/>
+		<attack name="melee" interval="100" skill="500" attack="1500"/>
 	</attacks>
 	<defenses>
 	</defenses>
@@ -31,25 +31,7 @@
 	<voices speed="5000" chance="10">
 	</voices>
 	  <loot>
-    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
-    <item id="2148" countmax="80" chance1="100000" chancemax="0"/>
-    <item id="2671" countmax="3" chance="60000"/>
-    <item id="7590" countmax="2" chance="60000"/>
-    <item id="2476" chance="30000"/>
-    <item id="2536" chance="10000"/>
-    <item id="3976" countmax="10" chance1="50000" chancemax="0"/>
-    <item id="2149" countmax="3" chance="5000"/>
-    <item id="2004" chance="100000">
-      <inside>
-        <item id="2152" countmax="2" chance="50000"/>
-        <item id="9808" chance="400"/>
-        <item id="7887" chance="2000"/>
-        <item id="7885" chance="1000"/>
-        <item id="7884" chance="1000"/>
-        <item id="7413" chance="1000"/>
-        <item id="8473" countmax="2" chance1="50000" chancemax="0"/>
-        <item id="2143" countmax="2" chance1="50000" chancemax="0"/>
-      </inside>
-    </item>
+    <item id="2472" chance="100000"/> <!-- magic plate armor -->
+	<item id="2514" chance="100000"/> <!-- mastermind shield -->
   </loot>
 </monster>

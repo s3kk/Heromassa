@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lord Passat" nameDescription="a Lord Passat" race="blood" experience="80000000" speed="2000" manacost="0">
-	<health now="5000000" max="5000000"/>
+<monster name="Lord Passat" nameDescription="a Lord Passat" race="blood" experience="1500000" speed="2000" manacost="0">
+	<health now="1000000" max="1000000"/>
 	<look type="134" head="114" body="90" legs="79" feet="114" addons="3" corpse="6080"/>
 	<targetchange interval="1000" chance="0"/>
 	<strategy attack="100" defense="0"/>
@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="500" min="-30000" max="-65000"/>
+		<attack name="melee" interval="100" skill="800" attack="3000"/>
 	</attacks>
 	<defenses>
 	</defenses>

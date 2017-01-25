@@ -718,16 +718,16 @@
     <monster name="Spit Nettle" x="20" y="-9" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-17" y="-8" z="6" spawntime="30"/>
     <monster name="Mummy" x="-16" y="-8" z="6" spawntime="30"/>
-    <monster name="Madareth" x="-13" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-13" y="-8" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-9" y="-8" z="6" spawntime="30"/>
     <monster name="Mummy" x="-5" y="-8" z="6" spawntime="30"/>
-    <monster name="Madareth" x="-4" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-4" y="-8" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="1" y="-8" z="6" spawntime="30"/>
-    <monster name="Madareth" x="6" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="6" y="-8" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="12" y="-8" z="6" spawntime="30"/>
-    <monster name="Madareth" x="15" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="15" y="-8" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="20" y="-8" z="6" spawntime="30"/>
-    <monster name="Madareth" x="24" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="24" y="-8" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-17" y="-7" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-9" y="-7" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="1" y="-7" z="6" spawntime="30"/>
@@ -737,7 +737,7 @@
     <monster name="Elf Scout" x="15" y="-5" z="6" spawntime="10496"/>
     <monster name="Elf Scout" x="17" y="-5" z="6" spawntime="10496"/>
     <monster name="Elf Scout" x="19" y="-5" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="-19" y="-4" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-19" y="-4" z="6" spawntime="30"/>
     <monster name="Elf Scout" x="-9" y="-4" z="6" spawntime="10496"/>
     <monster name="Elf Scout" x="-7" y="-4" z="6" spawntime="10496"/>
     <monster name="Elf Scout" x="-5" y="-4" z="6" spawntime="10496"/>
@@ -751,7 +751,7 @@
     <monster name="Spit Nettle" x="-20" y="-1" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-19" y="-1" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-18" y="-1" z="6" spawntime="30"/>
-    <monster name="Madareth" x="26" y="3" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="26" y="3" z="6" spawntime="30"/>
     <monster name="Elf Scout" x="21" y="5" z="6" spawntime="30"/>
     <monster name="Elf Scout" x="23" y="6" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="25" y="6" z="6" spawntime="30"/>
@@ -761,19 +761,19 @@
     <monster name="Elf Scout" x="23" y="8" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="11" y="9" z="6" spawntime="30"/>
     <monster name="Elf Scout" x="21" y="9" z="6" spawntime="30"/>
-    <monster name="Madareth" x="26" y="9" z="6" spawntime="30"/>
-    <monster name="Madareth" x="8" y="10" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="26" y="9" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="8" y="10" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="11" y="10" z="6" spawntime="30"/>
     <monster name="Elf Scout" x="23" y="10" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="11" y="11" z="6" spawntime="30"/>
-    <monster name="Madareth" x="13" y="11" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="13" y="11" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="28" y="11" z="6" spawntime="30"/>
-    <monster name="Madareth" x="3" y="12" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="3" y="12" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="11" y="12" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="28" y="12" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="0" y="13" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="1" y="13" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="13" y="13" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="13" y="13" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="28" y="13" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="1" y="14" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="-30" y="15" z="6" spawntime="10496"/>
@@ -781,32 +781,32 @@
     <monster name="Mummy" x="-1" y="15" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="1" y="15" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="-3" y="16" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="-1" y="16" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-1" y="16" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="1" y="16" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="12" y="16" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="13" y="16" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="14" y="16" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="15" y="16" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="16" y="16" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="-30" y="17" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-30" y="17" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-3" y="17" z="6" spawntime="10496"/>
     <monster name="Mummy" x="-29" y="18" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-3" y="18" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="13" y="18" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="13" y="18" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-9" y="19" z="6" spawntime="30"/>
-    <monster name="Madareth" x="-5" y="19" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-5" y="19" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-3" y="19" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="-9" y="20" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="-7" y="20" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-7" y="20" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-3" y="20" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="-30" y="21" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="-29" y="21" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="-28" y="21" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="-27" y="21" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-9" y="21" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="10" y="21" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="10" y="21" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-9" y="22" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="-29" y="23" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-29" y="23" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-25" y="23" z="6" spawntime="30"/>
     <monster name="Mummy" x="-12" y="23" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-25" y="24" z="6" spawntime="10496"/>
@@ -815,19 +815,19 @@
     <monster name="Spit Nettle" x="10" y="24" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="11" y="24" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-25" y="25" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="-24" y="25" z="6" spawntime="30"/>
-    <monster name="Madareth" x="-20" y="25" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-24" y="25" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-20" y="25" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-17" y="25" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="-13" y="25" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-13" y="25" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="23" y="25" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-25" y="26" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="-17" y="26" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="23" y="26" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="-17" y="27" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="10" y="27" z="6" spawntime="30"/>
-    <monster name="Madareth" x="17" y="27" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="10" y="27" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="17" y="27" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="23" y="27" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="25" y="27" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="25" y="27" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="23" y="28" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="30" y="28" z="6" spawntime="30"/>
     <monster name="Mummy" x="27" y="29" z="6" spawntime="30"/>
@@ -868,7 +868,7 @@
     <monster name="Spit Nettle" x="-9" y="4" z="6" spawntime="30"/>
     <monster name="Mummy" x="-7" y="4" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-9" y="5" z="6" spawntime="30"/>
-    <monster name="Madareth" x="-7" y="5" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-7" y="5" z="6" spawntime="30"/>
     <monster name="Elf Scout" x="-13" y="6" z="6" spawntime="30"/>
     <monster name="Elf Scout" x="-11" y="6" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="-8" y="8" z="6" spawntime="10496"/>
@@ -882,22 +882,22 @@
   </spawn>
   <spawn centerx="11055" centery="10706" centerz="6" radius="30">
     <monster name="Spit Nettle" x="16" y="-4" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="11" y="-3" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="11" y="-3" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="16" y="-3" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="16" y="-2" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="18" y="-2" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="18" y="-2" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="17" y="1" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="18" y="1" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="19" y="1" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="20" y="1" z="6" spawntime="30"/>
     <monster name="Mummy" x="19" y="2" z="6" spawntime="30"/>
-    <monster name="Madareth" x="20" y="2" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="20" y="2" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="18" y="4" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="19" y="4" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="20" y="4" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="21" y="4" z="6" spawntime="10496"/>
     <monster name="Spit Nettle" x="22" y="4" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="20" y="6" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="20" y="6" z="6" spawntime="30"/>
     <monster name="Mummy" x="21" y="6" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="19" y="9" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="20" y="9" z="6" spawntime="10496"/>
@@ -906,10 +906,10 @@
     <monster name="Spit Nettle" x="16" y="11" z="6" spawntime="10496"/>
     <monster name="Mummy" x="20" y="11" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="16" y="12" z="6" spawntime="10496"/>
-    <monster name="Madareth" x="18" y="12" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="18" y="12" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="16" y="13" z="6" spawntime="10496"/>
     <monster name="Mummy" x="12" y="14" z="6" spawntime="30"/>
-    <monster name="Madareth" x="13" y="14" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="13" y="14" z="6" spawntime="30"/>
     <monster name="Spit Nettle" x="16" y="14" z="6" spawntime="30"/>
   </spawn>
   <spawn centerx="11054" centery="10707" centerz="6" radius="30"/>
@@ -1085,16 +1085,16 @@
     <monster name="Elf Scout" x="7" y="-11" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="-9" z="6" spawntime="10752"/>
     <monster name="Spit Nettle" x="7" y="-9" z="6" spawntime="10752"/>
-    <monster name="Madareth" x="-13" y="-8" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-10" y="-8" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-6" y="-8" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-13" y="-8" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-10" y="-8" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-6" y="-8" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="-8" z="6" spawntime="10752"/>
-    <monster name="Madareth" x="3" y="-8" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="3" y="-8" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="7" y="-8" z="6" spawntime="10752"/>
-    <monster name="Madareth" x="10" y="-8" z="6" spawntime="10"/>
-    <monster name="Madareth" x="12" y="-8" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="10" y="-8" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="12" y="-8" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="-7" z="6" spawntime="10752"/>
-    <monster name="Madareth" x="2" y="-7" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="2" y="-7" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="7" y="-7" z="6" spawntime="10752"/>
     <monster name="Spit Nettle" x="-1" y="-6" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="7" y="-6" z="6" spawntime="10"/>
@@ -1105,8 +1105,8 @@
     <monster name="Elf Scout" x="1" y="-4" z="6" spawntime="10"/>
     <monster name="Elf Scout" x="4" y="-4" z="6" spawntime="10"/>
     <monster name="Elf Scout" x="7" y="-4" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="-3" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-11" y="-3" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="-3" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-11" y="-3" z="6" spawntime="10"/>
     <monster name="Elf Scout" x="-16" y="-1" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-13" y="-1" z="6" spawntime="10752"/>
     <monster name="Spit Nettle" x="-12" y="-1" z="6" spawntime="10752"/>
@@ -1114,29 +1114,29 @@
     <monster name="Spit Nettle" x="-10" y="-1" z="6" spawntime="10752"/>
     <monster name="Elf Scout" x="-7" y="-1" z="6" spawntime="10"/>
     <monster name="Elf Scout" x="-16" y="1" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-11" y="1" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-11" y="1" z="6" spawntime="10"/>
     <monster name="Elf Scout" x="-7" y="1" z="6" spawntime="10"/>
     <monster name="Elf Scout" x="-16" y="3" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="3" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="3" z="6" spawntime="10"/>
     <monster name="Elf Scout" x="-7" y="3" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-12" y="5" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-11" y="5" z="6" spawntime="10752"/>
-    <monster name="Madareth" x="-12" y="6" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-11" y="6" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="6" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-11" y="6" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-12" y="7" z="6" spawntime="10752"/>
     <monster name="Spit Nettle" x="-11" y="7" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-15" y="8" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-13" y="8" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="8" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-15" y="8" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-13" y="8" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="8" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-16" y="10" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-16" y="11" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-17" y="12" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-16" y="12" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-17" y="12" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-16" y="12" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-18" y="13" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-17" y="13" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-21" y="14" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-20" y="14" z="6" spawntime="10"/>
-    <monster name="Madareth" x="-19" y="14" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-20" y="14" z="6" spawntime="10"/>
+    <monster name="Master Boss" x="-19" y="14" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-26" y="15" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-25" y="15" z="6" spawntime="10"/>
     <monster name="Spit Nettle" x="-24" y="15" z="6" spawntime="10"/>
@@ -2924,16 +2924,16 @@
     <monster name="Elf Scout" x="26" y="-7" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="28" y="-7" z="7" spawntime="10496"/>
     <monster name="Spit Nettle" x="-21" y="-6" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-15" y="-6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-15" y="-6" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-11" y="-6" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-7" y="-6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-7" y="-6" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-21" y="-5" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-17" y="-5" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-17" y="-5" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-11" y="-5" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-4" y="-5" z="7" spawntime="60"/>
-    <monster name="Madareth" x="2" y="-5" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="2" y="-5" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="22" y="-5" z="7" spawntime="60"/>
-    <monster name="Madareth" x="27" y="-5" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="27" y="-5" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-21" y="-4" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-11" y="-4" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-21" y="-3" z="7" spawntime="60"/>
@@ -2953,7 +2953,7 @@
   </spawn>
   <spawn centerx="11090" centery="10668" centerz="7" radius="30">
     <monster name="Spit Nettle" x="-7" y="-21" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-5" y="-20" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-5" y="-20" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-6" y="-16" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-5" y="-16" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-4" y="-16" z="7" spawntime="60"/>
@@ -2968,7 +2968,7 @@
     <monster name="Elf Scout" x="-8" y="-13" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-1" y="-13" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="1" y="-13" z="7" spawntime="10496"/>
-    <monster name="Madareth" x="-5" y="-12" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-5" y="-12" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-10" y="-11" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-8" y="-11" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-1" y="-11" z="7" spawntime="10496"/>
@@ -2983,8 +2983,8 @@
     <monster name="Spit Nettle" x="-5" y="-8" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-4" y="-8" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-3" y="-8" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-6" y="-4" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-4" y="-3" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-6" y="-4" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-4" y="-3" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-6" y="5" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-5" y="5" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-4" y="5" z="7" spawntime="60"/>
@@ -2995,7 +2995,7 @@
     <monster name="Elf Scout" x="1" y="6" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-10" y="8" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-8" y="8" z="7" spawntime="10496"/>
-    <monster name="Madareth" x="-5" y="8" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-5" y="8" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-1" y="8" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="1" y="8" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-10" y="10" z="7" spawntime="10496"/>
@@ -3072,13 +3072,13 @@
     <monster name="Elf Scout" x="-5" y="7" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-3" y="7" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-1" y="7" z="7" spawntime="10496"/>
-    <monster name="Madareth" x="20" y="7" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="20" y="7" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-24" y="9" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-18" y="9" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-18" y="9" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-10" y="9" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-7" y="9" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-7" y="9" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="1" y="9" z="7" spawntime="60"/>
-    <monster name="Madareth" x="18" y="9" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="18" y="9" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-9" y="11" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-7" y="11" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-5" y="11" z="7" spawntime="10496"/>
@@ -3097,20 +3097,20 @@
     <monster name="Elf Scout" x="-14" y="3" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-12" y="3" z="7" spawntime="10496"/>
     <monster name="Elf Scout" x="-10" y="3" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-20" y="5" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-10" y="5" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-20" y="5" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-10" y="5" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-23" y="6" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-19" y="6" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-18" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-18" y="6" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-17" y="6" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-16" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-16" y="6" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-15" y="6" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-14" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-14" y="6" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-13" y="6" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-11" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-11" y="6" z="7" spawntime="60"/>
     <monster name="Spit Nettle" x="-7" y="6" z="7" spawntime="60"/>
-    <monster name="Madareth" x="1" y="6" z="7" spawntime="60"/>
-    <monster name="Madareth" x="-20" y="8" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="1" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-20" y="8" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-18" y="9" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-16" y="9" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-14" y="9" z="7" spawntime="60"/>
@@ -3325,50 +3325,50 @@
     <monster name="Ghazbaran" x="2" y="2" z="7" spawntime="19200"/>
   </spawn>
   <spawn centerx="10376" centery="10878" centerz="7" radius="30">
-    <monster name="Madareth" x="26" y="-10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="28" y="-10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="26" y="-10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="28" y="-10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="29" y="-10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="30" y="-10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="26" y="-8" z="7" spawntime="10"/>
     <monster name="Elf Scout" x="24" y="-6" z="7" spawntime="10752"/>
-    <monster name="Madareth" x="26" y="-6" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="26" y="-6" z="7" spawntime="10"/>
     <monster name="Elf Scout" x="28" y="-6" z="7" spawntime="10"/>
-    <monster name="Madareth" x="26" y="-5" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="26" y="-5" z="7" spawntime="10"/>
     <monster name="Elf Scout" x="24" y="-3" z="7" spawntime="10752"/>
     <monster name="Spit Nettle" x="26" y="-3" z="7" spawntime="10"/>
     <monster name="Elf Scout" x="28" y="-3" z="7" spawntime="10752"/>
-    <monster name="Madareth" x="-19" y="-2" z="7" spawntime="10"/>
-    <monster name="Madareth" x="26" y="-1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-19" y="-2" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="26" y="-1" z="7" spawntime="10"/>
     <monster name="Elf Scout" x="24" y="0" z="7" spawntime="10752"/>
-    <monster name="Madareth" x="26" y="0" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="26" y="0" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-19" y="2" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-18" y="2" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-17" y="2" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-18" y="3" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-18" y="3" z="7" spawntime="10"/>
     <monster name="Elf Scout" x="24" y="3" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="26" y="3" z="7" spawntime="10"/>
     <monster name="Elf Scout" x="28" y="3" z="7" spawntime="10752"/>
-    <monster name="Madareth" x="-18" y="4" z="7" spawntime="10"/>
-    <monster name="Madareth" x="26" y="6" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-18" y="4" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="26" y="6" z="7" spawntime="10"/>
     <monster name="Elf Scout" x="-4" y="7" z="7" spawntime="10"/>
     <monster name="Elf Scout" x="-1" y="7" z="7" spawntime="10"/>
-    <monster name="Madareth" x="26" y="7" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="26" y="7" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-19" y="8" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-18" y="8" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-17" y="8" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-6" y="9" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="2" y="9" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-15" y="10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-10" y="10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-15" y="10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-10" y="10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-6" y="10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-3" y="10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-3" y="10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="2" y="10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="4" y="10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="6" y="10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="4" y="10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="6" y="10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="8" y="10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="19" y="10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="22" y="10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="19" y="10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="22" y="10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="25" y="10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-6" y="11" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="2" y="11" z="7" spawntime="10"/>
@@ -3379,7 +3379,7 @@
     <monster name="Spit Nettle" x="17" y="-12" z="7" spawntime="10752"/>
     <monster name="Spit Nettle" x="18" y="-12" z="7" spawntime="10752"/>
     <monster name="Spit Nettle" x="19" y="-12" z="7" spawntime="10"/>
-    <monster name="Madareth" x="15" y="-11" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="15" y="-11" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="17" y="-11" z="7" spawntime="10752"/>
     <monster name="Spit Nettle" x="19" y="-11" z="7" spawntime="10752"/>
     <monster name="Spit Nettle" x="12" y="-10" z="7" spawntime="10"/>
@@ -3388,8 +3388,8 @@
     <monster name="Spit Nettle" x="17" y="-10" z="7" spawntime="10752"/>
     <monster name="Spit Nettle" x="18" y="-10" z="7" spawntime="10752"/>
     <monster name="Spit Nettle" x="19" y="-10" z="7" spawntime="10752"/>
-    <monster name="Madareth" x="16" y="-8" z="7" spawntime="10"/>
-    <monster name="Madareth" x="18" y="-8" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="16" y="-8" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="18" y="-8" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="10156" centery="10881" centerz="7" radius="30">
     <monster name="Hellhound" x="-3" y="-22" z="7" spawntime="60"/>
@@ -3438,117 +3438,117 @@
   </spawn>
   <spawn centerx="10486" centery="10922" centerz="7" radius="30">
     <monster name="Spit Nettle" x="-30" y="-4" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-10" y="-3" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-29" y="-2" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-14" y="-1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-10" y="-3" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-29" y="-2" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-14" y="-1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-12" y="-1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-9" y="-1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="4" y="-1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-9" y="-1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="4" y="-1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="6" y="-1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="8" y="-1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="10" y="-1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="4" y="0" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="10" y="-1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="4" y="0" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="7" y="0" z="7" spawntime="10"/>
-    <monster name="Madareth" x="10" y="1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="10" y="1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="13" y="1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="14" y="1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="14" y="1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="15" y="1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="16" y="1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="16" y="1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="17" y="1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="21" y="2" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="21" y="2" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="24" y="2" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-22" y="3" z="7" spawntime="10"/>
-    <monster name="Madareth" x="20" y="3" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-22" y="3" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="20" y="3" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="24" y="3" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-19" y="4" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="10456" centery="10924" centerz="7" radius="30">
     <monster name="Spit Nettle" x="-4" y="-6" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-3" y="-6" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-3" y="-6" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-2" y="-6" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="-6" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-6" y="-5" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-8" y="-3" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="-6" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-6" y="-5" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-8" y="-3" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-9" y="-1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-10" y="0" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-10" y="1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-10" y="1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-10" y="2" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-11" y="3" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="4" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="4" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-12" y="5" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="6" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="6" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-12" y="7" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="8" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="8" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-12" y="9" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="11" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="10" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="11" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-13" y="12" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-12" y="13" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="15" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-11" y="17" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-6" y="21" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-6" y="22" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="15" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-11" y="17" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-6" y="21" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-6" y="22" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="10546" centery="10935" centerz="7" radius="30">
     <monster name="Spit Nettle" x="-10" y="-22" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-9" y="-22" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-9" y="-22" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-8" y="-22" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-7" y="-22" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-7" y="-22" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-6" y="-22" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-4" y="-22" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-12" y="-21" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-3" y="-20" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-4" y="-22" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-12" y="-21" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-3" y="-20" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-17" y="-17" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-18" y="-16" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-2" y="-16" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-20" y="-15" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-20" y="-15" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="-15" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-2" y="-14" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-2" y="-14" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="-13" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-23" y="-12" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="-12" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-29" y="-11" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="-12" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-29" y="-11" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-26" y="-11" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-24" y="-11" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-2" y="-11" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="-10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-2" y="-9" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="-6" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-2" y="-9" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="-6" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="-4" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="-2" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="-2" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="0" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="2" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="2" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="4" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-18" y="14" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-18" y="14" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-14" y="14" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-14" y="15" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-10" y="15" z="7" spawntime="10"/>
-    <monster name="Madareth" x="5" y="15" z="7" spawntime="10"/>
-    <monster name="Madareth" x="3" y="19" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-10" y="15" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="5" y="15" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="3" y="19" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="10391" centery="11018" centerz="7" radius="30">
     <monster name="Spit Nettle" x="-8" y="-13" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-9" y="-12" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-8" y="-12" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-7" y="-12" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-8" y="-11" z="7" spawntime="10"/>
-    <monster name="Madareth" x="4" y="-8" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-13" y="-2" z="7" spawntime="10"/>
-    <monster name="Madareth" x="6" y="-2" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-7" y="-12" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-8" y="-11" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="4" y="-8" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-13" y="-2" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="6" y="-2" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-7" y="1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-6" y="1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-4" y="1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-2" y="1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-6" y="1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-4" y="1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-2" y="1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="0" y="1" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-14" y="3" z="7" spawntime="10"/>
-    <monster name="Madareth" x="2" y="4" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-14" y="3" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="2" y="4" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="2" y="7" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-2" y="12" z="7" spawntime="10"/>
-    <monster name="Madareth" x="0" y="13" z="7" spawntime="10"/>
-    <monster name="Madareth" x="9" y="13" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-2" y="12" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="0" y="13" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="9" y="13" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="10" y="14" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="11" y="14" z="7" spawntime="10"/>
-    <monster name="Madareth" x="8" y="15" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="8" y="15" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="10" y="15" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="9954" centery="11024" centerz="7" radius="11">
@@ -3599,16 +3599,16 @@
     <monster name="Spit Nettle" x="7" y="-19" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-8" y="-18" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-2" y="-18" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="-18" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="-18" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-9" y="-17" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-8" y="-17" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-2" y="-17" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="-17" z="7" spawntime="10"/>
-    <monster name="Madareth" x="5" y="-17" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-7" y="-16" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-5" y="-16" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="-16" z="7" spawntime="10"/>
-    <monster name="Madareth" x="4" y="-15" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="-17" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="5" y="-17" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-7" y="-16" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-5" y="-16" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="-16" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="4" y="-15" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-5" y="-13" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-4" y="-13" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-3" y="-13" z="7" spawntime="10"/>
@@ -3616,42 +3616,42 @@
     <monster name="Spit Nettle" x="0" y="-13" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="3" y="-12" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="4" y="-12" z="7" spawntime="10"/>
-    <monster name="Madareth" x="3" y="-11" z="7" spawntime="10"/>
-    <monster name="Madareth" x="4" y="-11" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="3" y="-11" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="4" y="-11" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-5" y="-10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-4" y="-10" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-3" y="-10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-4" y="-7" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-4" y="-7" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="0" y="-7" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="1" y="-7" z="7" spawntime="10"/>
-    <monster name="Madareth" x="0" y="-6" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-5" y="-5" z="7" spawntime="10"/>
-    <monster name="Madareth" x="6" y="-4" z="7" spawntime="10"/>
-    <monster name="Madareth" x="6" y="-2" z="7" spawntime="10"/>
-    <monster name="Madareth" x="0" y="1" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="0" y="-6" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-5" y="-5" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="6" y="-4" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="6" y="-2" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="0" y="1" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="6" y="2" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="7" y="2" z="7" spawntime="11008"/>
-    <monster name="Madareth" x="6" y="3" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-4" y="4" z="7" spawntime="10"/>
-    <monster name="Madareth" x="1" y="4" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="6" y="3" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-4" y="4" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="1" y="4" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="1" y="6" z="7" spawntime="10"/>
-    <monster name="Madareth" x="4" y="6" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="4" y="6" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="3" y="8" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="4" y="8" z="7" spawntime="11008"/>
-    <monster name="Madareth" x="-3" y="9" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-3" y="9" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="1" y="10" z="7" spawntime="10"/>
-    <monster name="Madareth" x="3" y="11" z="7" spawntime="10"/>
-    <monster name="Madareth" x="1" y="12" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="13" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="3" y="11" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="1" y="12" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="13" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="14" z="7" spawntime="11008"/>
     <monster name="Spit Nettle" x="1" y="14" z="7" spawntime="11008"/>
     <monster name="Spit Nettle" x="3" y="14" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="15" z="7" spawntime="10"/>
-    <monster name="Madareth" x="1" y="15" z="7" spawntime="10"/>
-    <monster name="Madareth" x="3" y="15" z="7" spawntime="10"/>
-    <monster name="Madareth" x="-1" y="16" z="7" spawntime="10"/>
-    <monster name="Madareth" x="1" y="16" z="7" spawntime="10"/>
-    <monster name="Madareth" x="3" y="16" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="15" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="1" y="15" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="3" y="15" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="-1" y="16" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="1" y="16" z="7" spawntime="10"/>
+    <monster name="Master Boss" x="3" y="16" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="-1" y="17" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="1" y="17" z="7" spawntime="10"/>
     <monster name="Spit Nettle" x="3" y="17" z="7" spawntime="10"/>
