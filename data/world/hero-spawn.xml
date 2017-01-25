@@ -1174,7 +1174,7 @@
     <npc name="Capitao Caralho" x="-1" y="0" z="6" spawntime="10"/>
   </spawn>
   <spawn centerx="10050" centery="11385" centerz="6" radius="1">
-    <npc name="Info Vip" x="1" y="0" z="6" spawntime="60"/>
+    <npc name="Special Seller" x="1" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="9996" centery="11407" centerz="6" radius="1">
     <monster name="Poison spider" x="1" y="0" z="6" spawntime="60"/>
@@ -1480,7 +1480,7 @@
     <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1130" centery="1351" centerz="7" radius="1">
-    <npc name="Info Vip" x="0" y="0" z="7" spawntime="60"/>
+    <npc name="Special Seller" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1263" centery="1352" centerz="7" radius="1">
     <monster name="Lord Jetta" x="0" y="0" z="7" spawntime="60"/>
