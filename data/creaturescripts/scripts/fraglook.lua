@@ -58,17 +58,23 @@ function onLogin(cid)
 end
 
 
+--function getResets(cid)
+--	local query = db.getResult("SELECT `resets` FROM `players` WHERE `id`= "..getPlayerGUID(cid))
+--	return query:getDataInt("resets") <= 0 and 0 or query:getDataInt("resets")
+--end
+
+
 function onLook(cid, thing, position, lookDistance)
 
 	if isPlayer(thing.uid) and thing.uid ~= cid then
 
-		doPlayerSetSpecialDescription(thing.uid,' [Frags: '..getPlayerFrags(thing.uid)..']')
+		doPlayerSetSpecialDescription(thing.uid,' [Frags: '..getPlayerFrags(thing.uid)..']')--[Resets: '..getResets(thing.uid)..']')
 
 		return true
 
 	elseif thing.uid == cid then
 
-		doPlayerSetSpecialDescription(cid,' [Frags: '..getPlayerFrags(cid)..']')
+		doPlayerSetSpecialDescription(cid,' [Frags: '..getPlayerFrags(cid)..']')--[Resets: '..getResets(thing.uid)..']')
 
 		local string = 'You see yourself. (Level: '..getPlayerLevel(thing.uid)..')'
 
