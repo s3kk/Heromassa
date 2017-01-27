@@ -35,9 +35,6 @@ function onSay(cid, words, param, channel)
 	local var = getResets(cid)
 	local newPrice = config.price + (var * config.priceByReset)
 	local newminlevel = config.minlevel + (var * config.levelbyreset)
-	if param == "quantity" then
-		return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, 'You have a total of '..var..' reset(s).')
-	end
 	if var >= config.maxresets then
 		return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,'You already have reached the maximum of '.. config.maxresets.. ' resets!')
 	elseif getPlayerMoney(cid) < newPrice then
