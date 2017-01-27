@@ -78,6 +78,7 @@ loginTries = 5
 retryTimeout = 30 * 30
 loginTimeout = 30 * 30
 maxPlayers = 1000
+-- spoofPlayers = 0
 motd = "Bem vindo ao LoucoHero!"
 displayOnOrOffAtCharlist = false
 onePlayerOnlinePerAccount = false
