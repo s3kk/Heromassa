@@ -323,7 +323,7 @@ class Player : public Creature, public Cylinder
 		static uint64_t getExpForLevel(uint32_t lv)
 		{
 			lv--;
-			return ((50ULL * lv * lv * lv) - (150ULL * lv * lv) + (400ULL * lv)) / 3ULL;
+			return ((50ULL * lv * lv * lv) - (150ULL * lv * lv) + (400ULL * lv)) / 3ULL; //return ((150ULL * lv * lv) - (50ULL * lv * lv) + (1200ULL)) / 3ULL;
 		}
 
 		uint32_t getPromotionLevel() const {return promotionLevel;}

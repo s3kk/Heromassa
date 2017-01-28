@@ -76,7 +76,7 @@ function onLook(cid, thing, position, lookDistance)
 
 		doPlayerSetSpecialDescription(cid,' [Frags: '..getPlayerFrags(cid)..']')--[Resets: '..getResets(thing.uid)..']')
 
-		local string = 'You see yourself. (Level: '..getPlayerLevel(thing.uid)..')'
+		local string = 'You see yourself. (Level '..getPlayerLevel(thing.uid)..')'
 
 		if getPlayerFlagValue(cid, PLAYERFLAG_SHOWGROUPINSTEADOFVOCATION) then
 
