@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
-	<action itemid="7440" script="aloot.lua"/>
-	<action actionid="6001" script="buyitems.lua"/>
 	<action itemid="8306" event="script" value="upgrade.lua"/>
 	<action actionid="8763" event="script" value="gb.lua"/>
 
