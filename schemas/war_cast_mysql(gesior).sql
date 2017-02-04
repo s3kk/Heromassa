@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: Jan 20, 2017 as 02:50 
+-- Tempo de Geração: Fev 04, 2017 as 03:47 
 -- Versão do Servidor: 5.1.41
 -- Versão do PHP: 5.3.1
 
@@ -16,7 +16,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Banco de Dados: `test`
+-- Banco de Dados: `massa`
 --
 
 -- --------------------------------------------------------
@@ -39,6 +39,7 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `group_id` int(11) NOT NULL DEFAULT '1',
   `vip_time` int(11) NOT NULL DEFAULT '0',
   `backup_points` int(11) NOT NULL DEFAULT '0',
+  `loot_time` int(15) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
@@ -47,8 +48,8 @@ CREATE TABLE IF NOT EXISTS `accounts` (
 -- Extraindo dados da tabela `accounts`
 --
 
-INSERT INTO `accounts` (`id`, `name`, `password`, `salt`, `premdays`, `lastday`, `email`, `key`, `blocked`, `warnings`, `group_id`, `vip_time`, `backup_points`) VALUES
-(1, '1', '1', '', 0, 1451340395, '', '0', 0, 0, 1, 0, 0);
+INSERT INTO `accounts` (`id`, `name`, `password`, `salt`, `premdays`, `lastday`, `email`, `key`, `blocked`, `warnings`, `group_id`, `vip_time`, `backup_points`, `loot_time`) VALUES
+(1, '1', '1', '', 0, 1451340395, '', '0', 0, 0, 1, 0, 0, 0);
 
 --
 -- Gatilhos `accounts`
