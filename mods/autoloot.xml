@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <mod name="Loot System" version="1.0" author="Vodkart And Mkalo" contact="none.com" enabled="yes">
 <config name="Loot_func"><![CDATA[
-
 info = {
 	AutomaticDeposit = false,
 	BlockMonsters = {},
 	BlockItemsList = {},
 	Max_Slots = {free = 2, premium = 5},
-	Storages = {27000,28001,28002,28003}
+	Storages = {27000,28001,28002}
 }
-
+function getAutoLootTime(cid)
+	return db.getResult("SELECT `loot_time` FROM `accounts` WHERE `id` = "..getPlayerAccountId(cid)):getDataInt("loot_time")
+end
+function setAutoLootTime(cid, time)
+	return db.query("UPDATE `accounts` SET `loot_time` = "..time.." WHERE `id` = "..getPlayerAccountId(cid))
+end
+function getAutoLootDays(cid)
+	local days = math.ceil((getAutoLootTime(cid) - os.time())/(86400))
+	return days <= 0 and 0 or days
+end
+function addAutoLootDays(cid, days)
+	local add = (days <= 0 and 1 or days)*86400
+	local time = getAutoLootDays(cid) == 0 and (os.time() + add) or (getAutoLootTime(cid) + add)
+	return setAutoLootTime(cid, time) 
+end
 function setPlayerStorageTable(cid, storage, tab)
 	local tabstr = "&"
 	for i,x in pairs(tab) do
@@ -67,7 +80,7 @@ function removeItemTable(cid, item)
 	return setPlayerStorageTable(cid, info.Storages[1], x)
 end
 function ShowItemsTabble(cid)
-	local n,str = 0,"[+] Auto Loot Commands [+]\n\n!autoloot item name --> To add ou Remove item from list.\n!autoloot money --> To collect gold automatically.\n!autoloot clear --> To clear the list.\n!autoloot on/off --> To enable or disable the collecting of items in the system.\n\n[+] Auto Loot Info [+]\n\nSystem: "..(getPlayerStorageValue(cid, info.Storages[3]) <= 0 and "Disabled" or "Activated")..".\nItem Time: "..(getPlayerStorageValue(cid, info.Storages[4]) >= os.time() and "You AutoLoot time ends "..os.date("%d %B %Y %X", getPlayerStorageValue(cid,info.Storages[4])).."." or "no have Auto Loot time.").."\nGold Collecting: "..(getPlayerStorageValue(cid, info.Storages[2]) > 0 and "Activated" or "Disabled")..".\nBalance Total: ["..getPlayerBalance(cid).."] gp's.\nMaximum Slots: ["..#getPlayerStorageTable(cid, info.Storages[1]).."/"..(isPremium(cid) and info.Max_Slots.premium or info.Max_Slots.free).."]\n\n[+] Auto Loot Slots [+]\n\n"
+	local n,str = 0,"[+] Auto Loot Commands [+]\n\n!autoloot item name --> To add ou Remove item from list.\n!autoloot money --> To collect gold automatically.\n!autoloot clear --> To clear the list.\n!autoloot on/off --> To enable or disable the collecting of items in the system.\n\n[+] Auto Loot Info [+]\n\nSystem: "..(getPlayerStorageValue(cid, info.Storages[3]) <= 0 and "Disabled" or "Activated")..".\nTime: "..(getAutoLootTime(cid) > 0 and "you have ["..getAutoLootDays(cid).."] days --> ends in "..os.date("%d/%m/%y %X", getAutoLootTime(cid)).."." or "no have Auto Loot time.").."\nGold Collecting: "..(getPlayerStorageValue(cid, info.Storages[2]) > 0 and "Activated" or "Disabled")..".\nBalance Total: ["..getPlayerBalance(cid).."] gp's.\nMaximum Slots: ["..#getPlayerStorageTable(cid, info.Storages[1]).."/"..(isPremium(cid) and info.Max_Slots.premium or info.Max_Slots.free).."]\n\n[+] Auto Loot Slots [+]\n\n"
 	for i = 1,#getPlayerStorageTable(cid, info.Storages[1]) do
 		n = n + 1
 		str = str.."Slot "..n.." - "..getItemNameById(getPlayerStorageTable(cid, info.Storages[1])[i]).."\n"
@@ -185,7 +198,7 @@ end]]></event>
 <event type="kill" name="LootEventKIll" event="script"><![CDATA[
 domodlib('Loot_func')
 function onKill(cid, target, lastHit) 
-	if isPlayer(cid) and getPlayerStorageValue(cid, info.Storages[4]) >= os.time() and getPlayerStorageValue(cid, info.Storages[3]) > 0 and isMonster(target) and not isInArray(info.BlockMonsters, getCreatureName(target):lower()) then
+	if isPlayer(cid) and getAutoLootDays(cid) > 0 and getPlayerStorageValue(cid, info.Storages[3]) > 0 and isMonster(target) and not isInArray(info.BlockMonsters, getCreatureName(target):lower()) then
 		addEvent(corpseRetireItems, 0, cid ,getThingPos(target))
 	end
 	return true
@@ -229,11 +242,9 @@ return true]]></talkaction>
 domodlib('Loot_func')
 function onUse(cid, item, fromPosition, itemEx, toPosition) 
 	local days = 1
-	if getPlayerStorageValue(cid, info.Storages[4]) >= os.time() then 
-		doPlayerSendCancel(cid, "Sorry, you AutoLoot time ends "..os.date("%d %B %Y %X", getPlayerStorageValue(cid,info.Storages[4]))..".") return true
-	end
-	setPlayerStorageValue(cid, info.Storages[4], os.time()+days*86400)
-	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,"You received "..days.." days of AutoLoot, you AutoLoot time ends "..os.date("%d %B %Y %X", getPlayerStorageValue(cid,info.Storages[4]))..".")
+	addAutoLootDays(cid, days)
+	doSendMagicEffect(getCreaturePosition(cid), 29)
+	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,"You received "..days.." days of AutoLoot, you have "..getAutoLootDays(cid).." auto loot days.")
 	doRemoveItem(item.uid)
 	return true
 end]]></action>
