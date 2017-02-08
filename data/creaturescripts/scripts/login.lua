@@ -3,10 +3,6 @@ local config = {
 }
 
 function onLogin(cid)
-	local newsvoc = getPlayerStorageValue(cid, 21323)
-	if newsvoc > 4 then
-		doPlayerSetVocation(cid,newsvoc)
-	end
 	local loss = getConfigValue('deathLostPercent')
 	if(loss ~= nil) then
 		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, loss * 10)
@@ -36,17 +32,12 @@ function onLogin(cid)
 		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
 	end
 
+	
+	registerCreatureEvent(cid, "ZombieAttack")
 	registerCreatureEvent(cid, "Mail")
 	registerCreatureEvent(cid, "GuildMotd")
 	
-	-- Rush Event --
-	registerCreatureEvent(cid, "RushCombat")
-	registerCreatureEvent(cid, "RushAttack")
-	registerCreatureEvent(cid, "RushDead")
-	registerCreatureEvent(cid, "RushOutfit")
-
 registerCreatureEvent(cid, "killer")
-registerCreatureEvent(cid, "ZombieAttack")
 registerCreatureEvent(cid, "saiu")
 registerCreatureEvent(cid, "entrou")
 registerCreatureEvent(cid, "Idle")

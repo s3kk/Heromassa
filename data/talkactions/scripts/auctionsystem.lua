@@ -3,10 +3,10 @@ Offline player to player item trader (Auction System) by vDk
 Script version: 1.2a [ -- FIXED CLONE ITEMS BUG -- ]
 ]]--
 local config = {
-levelRequiredToAdd = 20,
+levelRequiredToAdd = 8,
 maxOffersPerPlayer = 5,
 SendOffersOnlyInPZ = true,
-blocked_items = {2165, 2152, 2148, 2160, 2166, 2167, 2168, 2169, 2202, 2203, 2204, 2205, 2206, 2207, 2208, 2209, 2210, 2211, 2212, 2213, 2214, 2215, 2343, 2433, 2640, 6132, 6300, 6301, 9932, 9933}
+blocked_items = {}
 }
 function onSay(cid, words, param, channel)
 if(param == '') then

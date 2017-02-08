@@ -25,7 +25,7 @@ guild_sto = getGlobalStorageValue(storages[3])
 if guild ~= guild_sto then 
 
 
-  doBroadcastMessage("O(a) jogador(a) "..getCreatureName(cid)..". esta tentando invadir O "..castle_one_name.." da guild \""..guildname..". Aviso aos atuais donos!", 22) 
+  doBroadcastMessage("O(a) Jogador "..getCreatureName(cid)..". Esta Tentando Invadir O "..castle_one_name.." Da Guild \""..guildname..". Aviso Donos Atuais", 22) 
 
 
 

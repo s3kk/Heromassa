@@ -25,7 +25,7 @@ UpgradeHandler = {
 
 		[3] = {75, false, false},
 
-		[4] = {60, true, false},
+		[4] = {60, false, false},
 
 		[5] = {45, true, false},
 
@@ -33,11 +33,11 @@ UpgradeHandler = {
 
 		[7] = {25, true, false},
 
-		[8] = {20, false, true},
+		[8] = {20, true, false},
 
-		[9] = {15, false, true},
+		[9] = {15, true, false},
 
-		[10] = {10, false, true}
+		[10] = {10, true, false}
 
 	},
 

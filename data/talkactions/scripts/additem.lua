@@ -1,29 +1,16 @@
-function onSay(cid, words, param)
-local find = string.find(param, ",")
-local name = string.sub(param, 1, find-1)
-local item = string.sub(param, find+1)
-local player = getPlayerByName(name)
-if getPlayerAccess(cid) == 5 then
-if isPlayer(player) then
-if (item == "left hand") then
-local item_uid = getPlayerSlotItem(cid,6)
-doRemoveItem(item_uid.uid,1)
-doPlayerAddItem(player,item_uid.itemid,item_uid.type)
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"envio concluido com sucesso. voce enviou o item com o id ".. item_uid.itemid .." para o jogador com o nick ".. name ..".")
-elseif (item == "right hand") then
-local item_uid = getPlayerSlotItem(cid,5)
-doRemoveItem(item_uid.uid,1)
-doPlayerAddItem(player,item_uid.itemid,item_uid.type)
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"envio concluido com sucesso. voce enviou o item com o id ".. item_uid.itemid .." para o jogador com o nick ".. name ..".")
-else
-doPlayerAddItem(player,item,1)
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"envio concluido com sucesso. voce enviou o item com o id ".. item .." para o jogador com o nick ".. name ..".")
+function onSay(cid, words, param, channel)
+local t = string.explode(param, ",")
+if t[1] ~= nil and t[2] ~= nil then
+local list = {}
+for i, tid in ipairs(getPlayersOnline()) do
+	list[i] = tid
+end
+for i = 1, #list do
+doPlayerAddItem(list[i],t[1],t[2])
+doBroadcastMessage(getPlayerName(cid) .. " Acabou de dar: " .. t[2] .." ".. getItemNameById(t[1]) .. " para todos os players online!")
 end
 else
-doPlayerSendCancel(cid,"o player não está online")
+doPlayerPopupFYI(cid, "No parm...\nSend:\n /itemadd itemid,how_much_items\nexample:\n /itemadd 2160,10")
 end
-else
-doPlayerSendCancel(cid,"Voce não é um gamemaster")
-end
-return TRUE
+return true
 end

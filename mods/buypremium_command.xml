@@ -4,7 +4,7 @@
 		config = {
 			days = 10,
 			cost = 10000,
-			maxDays = 30
+			maxDays = 365
 		}
 	]]></config>
 	<talkaction words="!buypremium; !pacc; !buyvip" event="buffer"><![CDATA[

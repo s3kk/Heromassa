@@ -70,7 +70,7 @@
     <voice sentence="Your soul will be mine!" yell="0"/>
   </voices>
   <loot>
- 	<item id="2160" countmax="100" chance="500000"/> -- gold coins
+ 	<item id="2160" countmax="100" chance1="100000" chancemax="500000"/> -- gold coins
  	<item id="2152" countmax="100" chance1="100000" chancemax="500000"/> -- gold coins
 	<item id="2152" countmax="3" chance1="33333" chancemax="2000"/> --Plat
  	<item id="2514" chance="1900"/> --mastermind shield

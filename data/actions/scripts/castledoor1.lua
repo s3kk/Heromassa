@@ -3,7 +3,7 @@ function onUse(cid, item, frompos, item2, topos)
         local config =
         {
                 STORAGE_GUILD = 123123, -- A 3ª storage configurada em Castle.lua
-                MSG_WELCOME = "Seja bem vindo(a) ao vosso castelo!",
+                MSG_WELCOME = "Seja bem vindo a vosso castelo!",
                 MSG_FAIL = "Este castelo nao pertence a sua guild"
         }
  

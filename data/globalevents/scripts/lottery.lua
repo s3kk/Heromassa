@@ -1,6 +1,5 @@
 local premio = {
-[1] = {item = 9971, count = 2},
-[2] = {item = 7443, count = 1}
+[1] = {item = 8306, count = 1},
 }
 
 local configs = {
@@ -26,7 +25,7 @@ for i = 1, winners do
         doPlayerAddItem(playerwin, premio[e].item, premio[e].count)
         doBroadcastMessage("[" .. i .. "ST PLACE] Winner: " .. getCreatureName(playerwin) .. ", Reward: " .. premio[e].count .. " " .. getItemNameById(premio[e].item) .. ", Congratulations!")
         if i == winners then
-                doBroadcastMessage("(PrÃ³xima loteria em 2 horas.)")
+                doBroadcastMessage("(Próxima loteria em 1 hora.)")
         end
         doSendMagicEffect(getThingPos(playerwin), 12)
 end

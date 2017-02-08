@@ -66,6 +66,7 @@
       <inside>
         <item id="7449" chance="2455"/> --Crystal Sword
         <item id="2477" chance="1300"/> --Knight Legs
+        <item id="7364" countmax="7" chance1="4777" chancemax="0"/> --Sniper Arrows
         <item id="7290" chance="2000"/> --Shard
 		<item id="7441" chance="5000"/> --Ice Cube
 		<item id="7902" chance="1800"/> --Glacier mask

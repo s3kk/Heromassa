@@ -1,7 +1,7 @@
 function onUse(cid, item, frompos, item2, topos)
 if item.uid == 8851 then
 queststatus = getPlayerStorageValue(cid,2390)
-if queststatus == -1 then
+if queststatus <= 0 then
 doPlayerSendTextMessage(cid,22,"Você encontrou 1 royal crossbow!.")
 doPlayerAddItem(cid,8851,1 )
 doPlayerAddItem(cid,2160,100 )

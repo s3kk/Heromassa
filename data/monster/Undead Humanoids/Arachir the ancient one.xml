@@ -51,6 +51,10 @@
     <voice sentence="I exist since eons and you want to defy me?"/>
 	<voice sentence="Can you feel the passage of time, mortal?"/>
   </voices>
+    <summons maxSummons="2">
+		<summon name="Lich" interval="9000" chance="100"/>
+		<summon name="Lich" interval="9000" chance="100"/>
+	</summons>
  <loot>
     <item id="2148" countmax="98" chance1="100000"/>	-- gold coin
 	<item id="2152" countmax="5" chance1="50000"/> --Platinum AMulet

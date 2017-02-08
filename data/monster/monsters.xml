@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <monsters>
-	<!-- Castle24H -->
-	<monster name="Protect Statue" file="Traps/statue.xml"/>
-	<monster name="Castle" file="Traps/porta.xml"/>
-	<monster name="Protect Castle" file="Traps/protectcastle.xml"/>
 
-	<!-- Zombie Event -->
+	<!-- Castle -->
+	<monster name="Protect Statue" file="statue.xml"/>
+	<monster name="Castle" file="porta.xml"/>
+	<monster name="Protect Castle" file="protectcastle.xml"/>
+	
+	<!-- Zombie -->
 	<monster name="Zombie Event" file="zombie_event.xml"/>
-
+	
 	<!--8.4-->
-	<monster name="Lord Jetta" file="jetta.xml"/>
-	<monster name="Lord Passat" file="passat.xml"/>
-<monster name="Acid Blob" file="8.4/acid blob.xml"/>
+	<monster name="Training Monk" file="training monk.xml"/>
+	<monster name="Acid Blob" file="8.4/acid blob.xml"/>
 	<monster name="Crazed Beggar" file="8.4/Crazed Beggar.xml"/>
 	<monster name="Medusa" file="Medusa.xml"/>
 	<monster name="Damaged worker golem" file="8.4/damaged worker golem.xml"/>
@@ -37,7 +37,7 @@
 	<monster name="Worker golem" file="8.4/worker golem.xml"/>	
 	<monster name="Zombie" file="8.4/Zombie.xml"/>
 	<monster name="Pythius the Rotten" file="8.4/Pythius the rotten.xml"/>
-<monster name="Lavahole" file="8.4/lavahole.xml"/>
+	<monster name="Lavahole" file="8.4/lavahole.xml"/>
 	<monster name="Yalahari" file="yalahari.xml"/>
 	<monster name="Diseased Dan" file="Diseased Dan.xml"/>
 	<monster name="Ortheus" file="outlaws/bandit.xml"/>
@@ -46,7 +46,6 @@
 	<monster name="diseased bill" file="outlaws/bandit.xml"/>
 	<monster name="Tamerin" file="outlaws/bandit.xml"/>
 	<monster name="Seagull" file="birds/seagull.xml"/>
-	<monster name="Parrot" file="birds/parrot.xml"/>
 	<monster name="Butterfly" file="insects/pink butterfly.xml"/>
 	<monster name="Undead gladiator" file="8.4/undead gladiator.xml"/>
 	<monster name="The Incendier" file="custom/The Incendier.xml"/>
@@ -168,7 +167,6 @@
 	<monster name="Bazir" file="Demon Bosses/Bazir.xml"/>
 	<monster name="lady vampire" file="Demon Bosses/lady vampire.xml"/>
 	<monster name="dark elven" file="Demon Bosses/dark elven.xml"/>
-	<monster name="Black bull" file="Demon Bosses/black bull.xml"/>
 	<monster name="tripitin" file="Demon Bosses/tripitin.xml"/>
 	<monster name="kondao fodao" file="Demon Bosses/kondao fodao.xml"/>
 	<monster name="lightbr boss" file="Demon Bosses/lightbr boss.xml"/>
@@ -184,7 +182,7 @@
 	<monster name="tentox" file="Demon Bosses/tentox.xml"/>
 	<monster name="Morgaroth" file="Demon bosses/morgaroth.xml"/>
 	<monster name="Orshabaal" file="Demon bosses/orshabaal.xml"/>
-	<monster name="Master Boss" file="Demon Bosses/Master Boss.xml"/>
+	<monster name="Master Boss" file="Demon Bosses/Madareth.xml"/>
 	<monster name="Black Boss" file="Demon Bosses/Black Boss.xml"/>
 	<monster name="Ice Demon" file="Demon Bosses/Ice Demon.xml"/>
 	
@@ -366,14 +364,15 @@
 	<monster name="Pig" file="misc/pig.xml"/>
 	<monster name="Rabbit" file="misc/rabbit.xml"/>
 	<monster name="Silver Rabbit" file="misc/silver rabbit.xml"/>
-	<monster name="Goblin Demon" file="misc/Goblin Demon.xml"/>
 
 	<!-- Monks -->
 	<monster name="Dark Monk" file="monks/dark monk.xml"/>
 	<monster name="Monk" file="monks/monk.xml"/>
 	<monster name="tha exp carrier" file="monks/tha exp carrier.xml"/>
 	<monster name="Fernfang" file="monks/Fernfang.xml"/>
-    <monster name="Training Monk" file="training monk.xml"/>
+        <monster name="Trainer" file="monks/Training.xml"/>
+        <monster name="Baiak Pancada" file="monks/Baiak Pancada.xml"/>
+        <monster name="Training" file="monks/xD.xml"/>
 	
 	<!-- Necromancers -->
 	<monster name="Necromancer" file="necromancers/necromancer.xml"/>
@@ -507,7 +506,6 @@
 	<monster name="Annihilon" file="The ruthless seven minions/Annihilon.xml"/>
 	<monster name="Hellgorak" file="The ruthless seven minions/Hellgorak.xml"/>
 	<monster name="Latrivan" file="The ruthless seven minions/Latrivan.xml"/>
-	<monster name="Madaretth" file="The ruthless seven minions/Madareth.xml"/>
 	<monster name="Zugurosh" file="The ruthless seven minions/Zugurosh.xml"/>
 	<monster name="Ushuriel" file="The ruthless seven minions/Ushuriel.xml"/>
 	<monster name="Golgordan" file="The ruthless seven minions/Golgordan.xml"/>
@@ -554,6 +552,7 @@
 	<monster name="frost dragon vip" file="vip/frost dragon vip.xml"/>		
 
 	<!-- Custom  monsters by EldinWorld (a.k.a Eldin) -->
+	<monster name="Trainedr" file="Custom monsters by eldin/trainer.xml"/>
 	<monster name="Forest Dragon" file="Custom monsters by eldin/forest dragon.xml"/>
 	<monster name="Knight" file="Custom monsters by eldin/knight.xml"/>
 	<monster name="Paladin" file="Custom monsters by eldin/paladin.xml"/>

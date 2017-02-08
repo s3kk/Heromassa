@@ -40,6 +40,7 @@
   </voices>
 	<loot>
 		<item id="2148" chance="100000" countmax="40" /> -- gold coin
+		<item id="1294" chance="2500" countmax="3" /> -- small stone
 		<item id="5883" chance="1000" countmax="1" /> -- ape fur
 		<item id="1987" chance="100000" > -- bag
 			<inside>

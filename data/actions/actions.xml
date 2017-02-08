@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	
+	<!-- Upgrade -->
 	<action itemid="8306" event="script" value="upgrade.lua"/>
-	<action actionid="8763" event="script" value="gb.lua"/>
-
+	
 	<!-- Castle 24Hrs -->
         <action actionid="9999" event="script" value="castlewar1.lua"/>
         <action actionid="4538" event="script" value="castledoor1.lua"/>
-
+		
 	<!-- Supreme Attack Quest -->
 	<action uniqueid="9995" script="armas.lua" />
 	<action uniqueid="9996" script="armas.lua" />
 	<action uniqueid="9997" script="armas.lua" />
 	<action uniqueid="9998" script="armas.lua" />
 	<action uniqueid="9999" script="armas.lua" />
+	
 	<!-- Quests -->
 	<action itemid="2109" script="dominio.lua" />
-	<action itemid="1259;1261;9281;9277" script="porta hero.lua"/>
+	<action itemid="9281;9277" script="porta hero.lua"/>
         <action uniqueid="7407" event="script" value="haunted.lua"/>
         <action uniqueid="15043" event="script" value="clickfood.lua"/>
         <action uniqueid="3738" event="script" value="frostvip.lua"/>
@@ -24,6 +26,7 @@
 <action itemid="11213" event="script" value="itemmana.lua"/>
         <action uniqueid="2550" event="script" value="items.lua"/>
         <action uniqueid="2640" event="script" value="soft.lua"/>
+        <action uniqueid="8851" event="script" value="royal.lua"/>
         <action uniqueid="2390" event="script" value="magic.lua"/>
         <action uniqueid="3000" event="script" value="level required.lua"/>
         <action itemid="6527" event="script" value="addon.lua"/>
@@ -35,6 +38,7 @@
 	<action actionid="3000" script="level required.lua"/>
 	<action actionid="2001" script="quests/system.lua"/>
 	<action uniqueid="30015" script="quests/annihilator.lua"/>
+<action uniqueid="7001" script="arenapvp.lua" />
 
 	<!-- Enchant system -->
 <action uniqueid="2133" script="shrinetele.lua" />
@@ -80,7 +84,7 @@
 	<action itemid="3942" script="liquids/containers.lua"/>
 	<action itemid="5553" script="liquids/containers.lua"/>
 	<action itemid="6558" script="liquids/demonic_blood.lua"/>
-        <action uniqueid="7001" script="arena.lua"/>
+
 
 <action itemid="1740" script="quests/quest.lua" />
 <action itemid="1747" script="quests/quest.lua" />
@@ -204,14 +208,8 @@
 	<action fromid="6450" toid="6473" script="other/windows.lua"/>
 	<action fromid="6788" toid="6791" script="other/windows.lua"/>
 	<action fromid="7025" toid="7032" script="other/windows.lua"/>	
-
-	
-<action fromid="1219" toid="1258" script="other/doors.lua"/>
-<action itemid="1260" script="other/doors.lua"/>
-<action itemid="1262" script="other/doors.lua"/>
-<action itemid="1212" script="other/doors.lua"/>
-<action itemid="1215" script="other/doors.lua"/>
-<action fromid="1213" toid="1214" script="other/doors.lua"/>
+<action fromid="1219" toid="1262" script="other/doors.lua"/>
+<action fromid="1212" toid="1215" script="other/doors.lua"/>
 <action fromid="1210" toid="1211" script="other/doors.lua"/>
 <action fromid="1539" toid="1542" script="other/doors.lua"/>
 <action fromid="2086" toid="2092" script="other/doors.lua"/>
@@ -233,9 +231,9 @@
 <action fromid="9165" toid="9184" script="other/doors.lua"/>
 <action fromid="9267" toid="9186" script="other/doors.lua"/>
 
-<action itemid="5791" script="other/stuffeddragon.lua"/>
-<action itemid="6566" script="other/stuffeddragon.lua"/>
-<action itemid="1877" script="other/watch.lua"/>
+	<action itemid="5791" script="other/stuffeddragon.lua"/>
+	<action itemid="6566" script="other/stuffeddragon.lua"/>
+	<action itemid="1877" script="other/watch.lua"/>
 
 
 <action itemid="1857" script="tapestries.lua"  />
@@ -258,7 +256,7 @@
 
 <action itemid="1856" script="tapestries.lua"  />
 <action itemid="1859" script="tapestries.lua"  />
-<action uniqueid="20444" event="script" value="bowse.lua"/>
+        <action uniqueid="20444" event="script" value="bowse.lua"/>
 <action itemid="1862" script="tapestries.lua"  />
 <action itemid="1865" script="tapestries.lua"  />
 <action itemid="1868" script="tapestries.lua"  />
@@ -324,7 +322,6 @@
 <action uniqueid="4787" script="quests/boots.lua" />
 <action uniqueid="8852" script="palyarrow.lua" />
 
-
 <action uniqueid="2000" script="switchdemon.lua" />
 <action uniqueid="8989" script="inquisa.lua" />
 <action uniqueid="7771" script="putz.lua" />
@@ -341,7 +338,7 @@
 <action uniqueid="9003" script="dragoninvasion.lua" />
 <action uniqueid="9004" script="undeadinvasion.lua" />
 
------begin bryan scripts-----
+
 <action uniqueid="3021" script="hellhounds.lua" />
 <action itemid="2307" script="firerune.lua" allowfaruse="1" />
 
@@ -360,6 +357,7 @@
 
 <action uniqueid="3002" script="fullset.lua" />
 <action uniqueid="3003" script="fullset2.lua" />
+
 
 <action uniqueid="5058" script="pitschest.lua" />
 <action uniqueid="5059" script="pitschest.lua" />
@@ -381,7 +379,7 @@
 <action actionid="1002" script="quests/testq.lua" />
 
 <action uniqueid="5957" script="quests/poichest.lua"/>
-<action uniqueid="5956" script="quests/poichest.lua"/>
+<action uniqueid="1099" script="quests/poichest.lua"/>
 <action uniqueid="5955" script="quests/poichest.lua"/>
 <action uniqueid="5954" script="quests/poichest.lua"/>
 <action uniqueid="5953" script="quests/poichest.lua"/>
@@ -396,6 +394,7 @@
 <action uniqueid="5946" script="quests/begin_chest.lua"/>
 <action uniqueid="5990" script="quests/grin armor.lua"/>
 <action uniqueid="5901" script="quests/robe.lua"/>
+<action uniqueid="4453" event="script" value="quests/bots.lua"/>
 <action uniqueid="5910" script="quests/ele.lua"/>
 <action uniqueid="5991" script="quests/grim quest.lua"/>
 <action uniqueid="5992" script="quests/frost quest.lua"/>
@@ -465,7 +464,7 @@
 <action uniqueid="4549" script="quests/hallowed.lua"/>
 
 <action itemid="10223" event="script" value="tools/mechanical_fishing.lua" allowfaruse="1"/>
-<action fromid="10511" toid="10516" event="script" value="tools/all.lua"/>
+action fromid="10511" toid="10516" event="script" value="tools/all.lua"/>
 <action itemid="9930" event="script" value="tools/rust_remover.lua"/>
 
 <!-- SvargrondArena -->

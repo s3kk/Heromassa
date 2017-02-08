@@ -1,6 +1,6 @@
 function onStepIn(cid, item, position, fromPosition)
 
-level = 100
+level = 8
 
 if getPlayerLevel(cid) < level then
 doTeleportThing(cid, fromPosition, true)

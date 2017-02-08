@@ -15,8 +15,7 @@ function onUse(cid, item, frompos, item2, topos)
 				queststatus = getPlayerStorageValue(cid,100)
 			if queststatus ~= 1 then
 				doPlayerSendTextMessage(cid,22,"Parabens, voce recebeu seu premio!")
-				doPlayerAddItem(cid,7364,1)
-				doPlayerAddItem(cid,8851,1)
+				doPlayerAddItem(cid,7366,1)
 				setPlayerStorageValue(cid,100,1)
 		else
 				doPlayerSendTextMessage(cid,22,"Voce ja recebeu seu premio.")

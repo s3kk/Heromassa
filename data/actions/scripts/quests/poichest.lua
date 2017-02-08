@@ -11,7 +11,7 @@ function onUse(cid, item, frompos, item2, topos)
    		else
    			doPlayerSendTextMessage(cid,22,"It is empty.")
    		end
-   	elseif item.uid == 5956 then
+   	elseif item.uid == 1099 then
    		queststatus = getPlayerStorageValue(cid,5956)
    		if queststatus == -1 then
    			doPlayerSendTextMessage(cid,22,"You have found a Stuffed Dragon.")

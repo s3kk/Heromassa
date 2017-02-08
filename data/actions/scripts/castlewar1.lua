@@ -14,7 +14,7 @@ local storages = {154154,54321,123123}               -- Storages ( se vc eh inic
 
 -------PREMIOs  I N D I V I D U A L ---------
 
-local premio_por_vezes = 0         -- Premio por vezes de conquista de castelo. (1) = Ativo  (0) = Desativa. 
+local premio_por_vezes = 1         -- Premio por vezes de conquista de castelo. (1) = Ativo  (0) = Desativa. 
 local premio_vezes = 15            -- Caso ativo, a quantidade de conquista que o player tem, para ganhar PREMIO.
 local premio = 5468                -- ID do Premio
 local premio_cont = 1              -- Quantidade do Premio
@@ -51,15 +51,15 @@ position = getCreaturePosition(cid)
                
                sto_vezes_total = getPlayerStorageValue(cid,storages[1])
                         
-               doBroadcastMessage("O(a) "..getCreatureName(cid).." acabou de conquistar o castelo "..castle_one_name.." para a guild \""..guildname.."\" pela "..sto_vezes_total.."ª vez(es).", 22)
+               doBroadcastMessage("O(a) "..getCreatureName(cid).." acabou de conquistar o castelo "..castle_one_name.." para a guild \""..guildname.."\" pela "..sto_vezes_total.."ª vez(s).", 22)
                doSendMagicEffect(position, 39)  
                  
                  if premio_por_vezes == 1 then
                     if getPlayerStorageValue(cid,storages[1]) == premio_vezes then
                        if getItemWeightById(premio,1) <= getPlayerFreeCap(cid) then
-                          doBroadcastMessage("O "..getCreatureName(cid).." ganhou um(a) "..getItemNameById(premio).." como recompensa de suas "..premio_vezes.." conquistas!", 21)
+                          doBroadcastMessage("O "..getCreatureName(cid).." ganhou uma(o) "..getItemNameById(premio).." como recompensa das suas "..premio_vezes.." conquistas!", 21)
                           doPlayerAddItem(cid, premio,premio_cont)
-                          doPlayerSendTextMessage(cid, 18, "Voce recebeu o(a) "..getItemNameById(premio).." como recompensa de suas "..premio_vezes.." conquistas!")
+                          doPlayerSendTextMessage(cid, 18, "Voce recebeu o(a) "..getItemNameById(premio).." como recompensa das suas "..premio_vezes.." conquistas!")
                         -----------------------------------------------  --  
                             if premio_reset == 1 then                    --
                                setPlayerStorageValue(cid,storages[1],0)  --  Resetar a contagem

@@ -3,7 +3,9 @@ function onThink(interval, lastExecution)
 -- Configurações
 local cor = 22 -- Defina a cor da mensagem (22 = branco)
 local mensagens ={
-[[Upgrade System do 0 ao 10 para weapons melee, armaduras, shields e arcos. Upgrade Stone através do Zombie Event e Battlefield!!!
+[[Pessoal Para Saber como Comprar Skills Digite !notice....Tem Comando !service,Ex: !service Escreve Alguma Coisa Aqui,0)
+
+
 ]]
 }
 

@@ -1,11 +1,11 @@
 function executeClean()
 	doCleanMap()
-	doBroadcastMessage("Next clean in 30 minutes.")
+	doBroadcastMessage("Proximo Clean em 1 Hr.")
 	return true
 end
 
 function onThink(interval, lastExecution, thinkInterval)
-	doBroadcastMessage("Clean in 30 seconds, please take your items!")
-	addEvent(executeClean, 30000)
+	doBroadcastMessage("Clean no mapa em 30 segundos,por favor peguem seus itens!")
+	addEvent(executeClean, 3000000)
 	return true
 end

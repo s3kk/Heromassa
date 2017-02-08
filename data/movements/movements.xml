@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
-	<!-- Castle24H -->
-	<movevent type="StepIn" actionid="1500" event="script" value="viptile.lua" />
+
+	<!-- Castle -->
 	<movevent type="StepIn" actionid="9998" event="script" value="castlewar2.lua"/>
 	<movevent type="StepIn" actionid="9995" event="script" value="level.lua"/>
 	
-	<!-- Zombie Event -->
-	<movevent type="StepIn" actionid="5555" event="script" value="zombie/onenter.lua"/>
-
-	<!-- Battle Field -->
+	<!-- BF -->
 	<movevent type="StepIn" actionid="45000" event="script" value="BattleMovements.lua"/>
 	
+	<!-- Zombie -->
+	<movevent type="StepIn" actionid="5555" event="script" value="zombie/onenter.lua"/>
+
 	<!-- Decaying tiles -->
         <movevent type="AddItem" tileitem="0" itemid="2109" event="script" value="fut.lua"/>
         <movevent type="StepIn" itemid="9742" event="script" value="car.lua"/>

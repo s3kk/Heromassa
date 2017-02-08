@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<monster name="Exp Bug" namedescription="an Exp Bug" race="venom" experience="999999999" speed="99999" manacost="250">
-  <health now="1" max="1"/>
+<monster name="Exp Bug" namedescription="an Exp Bug" race="venom" experience="20000000" speed="1" manacost="250">
+  <health now="5000000" max="5000000"/>
   <look type="45" head="20" body="30" legs="40" feet="50" corpse="5990"/>
   <targetchange interval="2000" chance="0"/>
   <strategy attack="100" defense="0"/>
@@ -8,11 +8,11 @@
     <flag summonable="0"/>
     <flag attackable="1"/>
     <flag hostile="1"/>
-    <flag illusionable="0"/>
-    <flag convinceable="0"/>
-    <flag pushable="0"/>
-    <flag canpushitems="1"/>
-    <flag canpushcreatures="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
     <flag targetdistance="1"/>
     <flag staticattack="90"/>
     <flag runonhealth="0"/>

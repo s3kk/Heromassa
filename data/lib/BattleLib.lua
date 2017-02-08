@@ -1,12 +1,12 @@
 _Lib_Battle_Info = {
 Reward = {
-exp = {true, 150000}, items = {true, 7440, 2}, items2 = {true, 8306, 2}, premium_days = {false, 2}
+exp = {false, 100}, items = {true, 8306, 10}, premium_days = {false, 2}, t = {true, 7440, 2}
 },
-TeamOne = {name = "Black Assassins", storage = 140120, pos = {x=10287,y=9948,z=7}},
-TeamTwo = {name = "Red Barbarians",storage = 140121,pos = {x=10319,y=9948,z=7}},
+TeamOne = {name = "Black Assassins", storage = 140120, pos = {x=10283,y=9953,z=7}},
+TeamTwo = {name = "Red Barbarians",storage = 140121,pos = {x=10313,y=9953,z=7}},
 storage_count = 180400,
-tpPos = {x=10157, y=10053, z=7},
-limit_Time = 2 -- em minutos
+tpPos = {x=10167, y=10053, z=7},
+limit_Time = 5 -- limite de tempo para adentrar o evento
 }
 function resetBattle()
 setGlobalStorageValue(_Lib_Battle_Info.TeamOne.storage, 0)
@@ -14,10 +14,10 @@ setGlobalStorageValue(_Lib_Battle_Info.TeamTwo.storage, 0)
 end
 function OpenWallBattle()
 local B = {
-{3517,{x=10303, y=9946, z=6, stackpos = 1}},
-{3517,{x=10303, y=9947, z=6, stackpos = 1}},
-{3517,{x=10303, y=9948, z=6, stackpos = 1}},
-{3517,{x=10303, y=9949, z=6, stackpos = 1}}
+{3517,{x=10298, y=9951, z=7, stackpos = 1}},
+{3517,{x=10298, y=9952, z=7, stackpos = 1}},
+{3517,{x=10298, y=9953, z=7, stackpos = 1}},
+{3517,{x=10298, y=9954, z=7, stackpos = 1}}
 }
 for i = 1, #B do
 if getTileItemById(B[i][2], B[i][1]).uid == 0 then
@@ -44,7 +44,7 @@ for _, cid in pairs(getPlayersOnline()) do
 if getPlayerStorageValue(cid, storage) == 1 then
 if _Lib_Battle_Info.Reward.exp[1] == true then doPlayerAddExperience(cid, _Lib_Battle_Info.Reward.exp[2]) end
 if _Lib_Battle_Info.Reward.items[1] == true then doPlayerAddItem(cid, _Lib_Battle_Info.Reward.items[2], _Lib_Battle_Info.Reward.items[3]) end
-if _Lib_Battle_Info.Reward.items2[1] == true then doPlayerAddItem(cid, _Lib_Battle_Info.Reward.items2[2], _Lib_Battle_Info.Reward.items2[3]) end
+if _Lib_Battle_Info.Reward.t[1] == true then doPlayerAddItem(cid, _Lib_Battle_Info.Reward.t[2], _Lib_Battle_Info.Reward.t[3]) end
 if _Lib_Battle_Info.Reward.premium_days[1] == true then doPlayerAddPremiumDays(cid, _Lib_Battle_Info.Reward.premium_days[2]) end
 doRemoveCondition(cid, CONDITION_OUTFIT)
 doTeleportThing(cid, getTownTemplePosition(getPlayerTown(cid)))

@@ -410,10 +410,6 @@
   <spawn centerx="14259" centery="14222" centerz="5" radius="10"/>
   <spawn centerx="14152" centery="14244" centerz="5" radius="5"/>
   <spawn centerx="14275" centery="14255" centerz="5" radius="10"/>
-  <spawn centerx="1101" centery="1306" centerz="6" radius="1"/>
-  <spawn centerx="1109" centery="1306" centerz="6" radius="1"/>
-  <spawn centerx="1144" centery="1316" centerz="6" radius="1"/>
-  <spawn centerx="1100" centery="1319" centerz="6" radius="1"/>
   <spawn centerx="10123" centery="9901" centerz="6" radius="5"/>
   <spawn centerx="10127" centery="9903" centerz="6" radius="5">
     <monster name="Dragon" x="2" y="0" z="6" spawntime="60"/>
@@ -455,6 +451,9 @@
     <monster name="Dragon" x="4" y="4" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="10111" centery="9923" centerz="6" radius="5"/>
+  <spawn centerx="10160" centery="10048" centerz="6" radius="1">
+    <npc name="Treinador" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="10128" centery="10050" centerz="6" radius="1">
     <npc name="Dark Rodo" x="1" y="0" z="6" spawntime="60"/>
   </spawn>
@@ -491,6 +490,144 @@
   <spawn centerx="10122" centery="10085" centerz="6" radius="5">
     <monster name="Cyclops" x="-2" y="3" z="6" spawntime="15"/>
   </spawn>
+  <spawn centerx="10473" centery="10085" centerz="6" radius="30">
+    <monster name="Elf Scout" x="12" y="-13" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="14" y="-13" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="16" y="-13" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="18" y="-13" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="-9" y="-12" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="-7" y="-12" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="-5" y="-12" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="-3" y="-12" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="-12" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="13" y="-11" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="15" y="-11" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="17" y="-11" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="19" y="-11" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-17" y="-9" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-9" y="-9" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="1" y="-9" z="6" spawntime="30"/>
+    <monster name="Mummy" x="7" y="-9" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="12" y="-9" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="20" y="-9" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-17" y="-8" z="6" spawntime="30"/>
+    <monster name="Mummy" x="-16" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-13" y="-8" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-9" y="-8" z="6" spawntime="30"/>
+    <monster name="Mummy" x="-5" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-4" y="-8" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="1" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="6" y="-8" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="12" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="15" y="-8" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="20" y="-8" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="24" y="-8" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-17" y="-7" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-9" y="-7" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="1" y="-7" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="12" y="-7" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="20" y="-7" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="13" y="-5" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="15" y="-5" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="17" y="-5" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="19" y="-5" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="-19" y="-4" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="-9" y="-4" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="-7" y="-4" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="-5" y="-4" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="-3" y="-4" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="-4" z="6" spawntime="10496"/>
+    <monster name="Mummy" x="26" y="-4" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="12" y="-3" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="14" y="-3" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="16" y="-3" z="6" spawntime="10496"/>
+    <monster name="Elf Scout" x="18" y="-3" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-20" y="-1" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-19" y="-1" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-18" y="-1" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="26" y="3" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="21" y="5" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="23" y="6" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="25" y="6" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="26" y="6" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="27" y="6" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="21" y="7" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="23" y="8" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="11" y="9" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="21" y="9" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="26" y="9" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="8" y="10" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="11" y="10" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="23" y="10" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="11" y="11" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="13" y="11" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="28" y="11" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="3" y="12" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="11" y="12" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="28" y="12" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="0" y="13" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="1" y="13" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="13" y="13" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="28" y="13" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="1" y="14" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-30" y="15" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-29" y="15" z="6" spawntime="30"/>
+    <monster name="Mummy" x="-1" y="15" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="1" y="15" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-3" y="16" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="-1" y="16" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="1" y="16" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="12" y="16" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="13" y="16" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="14" y="16" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="15" y="16" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="16" y="16" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="-30" y="17" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-3" y="17" z="6" spawntime="10496"/>
+    <monster name="Mummy" x="-29" y="18" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-3" y="18" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="13" y="18" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-9" y="19" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-5" y="19" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-3" y="19" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-9" y="20" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="-7" y="20" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-3" y="20" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-30" y="21" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-29" y="21" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-28" y="21" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-27" y="21" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-9" y="21" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="10" y="21" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-9" y="22" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="-29" y="23" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-25" y="23" z="6" spawntime="30"/>
+    <monster name="Mummy" x="-12" y="23" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-25" y="24" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-17" y="24" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="9" y="24" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="10" y="24" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="11" y="24" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-25" y="25" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="-24" y="25" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-20" y="25" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-17" y="25" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="-13" y="25" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="23" y="25" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-25" y="26" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-17" y="26" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="23" y="26" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-17" y="27" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="10" y="27" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="17" y="27" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="23" y="27" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="25" y="27" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="23" y="28" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="30" y="28" z="6" spawntime="30"/>
+    <monster name="Mummy" x="27" y="29" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="30" y="29" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="30" y="30" z="6" spawntime="10496"/>
+  </spawn>
   <spawn centerx="10113" centery="10087" centerz="6" radius="5">
     <monster name="Cyclops" x="-3" y="-1" z="6" spawntime="60"/>
     <monster name="Cyclops" x="1" y="-1" z="6" spawntime="60"/>
@@ -506,6 +643,30 @@
     <monster name="Valkyrie" x="0" y="-2" z="6" spawntime="60"/>
     <monster name="Amazon" x="0" y="-1" z="6" spawntime="60"/>
     <monster name="Amazon" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="10448" centery="10092" centerz="6" radius="30">
+    <monster name="Elf Scout" x="-14" y="2" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="-12" y="2" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-9" y="3" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-14" y="4" z="6" spawntime="30"/>
+    <monster name="Mummy" x="-13" y="4" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-12" y="4" z="6" spawntime="30"/>
+    <monster name="Mummy" x="-11" y="4" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-10" y="4" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-9" y="4" z="6" spawntime="30"/>
+    <monster name="Mummy" x="-7" y="4" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-9" y="5" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="-7" y="5" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="-13" y="6" z="6" spawntime="30"/>
+    <monster name="Elf Scout" x="-11" y="6" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="-8" y="8" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-7" y="8" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-6" y="8" z="6" spawntime="10496"/>
+  </spawn>
+  <spawn centerx="10461" centery="10092" centerz="6" radius="30"/>
+  <spawn centerx="10475" centery="10092" centerz="6" radius="30">
+    <monster name="Mummy" x="30" y="5" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="28" y="24" z="6" spawntime="10496"/>
   </spawn>
   <spawn centerx="10137" centery="10093" centerz="6" radius="8">
     <monster name="Beholder" x="-2" y="-1" z="6" spawntime="60"/>
@@ -529,6 +690,39 @@
   <spawn centerx="10116" centery="10100" centerz="6" radius="5">
     <monster name="Cyclops" x="0" y="0" z="6" spawntime="10"/>
   </spawn>
+  <spawn centerx="10495" centery="10100" centerz="6" radius="30">
+    <monster name="Spit Nettle" x="16" y="-4" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="11" y="-3" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="16" y="-3" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="16" y="-2" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="18" y="-2" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="17" y="1" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="18" y="1" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="19" y="1" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="20" y="1" z="6" spawntime="30"/>
+    <monster name="Mummy" x="19" y="2" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="20" y="2" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="18" y="4" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="19" y="4" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="20" y="4" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="21" y="4" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="22" y="4" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="20" y="6" z="6" spawntime="30"/>
+    <monster name="Mummy" x="21" y="6" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="19" y="9" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="20" y="9" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="21" y="9" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="22" y="9" z="6" spawntime="10496"/>
+    <monster name="Spit Nettle" x="16" y="11" z="6" spawntime="10496"/>
+    <monster name="Mummy" x="20" y="11" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="16" y="12" z="6" spawntime="10496"/>
+    <monster name="Master Boss" x="18" y="12" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="16" y="13" z="6" spawntime="10496"/>
+    <monster name="Mummy" x="12" y="14" z="6" spawntime="30"/>
+    <monster name="Master Boss" x="13" y="14" z="6" spawntime="30"/>
+    <monster name="Spit Nettle" x="16" y="14" z="6" spawntime="30"/>
+  </spawn>
+  <spawn centerx="10494" centery="10101" centerz="6" radius="30"/>
   <spawn centerx="10128" centery="10102" centerz="6" radius="5">
     <monster name="Bandit" x="-1" y="-3" z="6" spawntime="60"/>
     <monster name="Smuggler" x="-4" y="-1" z="6" spawntime="60"/>
@@ -696,144 +890,6 @@
     <monster name="Lord Vampire" x="-3" y="4" z="6" spawntime="60"/>
     <monster name="Lord Vampire" x="3" y="4" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="11033" centery="10691" centerz="6" radius="30">
-    <monster name="Elf Scout" x="12" y="-13" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="14" y="-13" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="16" y="-13" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="18" y="-13" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="-9" y="-12" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="-7" y="-12" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="-5" y="-12" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="-3" y="-12" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="-1" y="-12" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="13" y="-11" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="15" y="-11" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="17" y="-11" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="19" y="-11" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-17" y="-9" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-9" y="-9" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="1" y="-9" z="6" spawntime="30"/>
-    <monster name="Mummy" x="7" y="-9" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="12" y="-9" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="20" y="-9" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-17" y="-8" z="6" spawntime="30"/>
-    <monster name="Mummy" x="-16" y="-8" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="-13" y="-8" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-9" y="-8" z="6" spawntime="30"/>
-    <monster name="Mummy" x="-5" y="-8" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="-4" y="-8" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="1" y="-8" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="6" y="-8" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="12" y="-8" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="15" y="-8" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="20" y="-8" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="24" y="-8" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-17" y="-7" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-9" y="-7" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="1" y="-7" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="12" y="-7" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="20" y="-7" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="13" y="-5" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="15" y="-5" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="17" y="-5" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="19" y="-5" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="-19" y="-4" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="-9" y="-4" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="-7" y="-4" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="-5" y="-4" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="-3" y="-4" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="-1" y="-4" z="6" spawntime="10496"/>
-    <monster name="Mummy" x="26" y="-4" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="12" y="-3" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="14" y="-3" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="16" y="-3" z="6" spawntime="10496"/>
-    <monster name="Elf Scout" x="18" y="-3" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-20" y="-1" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-19" y="-1" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-18" y="-1" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="26" y="3" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="21" y="5" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="23" y="6" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="25" y="6" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="26" y="6" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="27" y="6" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="21" y="7" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="23" y="8" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="11" y="9" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="21" y="9" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="26" y="9" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="8" y="10" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="11" y="10" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="23" y="10" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="11" y="11" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="13" y="11" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="28" y="11" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="3" y="12" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="11" y="12" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="28" y="12" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="0" y="13" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="1" y="13" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="13" y="13" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="28" y="13" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="1" y="14" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-30" y="15" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-29" y="15" z="6" spawntime="30"/>
-    <monster name="Mummy" x="-1" y="15" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="1" y="15" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-3" y="16" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="-1" y="16" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="1" y="16" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="12" y="16" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="13" y="16" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="14" y="16" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="15" y="16" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="16" y="16" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="-30" y="17" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-3" y="17" z="6" spawntime="10496"/>
-    <monster name="Mummy" x="-29" y="18" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-3" y="18" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="13" y="18" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-9" y="19" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="-5" y="19" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-3" y="19" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-9" y="20" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="-7" y="20" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-3" y="20" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-30" y="21" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-29" y="21" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-28" y="21" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-27" y="21" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-9" y="21" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="10" y="21" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-9" y="22" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="-29" y="23" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-25" y="23" z="6" spawntime="30"/>
-    <monster name="Mummy" x="-12" y="23" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-25" y="24" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-17" y="24" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="9" y="24" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="10" y="24" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="11" y="24" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-25" y="25" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="-24" y="25" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="-20" y="25" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-17" y="25" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="-13" y="25" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="23" y="25" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-25" y="26" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-17" y="26" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="23" y="26" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-17" y="27" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="10" y="27" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="17" y="27" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="23" y="27" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="25" y="27" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="23" y="28" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="30" y="28" z="6" spawntime="30"/>
-    <monster name="Mummy" x="27" y="29" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="30" y="29" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="30" y="30" z="6" spawntime="10496"/>
-  </spawn>
   <spawn centerx="10320" centery="10698" centerz="6" radius="30">
     <monster name="Tentox" x="24" y="7" z="6" spawntime="60"/>
     <monster name="Tentox" x="26" y="7" z="6" spawntime="60"/>
@@ -856,63 +912,6 @@
     <monster name="Tentox" x="5" y="29" z="6" spawntime="60"/>
     <monster name="Tentox" x="9" y="30" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="11008" centery="10698" centerz="6" radius="30">
-    <monster name="Elf Scout" x="-14" y="2" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="-12" y="2" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-9" y="3" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-14" y="4" z="6" spawntime="30"/>
-    <monster name="Mummy" x="-13" y="4" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-12" y="4" z="6" spawntime="30"/>
-    <monster name="Mummy" x="-11" y="4" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-10" y="4" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-9" y="4" z="6" spawntime="30"/>
-    <monster name="Mummy" x="-7" y="4" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-9" y="5" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="-7" y="5" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="-13" y="6" z="6" spawntime="30"/>
-    <monster name="Elf Scout" x="-11" y="6" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="-8" y="8" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-7" y="8" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="-6" y="8" z="6" spawntime="10496"/>
-  </spawn>
-  <spawn centerx="11021" centery="10698" centerz="6" radius="30"/>
-  <spawn centerx="11035" centery="10698" centerz="6" radius="30">
-    <monster name="Mummy" x="30" y="5" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="28" y="24" z="6" spawntime="10496"/>
-  </spawn>
-  <spawn centerx="11055" centery="10706" centerz="6" radius="30">
-    <monster name="Spit Nettle" x="16" y="-4" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="11" y="-3" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="16" y="-3" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="16" y="-2" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="18" y="-2" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="17" y="1" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="18" y="1" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="19" y="1" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="20" y="1" z="6" spawntime="30"/>
-    <monster name="Mummy" x="19" y="2" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="20" y="2" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="18" y="4" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="19" y="4" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="20" y="4" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="21" y="4" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="22" y="4" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="20" y="6" z="6" spawntime="30"/>
-    <monster name="Mummy" x="21" y="6" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="19" y="9" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="20" y="9" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="21" y="9" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="22" y="9" z="6" spawntime="10496"/>
-    <monster name="Spit Nettle" x="16" y="11" z="6" spawntime="10496"/>
-    <monster name="Mummy" x="20" y="11" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="16" y="12" z="6" spawntime="10496"/>
-    <monster name="Master Boss" x="18" y="12" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="16" y="13" z="6" spawntime="10496"/>
-    <monster name="Mummy" x="12" y="14" z="6" spawntime="30"/>
-    <monster name="Master Boss" x="13" y="14" z="6" spawntime="30"/>
-    <monster name="Spit Nettle" x="16" y="14" z="6" spawntime="30"/>
-  </spawn>
-  <spawn centerx="11054" centery="10707" centerz="6" radius="30"/>
   <spawn centerx="10336" centery="10727" centerz="6" radius="30">
     <monster name="Tentox" x="15" y="-23" z="6" spawntime="60"/>
     <monster name="Tentox" x="20" y="-22" z="6" spawntime="60"/>
@@ -1174,7 +1173,7 @@
     <npc name="Capitao Caralho" x="-1" y="0" z="6" spawntime="10"/>
   </spawn>
   <spawn centerx="10050" centery="11385" centerz="6" radius="1">
-    <npc name="Special Seller" x="1" y="0" z="6" spawntime="60"/>
+    <npc name="Info Vip" x="1" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="9996" centery="11407" centerz="6" radius="1">
     <monster name="Poison spider" x="1" y="0" z="6" spawntime="60"/>
@@ -1394,6 +1393,9 @@
     <monster name="Treptin" x="3" y="-3" z="6" spawntime="60"/>
     <monster name="Treptin" x="-2" y="0" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="13128" centery="13203" centerz="6" radius="3">
+    <npc name="Johnny" x="-2" y="0" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="13160" centery="13221" centerz="6" radius="5">
     <npc name="Richard Guide" x="-2" y="0" z="6" spawntime="60"/>
   </spawn>
@@ -1455,60 +1457,6 @@
   <spawn centerx="14230" centery="14282" centerz="6" radius="5"/>
   <spawn centerx="14241" centery="14284" centerz="6" radius="5"/>
   <spawn centerx="14230" centery="14295" centerz="6" radius="5"/>
-  <spawn centerx="1111" centery="1305" centerz="7" radius="1"/>
-  <spawn centerx="1126" centery="1315" centerz="7" radius="1"/>
-  <spawn centerx="1142" centery="1315" centerz="7" radius="1"/>
-  <spawn centerx="1122" centery="1316" centerz="7" radius="1"/>
-  <spawn centerx="1131" centery="1339" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1135" centery="1339" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1139" centery="1339" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1143" centery="1339" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1147" centery="1339" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1130" centery="1351" centerz="7" radius="1">
-    <npc name="Special Seller" x="0" y="0" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1263" centery="1352" centerz="7" radius="1">
-    <monster name="Lord Jetta" x="0" y="0" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1262" centery="1354" centerz="7" radius="1">
-    <monster name="Lord Passat" x="0" y="0" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1265" centery="1356" centerz="7" radius="1"/>
-  <spawn centerx="1131" centery="1357" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1135" centery="1357" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1139" centery="1357" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1143" centery="1357" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1147" centery="1357" centerz="7" radius="1">
-    <monster name="Training Monk" x="-1" y="-1" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="1" y="-1" z="7" spawntime="60"/>
-  </spawn>
   <spawn centerx="10362" centery="9384" centerz="7" radius="30">
     <monster name="Ice Demon" x="-2" y="-23" z="7" spawntime="10"/>
     <monster name="Ice Demon" x="15" y="-23" z="7" spawntime="10"/>
@@ -1659,6 +1607,22 @@
     <monster name="Quara Mantassin Scout" x="20" y="26" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="9821" centery="9796" centerz="7" radius="30"/>
+  <spawn centerx="10428" centery="9802" centerz="7" radius="18">
+    <monster name="Training Monk" x="-11" y="-12" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="-9" y="-12" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="9" y="-12" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="11" y="-12" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="-6" y="-10" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="-4" y="-10" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="4" y="-10" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="6" y="-10" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="7" y="-4" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="9" y="-4" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="-11" y="9" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="-9" y="9" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="9" y="9" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="11" y="9" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="9911" centery="9806" centerz="7" radius="30">
     <monster name="Quara Mantassin Scout" x="14" y="1" z="7" spawntime="60"/>
     <monster name="Quara Mantassin Scout" x="5" y="7" z="7" spawntime="60"/>
@@ -1714,24 +1678,6 @@
     <monster name="Hellfire Fighter" x="-10" y="28" z="7" spawntime="60"/>
     <monster name="Hellfire Fighter" x="3" y="28" z="7" spawntime="60"/>
     <monster name="Hellfire Fighter" x="22" y="28" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="10714" centery="9853" centerz="7" radius="20">
-    <monster name="Training Monk" x="-11" y="-12" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="-9" y="-12" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="9" y="-12" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="11" y="-12" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="-6" y="-10" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="-4" y="-10" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="4" y="-10" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="6" y="-10" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="-9" y="-4" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="-7" y="-4" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="7" y="-4" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="9" y="-4" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="-11" y="9" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="-9" y="9" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="9" y="9" z="7" spawntime="60"/>
-    <monster name="Training Monk" x="11" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10129" centery="9854" centerz="7" radius="30">
     <monster name="Hellfire Fighter" x="13" y="-7" z="7" spawntime="9728"/>
@@ -1799,25 +1745,25 @@
     <monster name="Bat" x="-4" y="5" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="9824" centery="9953" centerz="7" radius="30">
-    <monster name="Black Bull" x="4" y="5" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="18" y="5" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="19" y="7" z="7" spawntime="9728"/>
-    <monster name="Black Bull" x="20" y="7" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-13" y="11" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-22" y="13" z="7" spawntime="9728"/>
-    <monster name="Black Bull" x="-22" y="14" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="15" y="15" z="7" spawntime="9728"/>
-    <monster name="Black Bull" x="15" y="16" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-6" y="22" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-7" y="23" z="7" spawntime="9728"/>
-    <monster name="Black Bull" x="-17" y="26" z="7" spawntime="9728"/>
-    <monster name="Black Bull" x="6" y="26" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="28" y="26" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-17" y="27" z="7" spawntime="60"/>
+    <monster name="Bosser" x="4" y="5" z="7" spawntime="60"/>
+    <monster name="Bosser" x="18" y="5" z="7" spawntime="60"/>
+    <monster name="Bosser" x="19" y="7" z="7" spawntime="9728"/>
+    <monster name="Bosser" x="20" y="7" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-13" y="11" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-22" y="13" z="7" spawntime="9728"/>
+    <monster name="Bosser" x="-22" y="14" z="7" spawntime="60"/>
+    <monster name="Bosser" x="15" y="15" z="7" spawntime="9728"/>
+    <monster name="Bosser" x="15" y="16" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-6" y="22" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-7" y="23" z="7" spawntime="9728"/>
+    <monster name="Bosser" x="-17" y="26" z="7" spawntime="9728"/>
+    <monster name="Bosser" x="6" y="26" z="7" spawntime="60"/>
+    <monster name="Bosser" x="28" y="26" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-17" y="27" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="9812" centery="9956" centerz="7" radius="30">
-    <monster name="Black Bull" x="-22" y="22" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-9" y="30" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-22" y="22" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-9" y="30" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10139" centery="9957" centerz="7" radius="5">
     <monster name="Magicthrower" x="-5" y="-4" z="7" spawntime="60"/>
@@ -1836,16 +1782,16 @@
     <monster name="Bat" x="4" y="5" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="9868" centery="9971" centerz="7" radius="30">
-    <monster name="Black Bull" x="-11" y="-11" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="6" y="-10" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="12" y="1" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-6" y="13" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="9" y="13" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-26" y="18" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-5" y="20" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-30" y="25" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="9" y="26" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-6" y="28" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-11" y="-11" z="7" spawntime="60"/>
+    <monster name="Bosser" x="6" y="-10" z="7" spawntime="60"/>
+    <monster name="Bosser" x="12" y="1" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-6" y="13" z="7" spawntime="60"/>
+    <monster name="Bosser" x="9" y="13" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-26" y="18" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-5" y="20" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-30" y="25" z="7" spawntime="60"/>
+    <monster name="Bosser" x="9" y="26" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-6" y="28" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10139" centery="9983" centerz="7" radius="5">
     <monster name="Bat" x="3" y="-2" z="7" spawntime="10"/>
@@ -1859,47 +1805,50 @@
     <monster name="Bat" x="3" y="4" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="9864" centery="9992" centerz="7" radius="30">
-    <monster name="Black Bull" x="-30" y="11" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="8" y="16" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-4" y="19" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-15" y="25" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="2" y="25" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-28" y="30" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-30" y="11" z="7" spawntime="60"/>
+    <monster name="Bosser" x="8" y="16" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-4" y="19" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-15" y="25" z="7" spawntime="60"/>
+    <monster name="Bosser" x="2" y="25" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-28" y="30" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10138" centery="9994" centerz="7" radius="5">
     <monster name="Bat" x="0" y="-5" z="7" spawntime="10"/>
     <monster name="Bat" x="0" y="3" z="7" spawntime="10"/>
   </spawn>
-  <spawn centerx="10079" centery="9998" centerz="7" radius="5">
-    <monster name="Tentox" x="-5" y="-3" z="7" spawntime="60"/>
-    <monster name="Treptin" x="-3" y="-3" z="7" spawntime="60"/>
-    <monster name="Verminor" x="-1" y="-3" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="1" y="-3" z="7" spawntime="60"/>
-    <monster name="Quara Mantassin Scout" x="3" y="-3" z="7" spawntime="60"/>
-    <monster name="Hellfire Fighter" x="5" y="-3" z="7" spawntime="60"/>
+  <spawn centerx="10080" centery="9998" centerz="7" radius="5">
+    <monster name="Treptin" x="-5" y="-3" z="7" spawntime="60"/>
+    <monster name="Lord Vampire" x="-3" y="-3" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-1" y="-3" z="7" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="1" y="-3" z="7" spawntime="60"/>
+    <monster name="Ice Demon" x="3" y="-3" z="7" spawntime="10"/>
+    <monster name="Black Boss" x="5" y="-3" z="7" spawntime="10"/>
+  </spawn>
+  <spawn centerx="10082" centery="9998" centerz="7" radius="5"/>
+  <spawn centerx="10077" centery="9999" centerz="7" radius="5">
+    <monster name="Demon" x="-4" y="-4" z="7" spawntime="10"/>
+    <monster name="Hellfire Fighter" x="-4" y="3" z="7" spawntime="60"/>
+    <monster name="Tentox" x="-4" y="5" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="9782" centery="10000" centerz="7" radius="30">
-    <monster name="Black Bull" x="20" y="-9" z="7" spawntime="9984"/>
-    <monster name="Black Bull" x="20" y="-8" z="7" spawntime="9984"/>
-    <monster name="Black Bull" x="21" y="-8" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="0" y="-7" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="16" y="1" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="0" y="6" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="17" y="12" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="26" y="15" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-8" y="18" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="26" y="28" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-5" y="30" z="7" spawntime="60"/>
+    <monster name="Bosser" x="20" y="-9" z="7" spawntime="9984"/>
+    <monster name="Bosser" x="20" y="-8" z="7" spawntime="9984"/>
+    <monster name="Bosser" x="21" y="-8" z="7" spawntime="60"/>
+    <monster name="Bosser" x="0" y="-7" z="7" spawntime="60"/>
+    <monster name="Bosser" x="16" y="1" z="7" spawntime="60"/>
+    <monster name="Bosser" x="0" y="6" z="7" spawntime="60"/>
+    <monster name="Bosser" x="17" y="12" z="7" spawntime="60"/>
+    <monster name="Bosser" x="26" y="15" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-8" y="18" z="7" spawntime="60"/>
+    <monster name="Bosser" x="26" y="28" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-5" y="30" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="10094" centery="10000" centerz="7" radius="11"/>
+  <spawn centerx="10081" centery="10000" centerz="7" radius="5"/>
   <spawn centerx="10159" centery="10000" centerz="7" radius="5"/>
-  <spawn centerx="10077" centery="10002" centerz="7" radius="5">
-    <monster name="Black Boss" x="-4" y="0" z="7" spawntime="10"/>
-    <monster name="Ice Demon" x="-4" y="2" z="7" spawntime="10"/>
-  </spawn>
+  <spawn centerx="10076" centery="10002" centerz="7" radius="5"/>
   <spawn centerx="9852" centery="10004" centerz="7" radius="30">
-    <monster name="Black Bull" x="-24" y="2" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-30" y="16" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-24" y="2" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-30" y="16" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10145" centery="10007" centerz="7" radius="5">
     <monster name="Bat" x="-3" y="-1" z="7" spawntime="10"/>
@@ -1907,12 +1856,12 @@
     <monster name="Polar Bear" x="0" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="9781" centery="10010" centerz="7" radius="30">
-    <monster name="Black Bull" x="17" y="21" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="5" y="22" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="6" y="22" z="7" spawntime="9984"/>
+    <monster name="Bosser" x="17" y="21" z="7" spawntime="60"/>
+    <monster name="Bosser" x="5" y="22" z="7" spawntime="60"/>
+    <monster name="Bosser" x="6" y="22" z="7" spawntime="9984"/>
   </spawn>
   <spawn centerx="9850" centery="10018" centerz="7" radius="30">
-    <monster name="Black Bull" x="-30" y="8" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-30" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10353" centery="10024" centerz="7" radius="5">
     <monster name="Infernatil" x="-2" y="-2" z="7" spawntime="60"/>
@@ -1928,9 +1877,9 @@
     <monster name="Demon" x="0" y="2" z="7" spawntime="10"/>
   </spawn>
   <spawn centerx="9823" centery="10028" centerz="7" radius="30">
-    <monster name="Black Bull" x="-6" y="-27" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-6" y="-24" z="7" spawntime="60"/>
-    <monster name="Black Bull" x="-6" y="-8" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-6" y="-27" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-6" y="-24" z="7" spawntime="60"/>
+    <monster name="Bosser" x="-6" y="-8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="9826" centery="10029" centerz="7" radius="30"/>
   <spawn centerx="10259" centery="10029" centerz="7" radius="5">
@@ -2064,12 +2013,73 @@
   </spawn>
   <spawn centerx="10269" centery="10045" centerz="7" radius="5"/>
   <spawn centerx="10105" centery="10046" centerz="7" radius="5"/>
+  <spawn centerx="10140" centery="10046" centerz="7" radius="5">
+    <monster name="Winter Wolf" x="-1" y="-4" z="7" spawntime="60"/>
+    <monster name="Winter Wolf" x="-2" y="-1" z="7" spawntime="60"/>
+    <npc name="Riona" x="5" y="2" z="7" spawntime="60"/>
+    <monster name="Winter Wolf" x="-3" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="10148" centery="10046" centerz="7" radius="5">
+    <monster name="Winter Wolf" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="10159" centery="10046" centerz="7" radius="1">
+    <npc name="Johnny" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="10161" centery="10046" centerz="7" radius="1"/>
   <spawn centerx="10243" centery="10046" centerz="7" radius="5">
     <monster name="Demon" x="-1" y="1" z="7" spawntime="10"/>
   </spawn>
+  <spawn centerx="10478" centery="10046" centerz="7" radius="30">
+    <monster name="Elf Scout" x="-19" y="-11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-17" y="-11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-15" y="-11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-13" y="-11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-20" y="-9" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-18" y="-9" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-16" y="-9" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-14" y="-9" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-12" y="-9" z="7" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-21" y="-7" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-11" y="-7" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="24" y="-7" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="26" y="-7" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="28" y="-7" z="7" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-21" y="-6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-15" y="-6" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-11" y="-6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-7" y="-6" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-21" y="-5" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-17" y="-5" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-11" y="-5" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-4" y="-5" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="2" y="-5" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="22" y="-5" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="27" y="-5" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-21" y="-4" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-11" y="-4" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-21" y="-3" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-11" y="-3" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="24" y="-3" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="26" y="-3" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="28" y="-3" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-20" y="-1" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-18" y="-1" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-16" y="-1" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-14" y="-1" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-12" y="-1" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-19" y="1" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-17" y="1" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-15" y="1" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-13" y="1" z="7" spawntime="10496"/>
+  </spawn>
+  <spawn centerx="10159" centery="10047" centerz="7" radius="1"/>
+  <spawn centerx="10160" centery="10047" centerz="7" radius="1"/>
+  <spawn centerx="10161" centery="10047" centerz="7" radius="1"/>
+  <spawn centerx="10149" centery="10048" centerz="7" radius="5"/>
+  <spawn centerx="10159" centery="10048" centerz="7" radius="1"/>
+  <spawn centerx="10161" centery="10048" centerz="7" radius="5"/>
   <spawn centerx="10173" centery="10048" centerz="7" radius="5">
     <npc name="Lola" x="0" y="-2" z="7" spawntime="10"/>
-    <npc name="Super Seller" x="-4" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10340" centery="10048" centerz="7" radius="5">
     <monster name="Infernatil" x="-1" y="1" z="7" spawntime="60"/>
@@ -2082,7 +2092,10 @@
   <spawn centerx="10126" centery="10049" centerz="7" radius="1">
     <npc name="Lector" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="10169" centery="10050" centerz="7" radius="1"/>
+  <spawn centerx="10145" centery="10049" centerz="7" radius="2"/>
+  <spawn centerx="10167" centery="10050" centerz="7" radius="1">
+    <npc name="Info Vip" x="0" y="0" z="7" spawntime="5"/>
+  </spawn>
   <spawn centerx="10117" centery="10051" centerz="7" radius="5"/>
   <spawn centerx="10182" centery="10051" centerz="7" radius="5">
     <monster name="Winter Wolf" x="-1" y="-3" z="7" spawntime="60"/>
@@ -2103,6 +2116,9 @@
   <spawn centerx="10127" centery="10054" centerz="7" radius="1"/>
   <spawn centerx="10126" centery="10055" centerz="7" radius="1"/>
   <spawn centerx="10127" centery="10055" centerz="7" radius="1"/>
+  <spawn centerx="10142" centery="10055" centerz="7" radius="5">
+    <monster name="Winter Wolf" x="-2" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="10867" centery="10055" centerz="7" radius="30">
     <monster name="Elf Scout" x="18" y="-19" z="7" spawntime="9984"/>
     <monster name="Mummy" x="-15" y="-15" z="7" spawntime="60"/>
@@ -2217,19 +2233,22 @@
   </spawn>
   <spawn centerx="10126" centery="10056" centerz="7" radius="1"/>
   <spawn centerx="10127" centery="10056" centerz="7" radius="1"/>
+  <spawn centerx="10138" centery="10056" centerz="7" radius="5"/>
   <spawn centerx="10178" centery="10056" centerz="7" radius="5">
     <monster name="Winter Wolf" x="-5" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10105" centery="10057" centerz="7" radius="5"/>
   <spawn centerx="10126" centery="10057" centerz="7" radius="1"/>
   <spawn centerx="10127" centery="10057" centerz="7" radius="1"/>
-  <spawn centerx="10151" centery="10057" centerz="7" radius="5"/>
+  <spawn centerx="10151" centery="10057" centerz="7" radius="5">
+    <monster name="Winter Wolf" x="-1" y="-3" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="10153" centery="10057" centerz="7" radius="5">
     <monster name="Winter Wolf" x="5" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10252" centery="10057" centerz="7" radius="10"/>
   <spawn centerx="10162" centery="10058" centerz="7" radius="5">
-    <monster name="Training Monk" x="-1" y="2" z="7" spawntime="60"/>
+    <monster name="Training Monk" x="4" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10167" centery="10058" centerz="7" radius="5">
     <monster name="Winter Wolf" x="1" y="0" z="7" spawntime="60"/>
@@ -2242,6 +2261,60 @@
   <spawn centerx="10146" centery="10059" centerz="7" radius="1"/>
   <spawn centerx="10119" centery="10060" centerz="7" radius="5"/>
   <spawn centerx="10110" centery="10061" centerz="7" radius="5"/>
+  <spawn centerx="10530" centery="10062" centerz="7" radius="30">
+    <monster name="Spit Nettle" x="-7" y="-21" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-5" y="-20" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-6" y="-16" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-5" y="-16" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-4" y="-16" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-3" y="-16" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-10" y="-15" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-8" y="-15" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="-15" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="1" y="-15" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-12" y="-14" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="3" y="-14" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-10" y="-13" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-8" y="-13" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="-13" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="1" y="-13" z="7" spawntime="10496"/>
+    <monster name="Master Boss" x="-5" y="-12" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-10" y="-11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-8" y="-11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="-11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="1" y="-11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-12" y="-10" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="3" y="-10" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-10" y="-9" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-8" y="-9" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="-9" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="1" y="-9" z="7" spawntime="10496"/>
+    <monster name="Spit Nettle" x="-6" y="-8" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-5" y="-8" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-4" y="-8" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-3" y="-8" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-6" y="-4" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-4" y="-3" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-6" y="5" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-5" y="5" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-4" y="5" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-3" y="5" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-10" y="6" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-8" y="6" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="6" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="1" y="6" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-10" y="8" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-8" y="8" z="7" spawntime="10496"/>
+    <monster name="Master Boss" x="-5" y="8" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-1" y="8" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="1" y="8" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-10" y="10" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-8" y="10" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="10" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="1" y="10" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-30" y="29" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-28" y="29" z="7" spawntime="10496"/>
+  </spawn>
   <spawn centerx="10829" centery="10063" centerz="7" radius="30">
     <monster name="Elf Scout" x="-11" y="-7" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-8" y="-7" z="7" spawntime="60"/>
@@ -2348,6 +2421,61 @@
     <monster name="Amazon" x="3" y="8" z="7" spawntime="60"/>
     <monster name="Bear" x="10" y="9" z="7" spawntime="60"/>
     <monster name="Beholder" x="-9" y="10" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="10504" centery="10086" centerz="7" radius="30">
+    <monster name="Elf Scout" x="-5" y="3" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-8" y="5" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-6" y="5" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-9" y="7" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-7" y="7" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-5" y="7" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-3" y="7" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="7" z="7" spawntime="10496"/>
+    <monster name="Master Boss" x="20" y="7" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-24" y="9" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-18" y="9" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-10" y="9" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-7" y="9" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="1" y="9" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="18" y="9" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-9" y="11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-7" y="11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-5" y="11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-3" y="11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-1" y="11" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-8" y="13" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-6" y="13" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-4" y="13" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-2" y="13" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-5" y="15" z="7" spawntime="10496"/>
+  </spawn>
+  <spawn centerx="10470" centery="10089" centerz="7" radius="30">
+    <monster name="Elf Scout" x="-23" y="2" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-18" y="3" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-16" y="3" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-14" y="3" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-12" y="3" z="7" spawntime="10496"/>
+    <monster name="Elf Scout" x="-10" y="3" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-20" y="5" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-10" y="5" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-23" y="6" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-19" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-18" y="6" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-17" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-16" y="6" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-15" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-14" y="6" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-13" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-11" y="6" z="7" spawntime="60"/>
+    <monster name="Spit Nettle" x="-7" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="1" y="6" z="7" spawntime="60"/>
+    <monster name="Master Boss" x="-20" y="8" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-18" y="9" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-16" y="9" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-14" y="9" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-12" y="9" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-10" y="9" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="-23" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="10093" centery="10093" centerz="7" radius="5">
     <monster name="Giant Spider" x="0" y="1" z="7" spawntime="60"/>
@@ -4124,7 +4252,6 @@
   <spawn centerx="12727" centery="12782" centerz="7" radius="5">
     <monster name="Penguin" x="4" y="-3" z="7" spawntime="60"/>
     <monster name="Elephant" x="0" y="-1" z="7" spawntime="60"/>
-    <monster name="Parrot" x="-2" y="0" z="7" spawntime="60"/>
     <monster name="Penguin" x="-1" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="12716" centery="12786" centerz="7" radius="5">
@@ -4273,7 +4400,7 @@
   </spawn>
   <spawn centerx="13285" centery="12854" centerz="7" radius="5">
     <monster name="Lord Vampire" x="0" y="-5" z="7" spawntime="2816"/>
-    <monster name="Lord Vampire" x="0" y="-3" z="7" spawntime="60"/>
+    <monster name="Lord Vampire" x="0" y="-3" z="7" spawntime="2816"/>
     <monster name="Lord Vampire" x="-1" y="4" z="7" spawntime="2816"/>
   </spawn>
   <spawn centerx="13166" centery="12855" centerz="7" radius="5"/>
@@ -4641,12 +4768,12 @@
   <spawn centerx="15622" centery="15108" centerz="7" radius="5"/>
   <spawn centerx="15601" centery="15109" centerz="7" radius="5"/>
   <spawn centerx="15505" centery="15517" centerz="7" radius="5"/>
-  <spawn centerx="10710" centery="9826" centerz="8" radius="5">
+  <spawn centerx="10424" centery="9775" centerz="8" radius="5">
     <monster name="Protect Castle" x="-5" y="0" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="-5" y="3" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="0" y="4" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="10720" centery="9827" centerz="8" radius="5">
+  <spawn centerx="10434" centery="9776" centerz="8" radius="5">
     <monster name="Protect Castle" x="1" y="-5" z="8" spawntime="60"/>
     <monster name="Protect Castle" x="1" y="-4" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="-1" y="-3" z="8" spawntime="60"/>
@@ -4655,7 +4782,7 @@
     <monster name="Protect Statue" x="-4" y="2" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="0" y="3" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="10713" centery="9838" centerz="8" radius="5">
+  <spawn centerx="10427" centery="9787" centerz="8" radius="5">
     <monster name="Protect Statue" x="-3" y="-4" z="8" spawntime="60"/>
     <monster name="Protect Castle" x="3" y="-4" z="8" spawntime="60"/>
     <monster name="Protect Castle" x="-5" y="1" z="8" spawntime="60"/>
@@ -4666,14 +4793,14 @@
     <monster name="Protect Castle" x="0" y="4" z="8" spawntime="60"/>
     <monster name="Protect Castle" x="0" y="5" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="10713" centery="9851" centerz="8" radius="5">
+  <spawn centerx="10427" centery="9800" centerz="8" radius="5">
     <monster name="Protect Statue" x="0" y="0" z="8" spawntime="60"/>
     <monster name="Protect Castle" x="-5" y="2" z="8" spawntime="60"/>
     <monster name="Protect Castle" x="5" y="2" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="-1" y="4" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="1" y="4" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="10711" centery="9862" centerz="8" radius="5">
+  <spawn centerx="10425" centery="9811" centerz="8" radius="5">
     <monster name="Protect Statue" x="2" y="-5" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="-5" y="-4" z="8" spawntime="60"/>
     <monster name="Protect Castle" x="4" y="-2" z="8" spawntime="60"/>
@@ -4686,10 +4813,15 @@
     <monster name="Protect Castle" x="5" y="1" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="-4" y="2" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="10717" centery="9863" centerz="8" radius="5">
+  <spawn centerx="10431" centery="9812" centerz="8" radius="5">
     <monster name="Protect Castle" x="0" y="-3" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="2" y="-3" z="8" spawntime="60"/>
     <monster name="Protect Statue" x="2" y="5" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="10427" centery="9818" centerz="8" radius="5">
+    <monster name="Protect Statue" x="-3" y="-1" z="8" spawntime="60"/>
+    <monster name="Castle" x="0" y="2" z="8" spawntime="60"/>
+    <monster name="Castle" x="1" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="10111" centery="9866" centerz="8" radius="30">
     <monster name="Madins" x="19" y="-9" z="8" spawntime="10"/>
@@ -4730,11 +4862,6 @@
     <monster name="Madins" x="26" y="28" z="8" spawntime="10"/>
     <monster name="Madins" x="8" y="29" z="8" spawntime="10"/>
     <monster name="Madins" x="-3" y="30" z="8" spawntime="10"/>
-  </spawn>
-  <spawn centerx="10713" centery="9869" centerz="8" radius="5">
-    <monster name="Protect Statue" x="-3" y="-1" z="8" spawntime="60"/>
-    <monster name="Castle" x="0" y="2" z="8" spawntime="60"/>
-    <monster name="Castle" x="1" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="10156" centery="9896" centerz="8" radius="30">
     <monster name="Madins" x="-14" y="-27" z="8" spawntime="10"/>
@@ -4855,6 +4982,7 @@
     <monster name="Bug" x="3" y="0" z="8" spawntime="5"/>
     <monster name="Poison spider" x="-2" y="1" z="8" spawntime="60"/>
     <monster name="Bug" x="1" y="1" z="8" spawntime="5"/>
+    <monster name="Bug" x="1" y="4" z="8" spawntime="5"/>
   </spawn>
   <spawn centerx="10139" centery="10041" centerz="8" radius="5">
     <monster name="Bug" x="4" y="0" z="8" spawntime="5"/>
@@ -4878,6 +5006,10 @@
     <monster name="gosminha vip" x="-4" y="-5" z="8" spawntime="60"/>
     <monster name="gosminha vip" x="-1" y="2" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="10138" centery="10046" centerz="8" radius="5">
+    <monster name="Bug" x="1" y="1" z="8" spawntime="5"/>
+  </spawn>
+  <spawn centerx="10138" centery="10047" centerz="8" radius="5"/>
   <spawn centerx="10050" centery="10050" centerz="8" radius="30">
     <monster name="Morgaroth" x="-4" y="-7" z="8" spawntime="60"/>
     <monster name="Morgaroth" x="-5" y="-6" z="8" spawntime="60"/>
@@ -5846,85 +5978,85 @@
     <monster name="Treptin" x="0" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13170" centery="12854" centerz="8" radius="5">
-    <monster name="Black Bull" x="0" y="4" z="8" spawntime="60"/>
+    <monster name="Bosser" x="0" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13157" centery="12855" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="1" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13186" centery="12855" centerz="8" radius="5">
-    <monster name="Black Bull" x="-1" y="3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="-1" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13202" centery="12855" centerz="8" radius="5">
-    <monster name="Black Bull" x="1" y="4" z="8" spawntime="60"/>
+    <monster name="Bosser" x="1" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13126" centery="12856" centerz="8" radius="5">
-    <monster name="Black Bull" x="4" y="2" z="8" spawntime="60"/>
+    <monster name="Bosser" x="4" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13144" centery="12857" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="0" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13215" centery="12858" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="5" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13103" centery="12863" centerz="8" radius="5">
-    <monster name="Black Bull" x="3" y="0" z="8" spawntime="60"/>
+    <monster name="Bosser" x="3" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13087" centery="12866" centerz="8" radius="5">
-    <monster name="Black Bull" x="0" y="3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="0" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13067" centery="12868" centerz="8" radius="5">
-    <monster name="Black Bull" x="0" y="2" z="8" spawntime="60"/>
+    <monster name="Bosser" x="0" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13227" centery="12868" centerz="8" radius="5">
-    <monster name="Black Bull" x="0" y="2" z="8" spawntime="60"/>
+    <monster name="Bosser" x="0" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13044" centery="12870" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13028" centery="12875" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="0" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13235" centery="12881" centerz="8" radius="5">
-    <monster name="Black Bull" x="3" y="3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="3" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13025" centery="12888" centerz="8" radius="5">
-    <monster name="Black Bull" x="1" y="4" z="8" spawntime="60"/>
+    <monster name="Bosser" x="1" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13243" centery="12893" centerz="8" radius="5">
-    <monster name="Black Bull" x="1" y="2" z="8" spawntime="60"/>
+    <monster name="Bosser" x="1" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13249" centery="12902" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13037" centery="12904" centerz="8" radius="5">
-    <monster name="Black Bull" x="-2" y="2" z="8" spawntime="60"/>
+    <monster name="Bosser" x="-2" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13056" centery="12913" centerz="8" radius="5">
-    <monster name="Black Bull" x="0" y="4" z="8" spawntime="60"/>
+    <monster name="Bosser" x="0" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13257" centery="12922" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="5" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13072" centery="12923" centerz="8" radius="5">
-    <monster name="Black Bull" x="-3" y="-1" z="8" spawntime="60"/>
+    <monster name="Bosser" x="-3" y="-1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13086" centery="12931" centerz="8" radius="5">
-    <monster name="Black Bull" x="-2" y="-1" z="8" spawntime="60"/>
+    <monster name="Bosser" x="-2" y="-1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13001" centery="12937" centerz="8" radius="5">
     <monster name="Treptin" x="-1" y="-4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13259" centery="12940" centerz="8" radius="5">
-    <monster name="Black Bull" x="-1" y="4" z="8" spawntime="60"/>
+    <monster name="Bosser" x="-1" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13101" centery="12946" centerz="8" radius="5">
-    <monster name="Black Bull" x="-1" y="-3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="-1" y="-3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="12997" centery="12948" centerz="8" radius="5">
     <monster name="Treptin" x="1" y="-2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13258" centery="12955" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="12998" centery="12958" centerz="8" radius="5">
     <monster name="Treptin" x="2" y="1" z="8" spawntime="60"/>
@@ -5933,13 +6065,13 @@
     <monster name="Lady Vampire" x="2" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13117" centery="12966" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="4" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="12994" centery="12970" centerz="8" radius="5">
     <monster name="Treptin" x="-2" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13258" centery="12970" centerz="8" radius="5">
-    <monster name="Black Bull" x="1" y="3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="1" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="12582" centery="12971" centerz="8" radius="5">
     <monster name="Lady Vampire" x="-3" y="3" z="8" spawntime="60"/>
@@ -5948,10 +6080,10 @@
     <monster name="Treptin" x="2" y="1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13135" centery="12981" centerz="8" radius="5">
-    <monster name="Black Bull" x="4" y="4" z="8" spawntime="60"/>
+    <monster name="Bosser" x="4" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13255" centery="12984" centerz="8" radius="5">
-    <monster name="Black Bull" x="-4" y="3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="-4" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="12589" centery="12985" centerz="8" radius="5">
     <monster name="Lady Vampire" x="-4" y="1" z="8" spawntime="60"/>
@@ -5960,19 +6092,19 @@
     <monster name="Lady Vampire" x="-1" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13160" centery="12994" centerz="8" radius="5">
-    <monster name="Black Bull" x="-2" y="0" z="8" spawntime="60"/>
+    <monster name="Bosser" x="-2" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="12974" centery="12997" centerz="8" radius="5">
     <monster name="Treptin" x="-2" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13236" centery="12998" centerz="8" radius="5">
-    <monster name="Black Bull" x="1" y="-3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="1" y="-3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13210" centery="12999" centerz="8" radius="5">
-    <monster name="Black Bull" x="1" y="3" z="8" spawntime="60"/>
+    <monster name="Bosser" x="1" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="13186" centery="13000" centerz="8" radius="5">
-    <monster name="Black Bull" x="2" y="1" z="8" spawntime="60"/>
+    <monster name="Bosser" x="2" y="1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="12563" centery="13002" centerz="8" radius="5">
     <monster name="Lady Vampire" x="-2" y="4" z="8" spawntime="60"/>

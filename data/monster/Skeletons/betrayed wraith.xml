@@ -77,6 +77,7 @@
 		<inside>
 			<item id="6558" chance="2222"/> -- concentrated demonic blood
 			<item id="2387" chance="13500"/> -- double axe
+			<item id="7364" chance="5500" countmax="4" /> -- Sniper Arrow
 			<item id="2226" chance="10000" /> -- fishbone
 			<item id="5741" chance="2500"/> -- skullhelm
 			<item id="7416" chance="850"/> -- Bloody Edge

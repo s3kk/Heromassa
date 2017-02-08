@@ -50,6 +50,7 @@
 		<item id="1987" chance="100000" > -- bag
 			<inside>
 				<item id="2682" chance="6980" /> -- melon
+				<item id="1294" chance="3500" countmax="3" /> -- small stone
 			</inside>
 		</item>
 	</loot>

@@ -415,9 +415,14 @@
 	<item id="1293" article="a" name="stone">
 		<attribute key="weight" value="1500" />
 	</item>
-	<item id="1294" article="a" name="Critical Stone" plural="Critical Stone">
+	<item id="1294" article="a" name="small stone" plural="small stones">
 		<attribute key="weight" value="360" />
-		<attribute key="description" value="Use it to level up your Critical Skill." />
+		<attribute key="attack" value="5" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="shootType" value="smallstone" />
+		<attribute key="range" value="5" />
+		<attribute key="breakChance" value="7" />
+		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="1295" article="a" name="stone">
 		<attribute key="weight" value="3000" />
@@ -1965,7 +1970,7 @@
 	<item id="2156" article="a" name="red gem">
 		<attribute key="weight" value="30" />
 	</item>
-	<item id="2157" article="a" name="Critical Coin" plural="Critical Coins">
+	<item id="2157" article="a" name="gold nugget" plural="gold nuggets">
 		<attribute key="weight" value="10" />
 	</item>
 	<item id="2158" article="a" name="blue gem">
@@ -1975,7 +1980,7 @@
 		<attribute key="weight" value="100" />
 	</item>
 	<item id="2160" article="a" name="crystal coin" plural="crystal coins">
-		<attribute key="weight" value="10" />
+		<attribute key="weight" value="1" />
 		<attribute key="worth" value="10000" />
 	</item>
 	<item id="2161" article="a" name="strange talisman">
@@ -3261,7 +3266,7 @@
 		<attribute key="weight" value="8600" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="ice" />
-		<attribute key="range" value="12" />
+		<attribute key="range" value="8" />
 	</item>
 	<item id="2434" article="a" name="dragon hammer">
 		<attribute key="weight" value="9700" />
@@ -10035,7 +10040,6 @@
 	<item id="6093" article="a" name="crystal ring">
 		<attribute key="description" value="The initials E.S. are engraved on it." />
 		<attribute key="weight" value="90" />
-		<attribute key="slotType" value="ring" />
 	</item>
 	<item id="6094" article="a" name="tree" />
 	<item id="6095" article="a" name="special armor">
@@ -11896,15 +11900,14 @@
 		<attribute key="shootType" value="piercingbolt" />
 		<attribute key="ammoAction" value="removecount" />
 	</item>
-	<item id="7364" article="a" name="supreme arrow" plural="supreme arrows">
-		<attribute key="weight" value="400" />
-		<attribute key="description" value="the arrow of evil of ice." />
+	<item id="7364" article="a" name="sniper arrow" plural="sniper arrows">
+		<attribute key="weight" value="70" />
 		<attribute key="slotType" value="ammo" />
-		<attribute key="attack" value="600" />
-		<attribute key="maxHitChance" value="80" />
+		<attribute key="attack" value="28" />
+		<attribute key="maxHitChance" value="100" />
 		<attribute key="weaponType" value="ammunition" />
-		<attribute key="ammoType" value="bolt" />
-		<attribute key="shootType" value="infernalbolt" />
+		<attribute key="ammoType" value="arrow" />
+		<attribute key="shootType" value="sniperarrow" />
 		<attribute key="ammoAction" value="removecount" />
 	</item>
 	<item id="7365" article="an" name="onyx arrow" plural="onyx arrows">
@@ -11917,13 +11920,12 @@
 		<attribute key="shootType" value="onyxarrow" />
 		<attribute key="ammoAction" value="removecount" />
 	</item>
-	<item id="7366" article="a" name="Supreme Star" plural="Supreme Stars">
+	<item id="7366" article="a" name="star" plural="super Stars">
 		<attribute key="weight" value="250" />
-		<attribute key="attack" value="750" />
-		<attribute key="maxHitChance" value="100" />
+		<attribute key="attack" value="650" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="shootType" value="greenstar" />
-		<attribute key="range" value="12" />
+		<attribute key="range" value="8" />
 		<attribute key="breakChance" value="0" />
 		<attribute key="ammoAction" value="removecount" />
 	</item>
@@ -12347,7 +12349,6 @@
 	</item>
 	<item id="7440" article="a" name="Autoloot Potion">
 		<attribute key="weight" value="200" />
-		<attribute key="description" value="Use it to get one day of Autoloot Time." />
 	</item>
 	<item id="7441" article="an" name="ice cube">
 		<attribute key="weight" value="1000" />
@@ -12355,9 +12356,9 @@
 	<item id="7442" article="an" name="ice cube">
 		<attribute key="weight" value="9000" />
 	</item>
-	<item id="7443" article="a" name="Exp Potion">
+	<item id="7443" article="a" name="exp potion">
 		<attribute key="weight" value="200" />
-		<attribute key="description" value="Use and get double experience for 2 hours." />
+		<attribute key="description" value="muahha 2x exp!." />
 	</item>
 	<item id="7444" article="an" name="ice cube">
 		<attribute key="weight" value="8000" />
@@ -13502,7 +13503,7 @@
 		<attribute key="ammoAction" value="removecount" />
 		<attribute key="shootType" value="shiverarrow" />
 	</item>
-	<item id="7840" article="a" name="flame arrow" plural="flames arrows">
+	<item id="7840" article="a" name="supreme arrow" plural="supreme arrows">
 		<attribute key="weight" value="400" />
 		<attribute key="description" value="the arrow of evil of ice." />
 		<attribute key="slotType" value="ammo" />
@@ -14425,7 +14426,7 @@
 	<item id="8305" name="mother soil">
 		<attribute key="weight" value="250" />
 	</item>
-	<item id="8306" name="Refine Stone">
+	<item id="8306" name="Upgrade Stone">
 		<attribute key="weight" value="100" />
 	</item>
 	<item id="8307" name="slain sea serpent">
@@ -14889,22 +14890,21 @@
 		<attribute key="range" value="5" />
 		<attribute key="hitChance" value="1" />
 	</item>
-	<item id="8850" article="a" name="chain bolter">
+	<item id="8850" article="a" name="supreme bow">
 		<attribute key="weight" value="5500" />
 		<attribute key="weaponType" value="distance" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="ammoType" value="bolt" />
 		<attribute key="range" value="8" />
-		<attribute key="hitChance" value="2" />
-		<attribute key="attack" value="40" />
+		<attribute key="hitChance" value="80" />
+		<attribute key="attack" value="50" />
 	</item>
 	<item id="8851" article="a" name="supreme bow">
-		<attribute key="weight" value="1200" />
+		<attribute key="weight" value="12000" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="bolt" />
 		<attribute key="range" value="8" />
-		<attribute key="hitChance" value="100" />
-		<attribute key="attack" value="50" />
+		<attribute key="hitChance" value="90" />
+		<attribute key="attack" value="80" />
 	</item>
 	<item id="8852" article="the" name="fuda">
 		<attribute key="weight" value="5500" />
@@ -15604,7 +15604,6 @@
 	</item>
 	<item id="8981" />
 	<item id="8982" article="a" name="Addon Doll">
-		<attribute key="description" value="Talk !addon 'outfit' to receive full addon." />
 		<attribute key="weight" value="1000" />
 	</item>
 	<item id="8983" article="a" name="heavily bound book">

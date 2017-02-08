@@ -364,20 +364,6 @@ function doPlayerAddSkill(cid, skill, amount, round)
         return true 
 end
 
-function doPlayerSetSkill(cid, skill, amount)
-		local pid = getPlayerGUID(cid)  
-			doRemoveCreature(cid,true) 
-			db.query("UPDATE `player_skills` SET `value` = ".. amount .." WHERE `player_id` = ".. pid .. " and `skillid` = ".. skill ..";")  
-		return TRUE
-end
-
-function doPlayerSetMagic(cid, amount)
-		local pid = getPlayerGUID(cid)  
-			doRemoveCreature(cid,true) 
-			db.query("UPDATE `players` SET `maglevel` = " .. amount .. " WHERE `id` = "..pid)
-		return TRUE
-end
-
 
 function getPartyLeader(cid)
 	local party = getPartyMembers(cid)
@@ -692,12 +678,12 @@ function getPlayerMarriage(player)
 end
 
 function addMarryStatus(player,partner)
-        db.query("UPDATE `players` SET `marrystatus` = " .. partner .. " WHERE `id` = " .. player .. ";")
+        db.executeQuery("UPDATE `players` SET `marrystatus` = " .. partner .. " WHERE `id` = " .. player .. ";")
         return TRUE
 end
 
 function doCancelMarryStatus(player)
-        db.query("UPDATE `players` SET `marrystatus` = 0 WHERE `id` = " .. player .. ";")
+        db.executeQuery("UPDATE `players` SET `marrystatus` = 0 WHERE `id` = " .. player .. ";")
         return TRUE
 end
 
@@ -731,10 +717,19 @@ function isOnline(player)
         end
 end
 
-function doPlayerRemoveLethalConditions(cid)
-local tmp = {1, 2, 4, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 32768, 65536}
-for i = 1, #tmp do
-if(hasCondition(cid, tmp[i])) then doRemoveCondition(cid, tmp[i]) end
+function doPlayerSetSkill(cid, skill, amount)
+local pid = getPlayerGUID(cid)  
+doRemoveCreature(cid,true) 
+db.executeQuery("UPDATE `player_skills` SET `value` = ".. amount .." WHERE `player_id` = ".. pid .. " and `skillid` = ".. skill ..";")  
+return TRUE
 end
-return true
+
+function doPlayerSetMagic(cid, amount)
+local pid = getPlayerGUID(cid)  
+doRemoveCreature(cid,true) 
+db.executeQuery("UPDATE `players` SET `maglevel` = " .. amount .. " WHERE `id` = "..pid)
+return TRUE
 end
+
+
+

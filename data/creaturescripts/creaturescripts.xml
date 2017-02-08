@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
-	<!--event type="login" name="pisca" script="vipan.lua"/-->
 	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
 	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
-    <event type="preparedeath" name="onPrepareDeath" event="script" value="preparedeath.lua"/>
+	<event type="preparedeath" name="onPrepareDeath" event="script" value="preparedeath.lua"/>
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
 	<event type="death" name="PlayerDeath" event="script" value="playerdeath.lua"/>
 	<event type="login" name="FirstItems" event="script" value="firstitems.lua"/>
-	<event type="PrepareDeath" name="pvparena" script="pvparena.lua"/>
-	<event type="attack" name="attackguild" script="attackguild.lua"/>
-	<event type="death" name="incendio" script="incendioMonster.lua"/>
-	<event type="login" name="fraglook_register" event="script" value="fraglook.lua"/>
-	<event type="look" name="fraglook" event="script" value="fraglook.lua"/>
+	<event type="attack" name="attackguild" script="attackguild.lua"/>  
 	
-	<!-- Zombie Event -->
+	<!-- Zombie -->
 	<event type="think" name="ZombieThink" event="script" value="zombie/onthink.lua"/>
 	<event type="statschange" name="ZombieAttack" event="script" value="zombie/onattack.lua"/>
 	<event type="death" name="ZombieDeath" event="script" value="zombie/ondeath.lua"/>
 	
-	<!-- Team Battle -->
+	<!-- BF -->
 	<event type="login" name="BattleLogin" event="script" value="BattleCreatureScript.lua"/>
 	<event type="PrepareDeath" name="BattleDeath" event="script" value="BattleCreatureScript.lua"/>
 	<event type="combat" name="BattleTeam" event="script" value="BattleCreatureScript.lua"/>
-</creaturescripts>
+    
+	</creaturescripts>

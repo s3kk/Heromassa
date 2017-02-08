@@ -12,6 +12,6 @@ function onSay(cid, words, param, channel)
 		elseif(db.getResult("SELECT `id` FROM `players` WHERE `name` = " .. db.escapeString(p[2]) .. ";"):getID() == 1) then
 			return doPlayerSendCancel(cid, "Sorry, but the name [" .. p[2] .. "] already exists.")
 		end
-		return db.query("UPDATE `players` SET `name` = '" .. p[2] .. "' WHERE name = '" .. p[1] .. "';") and doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You have changed " .. p[1] .. "'s name to " .. p[2] .. ".")
+		return db.executeQuery("UPDATE `players` SET `name` = '" .. p[2] .. "' WHERE name = '" .. p[1] .. "';") and doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You have changed " .. p[1] .. "'s name to " .. p[2] .. ".")
 	end
 end

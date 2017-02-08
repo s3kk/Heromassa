@@ -1,21 +1,34 @@
+FICANDO SKILL FULLS
+!sword (5kk precisa ter promotion "Hero knight")
+
+!axe (5kk precisa ter promotion "Hero knight")
+
+!club (5kk precisa ter promotion "Hero knight")
+
+!sorcerer (9kk precisa ter promotion "Hero sorcerer")
+
+!druid (5kk precisa ter promotion "Hero druid")
+
+!knightshield (5kk precisa ter promotion "Hero knight")
+
+!paladinshield (5kk precisa ter promotion "Hero paladin")
+
+!paladinmagic (5kk precisa ter promotion "Hero paladin")
+
+!knightmagic (5kk precisa ter promotion "Hero knight")
+
+-----------------------------
 COMANDOS
 
 !rank hp
 !rank mana
 !promotion
+!removered
+!removeblack
 !glist ou !glist NOME DA GUILD.
 !createguild NOME DA SUA GUILD
-/reportbug
-!offer
-!bank
-!buypremium
-!promotion  -- somento após !buypremium
-
----------------------------------------
 
 RED : 10 Frags RedSkull
 BLACK : 15 Frags BlackSkull
 
-Nova moeda 1kk: Gold Ingot
-
-Sempre sendo atualizado para melhor experiência!
+    

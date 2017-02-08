@@ -1,4 +1,5 @@
-function onSay(cid, words, param, channel)
+function onSay(cid, words, param)
+
 local count = getPlayerInstantSpellCount(cid)
 local text = ""
 local t = {}
@@ -24,7 +25,6 @@ prevLevel = spell.level
 end
 text = text .. line .. " " .. spell.words .. " - " .. spell.name .. " : " .. spell.mana .. "\n"
 end
-doShowTextDialog(cid, words, text)
-
+doShowTextDialog(cid,2175,text)
 return TRUE
 end

@@ -1,14 +1,14 @@
 -- CONFIG
-ZE_DEFAULT_NUMBER_OF_PLAYERS = 5
+ZE_DEFAULT_NUMBER_OF_PLAYERS = 10
 ZE_ACCESS_TO_IGNORE_ARENA = 3
 -- POSITIONS
-ZE_blockEnterItemPosition = {x= 10156, y=10052, z=5}
-ZE_enterPosition = {x = 9930, y = 10105, z = 7}
-ZE_kickPosition = {x=10157, y=10053, z=7}
-ZE_spawnFromPosition = {x = 9896, y = 10074, z = 7}
-ZE_spawnToPosition = {x = 9970, y = 10142, z = 7}
--- ITEM IDS
-ZE_blockEnterItemID = 1590
+ZE_blockEnterItemPosition = {x= 10156, y=10052, z=5} -- posição trap do teleport
+ZE_enterPosition = {x = 9938, y = 10083, z = 7} -- centro do mapa zombie
+ZE_kickPosition = {x=10160, y=10054, z=7} -- local q vai após sair do evento
+ZE_spawnFromPosition = {x = 9907, y = 10055, z = 7} -- <^
+ZE_spawnToPosition = {x = 9975, y = 10120, z = 7} -- >V
+-- ITEM IDS 
+ZE_blockEnterItemID = 1590 -- trap
 -- STORAGES
 -- - player
 ZE_isOnZombieArea = 34370

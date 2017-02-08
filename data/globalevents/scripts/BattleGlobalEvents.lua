@@ -1,68 +1,33 @@
 function onThink(interval, lastExecution)
 _Lib_Battle_Days = {
 ["Sunday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 16}
 },
 ["Monday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 16}
 },
 ["Tuesday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 16}
 },
 ["Wednesday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 16}
 },
 ["Thursday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 16}
 },
 ["Friday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 16}
 },
 ["Saturday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
-},
+["19:00"] = {players = 16}
+}
 }
 if _Lib_Battle_Days[os.date("%A")] then
 hours = tostring(os.date("%X")):sub(1, 5)
