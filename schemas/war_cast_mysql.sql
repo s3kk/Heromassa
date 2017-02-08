@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: Fev 04, 2017 as 03:48 
+-- Tempo de Geração: Fev 08, 2017 as 02:44 
 -- Versão do Servidor: 5.1.41
 -- Versão do PHP: 5.3.1
 
@@ -1699,6 +1699,33 @@ INSERT INTO `tile_items` (`tile_id`, `world_id`, `sid`, `pid`, `itemtype`, `coun
 (341, 0, 1, 0, 5496, 1, 0x8001000b006465736372697074696f6e01190000004e6f626f647920697320736c656570696e672074686572652e),
 (342, 0, 1, 0, 5497, 1, 0x8001000b006465736372697074696f6e01190000004e6f626f647920697320736c656570696e672074686572652e),
 (343, 0, 1, 0, 1212, 1, 0x8002000b006465736372697074696f6e015400000049742062656c6f6e677320746f20686f7573652027486f7573652023313134272e204e6f626f6479206f776e73207468697320686f7573652e20497420636f73747320353430303020676f6c6420636f696e732e0600646f6f7269640201000000);
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `z_ots_comunication`
+--
+
+CREATE TABLE IF NOT EXISTS `z_ots_comunication` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `type` varchar(255) NOT NULL,
+  `action` varchar(255) NOT NULL,
+  `param1` varchar(255) NOT NULL,
+  `param2` varchar(255) NOT NULL,
+  `param3` varchar(255) NOT NULL,
+  `param4` varchar(255) NOT NULL,
+  `param5` varchar(255) NOT NULL,
+  `param6` varchar(255) NOT NULL,
+  `param7` varchar(255) NOT NULL,
+  `delete_it` int(2) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Extraindo dados da tabela `z_ots_comunication`
+--
+
 
 --
 -- Restrições para as tabelas dumpadas
