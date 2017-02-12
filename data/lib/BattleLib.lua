@@ -46,6 +46,8 @@ if _Lib_Battle_Info.Reward.exp[1] == true then doPlayerAddExperience(cid, _Lib_B
 if _Lib_Battle_Info.Reward.items[1] == true then doPlayerAddItem(cid, _Lib_Battle_Info.Reward.items[2], _Lib_Battle_Info.Reward.items[3]) end
 if _Lib_Battle_Info.Reward.t[1] == true then doPlayerAddItem(cid, _Lib_Battle_Info.Reward.t[2], _Lib_Battle_Info.Reward.t[3]) end
 if _Lib_Battle_Info.Reward.premium_days[1] == true then doPlayerAddPremiumDays(cid, _Lib_Battle_Info.Reward.premium_days[2]) end
+local goblet = doPlayerAddItem(cid, 10309, true)
+doItemSetAttribute(goblet, "description", "Battlefield: Awarded to " .. getPlayerName(cid) .. " for winning the Battlefield event.")
 doRemoveCondition(cid, CONDITION_OUTFIT)
 doTeleportThing(cid, getTownTemplePosition(getPlayerTown(cid)))
 setPlayerStorageValue(cid, storage, -1)

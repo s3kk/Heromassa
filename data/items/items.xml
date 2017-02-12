@@ -1918,8 +1918,8 @@
 	<item id="2140" article="a" name="holy scarab">
 		<attribute key="weight" value="500" />
 	</item>
-	<item id="2141" article="a" name="holy falcon">
-		<attribute key="weight" value="840" />
+	<item id="2141" article="a" name="CTF Trophy">
+		<attribute key="weight" value="100" />
 	</item>
 	<item id="2142" article="an" name="ancient amulet">
 		<attribute key="weight" value="840" />
@@ -8830,8 +8830,8 @@
 	<item id="5804" article="a" name="nose ring">
 		<attribute key="weight" value="50" />
 	</item>
-	<item id="5805" article="a" name="golden goblet">
-		<attribute key="weight" value="1500" />
+	<item id="5805" article="a" name="Zombie Event Trophy">
+		<attribute key="weight" value="100" />
 	</item>
 	<item id="5806" article="a" name="silver goblet">
 		<attribute key="weight" value="1500" />
@@ -16656,9 +16656,8 @@
 		<attribute key="armor" value="3" />
 		<attribute key="slotType" value="head" />
 	</item>
-	<item id="10309" article="a" name="skill scroll">
-		<attribute key="description" value="with that item you can buy some skills just say !buyskill Name of skill." />
-		<attribute key="weight" value="500" />
+	<item id="10309" article="a" name="Battlefield Trophy">
+		<attribute key="weight" value="100" />
 	</item>
 	<item id="10316" article="a" name="mighty helm of green sparks">
 		<attribute key="description" value="This helmet spawns green stars. Awesome." />

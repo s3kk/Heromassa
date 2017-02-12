@@ -5,8 +5,11 @@ function loseOnZombieArena(cid)
 	if(#players <= 1) then
 		local winner = players[1]
 		if(winner) then
-			doPlayerAddItem(winner, 7440, 2, true)
-            doPlayerAddItem(winner, 8306, 10, true)
+			doPlayerAddItem(winner, 7440, 1, true)
+			doPlayerAddItem(winner, 9971, 10, true)
+			doPlayerAddItem(winner, 8306, 4, true)
+			local goblet = doPlayerAddItem(winner, 5805, true)
+			doItemSetAttribute(goblet, "description", "Zombie Event: Awarded to " .. getPlayerName(cid) .. " for winning the Zombie event.")
 			doPlayerSendTextMessage(winner, MESSAGE_STATUS_CONSOLE_BLUE, "Voce ganhou o Zombie Event.")
 			doBroadcastMessage("Depois de " .. os.time() - getPlayerZombiesEventStatus(winner) .. " segundos, o jogador " .. getCreatureName(winner) .. " ganhou o Zombie Arena Event com " .. getStorage(ZE_ZOMBIES_SPAWNED) .. " zumbis!")
 			kickPlayerFromZombiesArea(winner)
