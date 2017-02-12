@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<mod name="Battlefield" version="1.0" author="Sekk and Vodkart" enabled="no">
+<mod name="Battlefield" version="1.0" author="Sekk and Vodkart" enabled="yes">
 
 <lib name="BF"><![CDATA[
 _Lib_Battle_Info = {
 Reward = {
-exp = {false, 100}, items = {true, 8306, 10}, premium_days = {false, 2}, t = {true, 7440, 2}
+exp = {true, 150000}, items = {true, 7440, 2}, items2 = {true, 8306, 2}, premium_days = {false, 2}
 },
-TeamOne = {name = "Black Assassins", storage = 140120, pos = {x=10283,y=9953,z=7}},
-TeamTwo = {name = "Red Barbarians",storage = 140121,pos = {x=10313,y=9953,z=7}},
-storage_count = 180400,
-tpPos = {x=10160, y=10054, z=7},
-limit_Time = 5 -- limite de tempo para adentrar o evento
+TeamOne = {name = "Black Assassins", storage = 140120, pos = {x=10282,y=9953,z=7}}, -- Posição do time black
+TeamTwo = {name = "Red Barbarians",storage = 140121,pos = {x=10313,y=9953,z=7}}, -- posição do time red
+storage_count = 180400, -- não mexa
+tpPos = {x=10152, y=10053, z=7}, -- onde o teleport aparece
+limit_Time = 5 -- em minutos -- tempo que o teleport fica aberto
 }
 function resetBattle()
 setGlobalStorageValue(_Lib_Battle_Info.TeamOne.storage, 0)
@@ -19,10 +19,10 @@ setGlobalStorageValue(_Lib_Battle_Info.TeamTwo.storage, 0)
 end
 function OpenWallBattle()
 local B = {
-{3517,{x=10298, y=9951, z=7, stackpos = 1}},
-{3517,{x=10298, y=9952, z=7, stackpos = 1}},
-{3517,{x=10298, y=9953, z=7, stackpos = 1}},
-{3517,{x=10298, y=9954, z=7, stackpos = 1}}
+{3517,{x=10298, y=9951, z=6, stackpos = 1}}, -- posição das barreiras no mapa do BF
+{3517,{x=10298, y=9952, z=6, stackpos = 1}}, -- posição das barreiras no mapa do BF
+{3517,{x=10298, y=9953, z=6, stackpos = 1}}, -- posição das barreiras no mapa do BF
+{3517,{x=10298, y=9954, z=6, stackpos = 1}}  -- posição das barreiras no mapa do BF
 }
 for i = 1, #B do
 if getTileItemById(B[i][2], B[i][1]).uid == 0 then
@@ -142,67 +142,32 @@ domodlib('BF')
 function onThink(interval, lastExecution)
 _Lib_Battle_Days = {
 ["Sunday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 12}
 },
 ["Monday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 12}
 },
 ["Tuesday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 12}
 },
 ["Wednesday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 12}
 },
 ["Thursday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 12}
 },
 ["Friday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 12}
 },
 ["Saturday"] = {
-["15:00"] = {players = 10},
 ["16:00"] = {players = 12},
-["17:00"] = {players = 12},
-["18:00"] = {players = 12},
-["19:00"] = {players = 12},
-["20:00"] = {players = 12},
-["21:00"] = {players = 12}
+["19:00"] = {players = 12}
 },
 }
 if _Lib_Battle_Days[os.date("%A")] then

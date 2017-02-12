@@ -10,11 +10,5 @@
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
 	<event type="death" name="PlayerDeath" event="script" value="playerdeath.lua"/>
 	<event type="login" name="FirstItems" event="script" value="firstitems.lua"/>
-	<event type="attack" name="attackguild" script="attackguild.lua"/>  
-	
-	<!-- BF -->
-	<event type="login" name="BattleLogin" event="script" value="BattleCreatureScript.lua"/>
-	<event type="PrepareDeath" name="BattleDeath" event="script" value="BattleCreatureScript.lua"/>
-	<event type="combat" name="BattleTeam" event="script" value="BattleCreatureScript.lua"/>
-    
+	<event type="attack" name="attackguild" script="attackguild.lua"/>     
 	</creaturescripts>
