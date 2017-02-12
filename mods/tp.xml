@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod name="Portal" version="2.0" enabled="yes">
+
+<talkaction words="/tp" access="5" event="script"><![CDATA[
+function onSay(cid, words, param)
+param = param.explode(param, ',')
+	if param then
+		teleport = doCreateTeleport(1387, {x=param[1], y=param[2], z=param[3]}, getPlayerPosition(cid))
+	else
+		doPlayerSendCancel(cid, "You must set param.")
+	end
+return true
+end  
+]]></talkaction>
+</mod>
