@@ -3,7 +3,6 @@
 	<!-- Gods -->
 	<talkaction log="yes" access="5" words="/giveitem" event="script" value="giveitem.lua"/>
 	<talkaction access="5" words="!alltemple" event="script" value="temple.lua"/>
-	<talkaction log="yes" words="/zombiestart" access="5" event="script" value="zombie/onsay.lua"/>
 	<talkaction words="/jail" event="script" value="cadeia.lua"/>
 	<talkaction log="yes" words="/additem" access="5" event="script" value="additem.lua"/>
 	<talkaction log="yes" words="/kill" access="5" event="script" value="kill.lua"/>

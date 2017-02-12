@@ -10,10 +10,6 @@
       <globalevent name="lottery" interval="7200000" event="script" value="lottery.lua"/>
 	  <globalevent name="shop" interval="4000" event="script" value="shop.lua"/>
 	  
-	  <!-- Zombie -->
-	<globalevent name="ZombieGlobalThink" interval="5000" event="script" value="zombie/onthink.lua"/>
-	<globalevent name="ZombieGlobalStartup" type="start" event="script" value="zombie/onstartup.lua"/>
-	  
 	<!-- BF -->
 	<globalevent name="GlobalBattle" interval="60000" event="script" value="BattleGlobalEvents.lua"/>
 	<globalevent name="GlobalStart" type="start" event="script" value="BattleGlobalStart.lua"/>

@@ -12,11 +12,6 @@
 	<event type="login" name="FirstItems" event="script" value="firstitems.lua"/>
 	<event type="attack" name="attackguild" script="attackguild.lua"/>  
 	
-	<!-- Zombie -->
-	<event type="think" name="ZombieThink" event="script" value="zombie/onthink.lua"/>
-	<event type="statschange" name="ZombieAttack" event="script" value="zombie/onattack.lua"/>
-	<event type="death" name="ZombieDeath" event="script" value="zombie/ondeath.lua"/>
-	
 	<!-- BF -->
 	<event type="login" name="BattleLogin" event="script" value="BattleCreatureScript.lua"/>
 	<event type="PrepareDeath" name="BattleDeath" event="script" value="BattleCreatureScript.lua"/>

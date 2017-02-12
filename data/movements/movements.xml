@@ -7,9 +7,6 @@
 	
 	<!-- BF -->
 	<movevent type="StepIn" actionid="45000" event="script" value="BattleMovements.lua"/>
-	
-	<!-- Zombie -->
-	<movevent type="StepIn" actionid="5555" event="script" value="zombie/onenter.lua"/>
 
 	<!-- Decaying tiles -->
         <movevent type="AddItem" tileitem="0" itemid="2109" event="script" value="fut.lua"/>
