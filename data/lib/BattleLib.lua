@@ -5,7 +5,7 @@ exp = {false, 100}, items = {true, 8306, 10}, premium_days = {false, 2}, t = {tr
 TeamOne = {name = "Black Assassins", storage = 140120, pos = {x=10283,y=9953,z=7}},
 TeamTwo = {name = "Red Barbarians",storage = 140121,pos = {x=10313,y=9953,z=7}},
 storage_count = 180400,
-tpPos = {x=10167, y=10053, z=7},
+tpPos = {x=10160, y=10054, z=7},
 limit_Time = 5 -- limite de tempo para adentrar o evento
 }
 function resetBattle()
