@@ -8,9 +8,9 @@ It's a modified map, with custom weapons and spells, you can edit anything you w
 git clone https://github.com/s3kk/Heromassa.git
 cd /Heromassa
 ./install-libs.sh
+cd src
 ./autogen.sh
 ./configure --enable-mysql --enable-root-permission --enable-server-diag
-cd src
 ./build.sh
 ```
 
