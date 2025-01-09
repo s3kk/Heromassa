@@ -1,8 +1,33 @@
 networks:
     default:
-        external: true
+        ipam:
+            config: 
+                - subnet: 10.0.0.0/24
+                  gateway: 10.0.0.1
 
 services:
+    server:
+        build:
+            context: .
+            dockerfile: Dockerfile
+            target: server
+            args:
+                TZ: ${TZ}
+        depends_on:
+            - db
+        ports:
+            - 7171:7171
+            - 7172:7172
+        tty: true
+        # entrypoint: [ "/usr/bin/tfs" ]
+        networks:
+            default:
+                ipv4_address: 10.0.0.2
+        volumes:
+            - ./data:/home/server/data
+            - ./mods:/home/server/mods
+            - ./config.lua:/home/server/config.lua
+            - ./noticias.txt:/home/server/noticias.txt
     phpmyadmin:
         container_name: phpmyadmin
         depends_on:
