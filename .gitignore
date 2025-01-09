@@ -1,5 +1,6 @@
 mariadb/
 .env
+
 src/.deps
 src/autom4te.cache
 src/**/*.o
@@ -14,7 +15,9 @@ src/Makefile.in
 src/install-sh
 src/depcomp
 src/configure
+src/configure~
 src/config.h
 src/config.h.in
+src/config.h.in~
 src/config.status
 src/config.sub
