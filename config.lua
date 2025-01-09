@@ -91,11 +91,11 @@ loginOnlyWithLoginServer = false
 premiumPlayerSkipWaitList = true
 
 sqlType = "mysql"
-sqlHost = "127.0.0.1"
+sqlHost = "10.0.0.4"
 sqlPort = 3306
-sqlUser = "root"
-sqlPass = ""
-sqlDatabase = "massa"
+sqlUser = "tibia"
+sqlPass = "tibia"
+sqlDatabase = "tibia"
 sqlFile = "massa.s3db"
 sqlKeepAlive = 0
 mysqlReadTimeout = 10
